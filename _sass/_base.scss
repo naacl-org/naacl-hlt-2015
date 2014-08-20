@@ -95,7 +95,7 @@ a {
     &:visited {
         color: darken($brand-color, 20%);
     }
-    &:hover {
+    &:hover, &:focus {
         color: $text-color;
         text-decoration: underline;
     }
@@ -219,7 +219,8 @@ pre {
         white-space: nowrap;
     }
 
-	.site-menu li:hover > ul {
+	.site-menu li:hover > ul,
+    .site-menu li:focus > ul {
 		display: block;
 	}
     
@@ -227,7 +228,7 @@ pre {
         color: $header-color;
         text-decoration: none;
     }
-    a:hover {
+    a:hover, a:focus {
         color: $text-color;
         text-decoration: underline;
     }
