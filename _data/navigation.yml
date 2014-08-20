@@ -1,0 +1,51 @@
+
+# Site navigation links
+
+- title: News
+  url: .
+
+- title: Calls
+  items:
+    - title: Call for papers
+      url: call-for-papers.html
+    - title: Call for workshops
+      url: call-for-workshops.html
+
+- title: Dates
+  url: dates.html
+
+- title: Registration
+  url: registration.html
+
+- title: Workshops
+  url: workshops.html
+
+- title: Tutorials
+  url: tutorials.html
+
+- title: Program
+  url: program.html
+
+- title: Travelling
+  items:
+    - title: Getting here
+      url: getting-here.html
+    - title: About Denver
+      url: denver.html
+    - title: Accommodation
+      url: accommodation.html
+    - title: The conference venue
+      url: venue.html
+    - title: Other information
+      url: other-information.html
+
+- title: About
+  items:
+    - title: Contact
+      url: contact.html
+    - title: People
+      url: people.html
+    - title: Sponsors
+      url: sponsors.html
+
+

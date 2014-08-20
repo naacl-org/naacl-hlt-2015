@@ -1,0 +1,33 @@
+<footer class="site-footer">
+
+<hr class="content-divisor">
+
+<div class="footer-content">
+  <div class="horizontal-blocks-table">
+    <ul class="horizontal-blocks-list">
+
+      <li>
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.description }}</p>
+      </li>
+
+      <li class="social-media-block">
+        <ul>
+          {% for media in site.social_media %}
+          <li>
+            <a href="{{ media.url }}">{{ media.user }}</a>
+            {% if media.icon %}
+            <img class="icon" src="{{ media.icon }}" alt="{{ media.title }}" title="{{ media.title }}">
+            {% else %}
+            <span class="icon">: {{ media.title }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+</footer>

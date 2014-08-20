@@ -1,0 +1,13 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- The X-UA-Compatible meta tag allows web authors to choose 
+         what version of Internet Explorer the page should be rendered as. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ site.title }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="stylesheet" href="naacl-2015.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

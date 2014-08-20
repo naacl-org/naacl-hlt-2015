@@ -1,0 +1,35 @@
+
+title: NAACL-HLT 2015
+
+description: >
+  This is the website for NAACL-HLT 2015, 
+  taking place in Denver, Colorado
+  May 31 – June 5, 2015.
+
+url: "http://naacl.org/2015"
+
+markdown: kramdown
+
+exclude: ["README.md"]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+social_media:
+  - title: E-mail
+    user: "webmaster@naacl2015.org"
+    url: "mailto:webmaster@naacl2015.org"
+    icon: img/email-icon-16.gif
+
+  - title: Twitter
+    user: "@NAACL2015"
+    url: "http://twitter.com/NAACL2015"
+    icon: img/twitter-icon-16.png
+
+  - title: Facebook
+    user: "NAACL2015"
+    url: "http://facebook.com/NAACL2015"
+    icon: img/facebook-icon-16.gif

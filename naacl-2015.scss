@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* About "vertical rythm": */
+/* http://webtypography.net/2.2.2 */
+/* http://joshnh.com/2011/08/03/how-to-set-up-a-baseline-grid/ */
+/* https://drewish.com/tools/vertical-rhythm/ */
+
+/* About fonts: */
+/* http://cssfontstack.com */
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font-family: $base-font-family;
+$code-font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+
+$base-font-size:    15px;
+$small-font-size:   12px;
+$large-font-size:   18px;
+$huge-font-size:    24px;
+
+$base-line-height:  18px;
+$huge-line-height:  24px;
+
+$banner-height:     75px;
+$divisor-thinkness:  5px;
+
+$footer-height:     4 * $base-line-height;
+
+$background-color: #fdfdfd;
+$text-color:       #111111;
+$brand-color:      #2a7ae2;
+$header-color:     darken($brand-color, 20%);
+$grey-color:       #828282;
+$header-bgcolor:   lighten($brand-color, 43%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$menu-spacing: $huge-line-height;
+$page-margin:  2 * $huge-line-height;
+$list-indent:  $huge-line-height;
+
+
+/* Import partials from `sass_dir` (defaults to `_sass`) */
+
+@import "base";
+

@@ -1,0 +1,94 @@
+/* About "vertical rythm": */
+/* http://webtypography.net/2.2.2 */
+/* http://joshnh.com/2011/08/03/how-to-set-up-a-baseline-grid/ */
+/* https://drewish.com/tools/vertical-rhythm/ */
+/* About fonts: */
+/* http://cssfontstack.com */
+/* Import partials from `sass_dir` (defaults to `_sass`) */
+/* Reset some basic elements */
+/* http://www.cssreset.com */
+body, p, blockquote, pre, ul, ol, dl, dd, figure { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 300; line-height: 18px; margin: 9px 0; padding: 0; }
+
+h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-weight: normal; line-height: 24px; margin: 12px 0; padding: 0; }
+
+h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; line-height: 18px; margin: 9px 0; padding: 0; }
+
+h3, h4, h5, h6 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; line-height: 18px; margin: 9px 0; padding: 0; }
+
+pre, code { font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace; font-size: 12px; font-weight: normal; line-height: 18px; margin: 9px 0; padding: 0; }
+
+.page-content, .header-content, .footer-content { margin: 0 48px; }
+
+/* About footer at bottom of page: */
+/* http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/ */
+/* http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page */
+html, body { height: 100%; margin: 0; padding: 0; }
+
+.page-container { min-height: 100%; position: relative; }
+
+.page-content { padding-bottom: 72px; }
+
+.site-footer { position: absolute; bottom: 0; width: 100%; height: 72px; }
+
+.page-content { max-width: 50em; }
+
+.content-divisor { border: 0; width: 100%; margin: 2px 0; color: #2a7ae2; background-color: #2a7ae2; height: 5px; }
+
+/* Colors */
+body { background-color: #fdfdfd; color: #111111; }
+
+.site-header, .site-footer { background-color: #ebf3fc; }
+
+h1, h2 { color: #144b92; }
+
+a { color: #2a7ae2; text-decoration: none; }
+a:visited { color: #144b92; }
+a:hover { color: #111111; text-decoration: underline; }
+
+/* Lists */
+ul, ol { margin-left: 24px; }
+
+li > ul, li > ol { margin-top: 0; }
+
+/* Blockquotes */
+blockquote { color: #828282; padding-left: 24px; font-style: italic; }
+
+/* Code formatting */
+pre, code { border-radius: 5px; background-color: #e8e8e8; }
+
+code { padding: 3px 5px 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: scroll; }
+pre > code { padding-right: 0; padding-left: 0; }
+
+/* Clearfix */
+/* SVG icons */
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
+
+/* Site header */
+.site-banner { background: url("img/denver-city-park-banner.jpg") no-repeat fixed 0 0; width: 100%; height: 75px; }
+
+.site-banner-logo { background: url("img/naacl-hlt-2015-banner.png") no-repeat scroll 48px 0; background-image: url("img/naacl-hlt-2015-banner.svg"), none; width: 100%; height: 75px; }
+
+.site-navigation ul, .site-navigation li { margin: 0; }
+.site-navigation .site-menu { display: inline; }
+.site-navigation .site-menu > li { display: inline; list-style: none; padding-right: 24px; position: relative; top: 0; left: 0; cursor: pointer; }
+.site-navigation .site-menu ul { display: none; position: absolute; top: 18px; left: 0; margin: 0; padding: 2px 5px; border-radius: 5px; border: solid 2px #2a7ae2; background-color: #ebf3fc; }
+.site-navigation .site-menu ul > li { list-style: none; white-space: nowrap; }
+.site-navigation .site-menu li:hover > ul { display: block; }
+.site-navigation li, .site-navigation a, .site-navigation a:visited { color: #144b92; text-decoration: none; }
+.site-navigation a:hover { color: #111111; text-decoration: underline; }
+
+/* Site footer */
+.footer-content { color: #828282; }
+.footer-content div, .footer-content p, .footer-content ul, .footer-content ol, .footer-content li { font-size: 12px; margin: 0; }
+.footer-content h1, .footer-content h2, .footer-content h3, .footer-content h4 { margin: 0; }
+
+.horizontal-blocks-table { display: table; width: 100%; }
+.horizontal-blocks-table .horizontal-blocks-list { display: table-row; }
+.horizontal-blocks-table .horizontal-blocks-list > li { display: table-cell; }
+
+.social-media-block { text-align: right; }
+.social-media-block li { list-style: none; white-space: nowrap; }
+.social-media-block li img { vertical-align: top; }
