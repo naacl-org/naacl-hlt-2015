@@ -188,6 +188,7 @@ pre {
 
 .site-navigation {
     ul, li { 
+        @include font-and-margins($base-font-size, 300, $huge-line-height, $header-font-family);
         margin: 0;
     }
 
