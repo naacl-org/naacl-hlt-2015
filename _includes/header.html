@@ -11,7 +11,7 @@
       {% if link.url %}
       <li><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% else %}
-      <li>{{ link.title }}
+      <li onclick="">{{ link.title }}
         <ul>
           {% for sub in link.items %}
           <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
