@@ -1,29 +1,33 @@
 <header class="site-header">
 
-<div class="site-banner">
-  <div class="site-banner-logo"></div>
-</div>
+  <div class="site-banner">
+    <a href=".">
+      <img class="site-banner-image" src="img/denver-city-park-banner.jpg">
+      <img class="site-banner-logo" src="img/naacl-hlt-2015-banner.svg" 
+           onerror="this.onerror=null; this.src='img/naacl-hlt-2015-banner.png'">
+    </a>
+  </div>
 
-<div class="header-content">
-  <nav class="site-navigation">
-    <ul class="site-menu">
-      {% for link in site.data.navigation %}
-      {% if link.url %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-      {% else %}
-      <li><span>{{ link.title }}</span>
-        <ul class="toggleable_menu">
-          {% for sub in link.items %}
-          <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-</div>
+  <div class="header-content">
+    <nav class="site-navigation">
+      <ul class="site-menu">
+        {% for link in site.data.navigation %}
+        {% if link.url %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% else %}
+        <li><span>{{ link.title }}</span>
+          <ul class="toggleable_menu">
+            {% for sub in link.items %}
+            <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 
-<hr class="content-divisor">
+  <hr class="content-divisor">
 
 </header>

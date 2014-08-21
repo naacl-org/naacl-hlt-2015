@@ -171,20 +171,33 @@ pre {
 }
 
 
-/* Site header */
+/* Site banner */
 
 .site-banner {
-    background: url("img/denver-city-park-banner.jpg") no-repeat fixed 0 0;
-    width: 100%; 
+    width: 100%;
     height: $banner-height; 
+    position: relative;
+    overflow: hidden;
+    img {
+        position: absolute;
+        height: $banner-height; 
+    }
+    .site-banner-logo {
+        padding-left: $page-margin;
+    }
 }
 
-.site-banner-logo {
-    background: url("img/naacl-hlt-2015-banner.png") no-repeat scroll $page-margin 0;
-    background-image: url("img/naacl-hlt-2015-banner.svg"), none;
-    width: 100%; 
-    height: $banner-height; 
+/* This will resize the banner depending on the width of the window */
+
+@for $i from 1 through 10 {
+    @media only screen and (min-width: (100px * ($i - 1) + 1)) and (max-width: (100px * $i)) {
+        .site-banner, .site-banner img {
+            height: $banner-height * ($i + 2) / 12;
+        }
+    }
 }
+
+/* Navigation menu */
 
 .site-navigation {
     ul, li { 
