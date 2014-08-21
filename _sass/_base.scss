@@ -204,7 +204,6 @@ pre {
     }
 
     .site-menu ul {
-        display: none;
         position: absolute;
         top: $base-line-height;
         left: 0;
@@ -213,16 +212,12 @@ pre {
         border-radius: 5px;
         border: solid 2px $brand-color;
         background-color: $header-bgcolor;
+        z-index: 10;
     }
     .site-menu ul > li {
         list-style: none;
         white-space: nowrap;
     }
-
-	.site-menu li:hover > ul,
-    .site-menu li:focus > ul {
-		display: block;
-	}
     
     li, a, a:visited {
         color: $header-color;
