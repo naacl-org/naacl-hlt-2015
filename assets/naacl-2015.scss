@@ -11,9 +11,9 @@
 /* About fonts: */
 /* http://cssfontstack.com */
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family:   "Helvetica Neue", Helvetica, Arial, sans-serif;
 $header-font-family: $base-font-family;
-$code-font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+$code-font-family:   "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 
 $base-font-size:    15px;
 $small-font-size:   12px;
@@ -38,12 +38,12 @@ $header-bgcolor:   lighten($brand-color, 43%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$menu-spacing: $base-line-height;
-$page-margin:  5%; // 2 * $huge-line-height;
-$list-indent:  $huge-line-height;
+$menu-spacing:   $base-line-height;
+$page-margin:    5%;
+$list-indent:    $huge-line-height;
 
 
 /* Import partials from `sass_dir` (defaults to `_sass`) */
 
-@import "base";
+@import "_base";
 
