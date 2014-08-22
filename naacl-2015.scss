@@ -26,7 +26,8 @@ $huge-line-height:  24px;
 $banner-height:     75px;
 $divisor-thinkness:  5px;
 
-$footer-height:     2 * $base-line-height + $divisor-thinkness + 6;
+$nr-footer-rows:    2;
+$footer-height:     $nr-footer-rows * $base-line-height + $divisor-thinkness + 6;
 
 $background-color: #fdfdfd;
 $text-color:       #111111;

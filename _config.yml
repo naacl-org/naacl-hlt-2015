@@ -21,8 +21,6 @@ defaults:
     values:
       layout: "default"
 
-nr_footer_rows: 2
-
 social_media:
   - title: E-mail
     user: "naacl2015@naacl.org"
