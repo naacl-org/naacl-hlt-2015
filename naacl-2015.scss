@@ -26,7 +26,7 @@ $huge-line-height:  24px;
 $banner-height:     75px;
 $divisor-thinkness:  5px;
 
-$footer-height:     4 * $base-line-height;
+$footer-height:     {{ site.nr_footer_rows }} * $base-line-height + $divisor-thinkness + 6;
 
 $background-color: #fdfdfd;
 $text-color:       #111111;
@@ -39,7 +39,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 $menu-spacing: $base-line-height;
-$page-margin:  2 * $huge-line-height;
+$page-margin:  5%; // 2 * $huge-line-height;
 $list-indent:  $huge-line-height;
 
 
