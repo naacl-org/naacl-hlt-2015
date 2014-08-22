@@ -2,11 +2,11 @@
 title: News archive
 ---
 
-# News archive for NAACL-HLT 2015
+# News archive
 
 {% for post in site.posts %}
 
-## {{ post.date | date: '%b %-d, %Y' }}: {{ post.title }}
+### {{ post.date | date: '%b %-d, %Y' }}: {{ post.title }}
 
 {{ post.content }}
 
