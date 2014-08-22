@@ -6,58 +6,62 @@ title: People
 
 ## General chair
 
-- Rada Mihalcea (<mihalcea@umich.edu>)
+- Rada Mihalcea, University of Michigan, USA
 
 ## Program co-chairs
 
-- Joyce Chai (<jchai@cse.msu.edu>)
-- Anoop Sarkar (<anoop@sfu.ca>)
+> <naacl-2015-programchairs@googlegroups.com>
+
+- Joyce Chai, Michigan State University, USA
+- Anoop Sarkar, Simon Fraser University, Canada
 
 ## Workshop co-chairs
 
-- Cornelia Caragea (<cornelia.caragea@unt.edu>)
-- Bing Liu (<liub@cs.uic.edu>)
+- Cornelia Caragea, University of North Texas, USA
+- Bing Liu, University of Illinois at Chicago, USA
 
 ## Tutorial co-chairs
 
-- Yang Liu (<yangl@hlt.utdallas.edu>)
-- Thamar Solorio (<solorio@cis.uab.edu>)
+- Yang Liu, University of Texas at Dallas, USA
+- Thamar Solorio, University of Alabama at Birmingham, USA
 
 ## Student workshop co-chairs
 
-Student co-chairs:
+### Student co-chairs
 
-- Shibamouli Lahiri (<shibamoulilahiri@gmail.com>)
-- Karen Mazidi (<KarenMazidi@my.unt.edu>)
-- Alisa Zhila (<alisa.zhila@gmail.com>)
+- Shibamouli Lahiri, University of Michigan, USA
+- Karen Mazidi, University of North Texas, USA
+- Alisa Zhila, Instituto Politécnico Nacional (National Polytechnic Institute), Mexico
 
-Faculty advisors:
+### Faculty advisors
 
-- Diana Inkpen (<diana.inkpen@uottawa.ca>)
-- Smaranda Muresan (<sm761@columbia.edu>)
+- Diana Inkpen, University of Ottawa, Canada
+- Smaranda Muresan, Columbia University, USA
 
 ## Demo co-chairs
 
-- Matt Gerber (<msg8u@virginia.edu>)
-- Catherine Havasi (<havasi@gmail.com>)
-- Finley Lacatusu (<finlea@gmail.com>)
+- Matt Gerber, University of Virginia, USA
+- Catherine Havasi, Massachusetts Institute of Technology, USA
+- Finley Lacatusu, Language Computer Corporation, USA
 
 ## Local sponsorship chair
 
-- Kevin B. Cohen (<kevin.cohen@gmail.com>)
+- Kevin B. Cohen, University of Colorado, USA
 
 ## Publicity chair
 
-- Saif Mohammad (<uvgotsaif@gmail.com>) 
+- Saif Mohammad, National Research Council, Canada
 
 ## Publication co-chairs
 
-- Matt Post (<post@cs.jhu.edu>)
-- Adam Lopez (<alopez@cs.jhu.edu>)
+> <naacl-pub-chairs@googlegroups.com>
 
-<naacl-pub-chairs@googlegroups.com>
+- Matt Post, John Hopkins University, USA
+- Adam Lopez, John Hopkins University, USA
 
-## Webmaster
+## Website chair
 
-- Peter Ljunglöf (<peter.ljunglof@cse.gu.se>)
+> <{{ site.email.webmaster }}>
+
+- Peter Ljunglöf, University of Gothenburg and Chalmers University of Technology, Sweden
 
