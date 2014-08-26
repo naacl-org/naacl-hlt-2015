@@ -30,11 +30,13 @@ $nr-footer-rows:    2;
 $footer-height:     $nr-footer-rows * $base-line-height + $divisor-thinkness + 6;
 
 $background-color: #fdfdfd;
-$text-color:       #111111;
-$brand-color:      #2a7ae2;
-$header-color:     darken($brand-color, 20%);
-$grey-color:       #828282;
-$header-bgcolor:   lighten($brand-color, 43%);
+$text-color:       black;
+$brand-color:      #0363D6;
+$header-color:     darken($brand-color, 10%);
+$grey-color:       mix($brand-color, darken(grey,10%), 25%);
+$header-bgcolor:   lighten($brand-color, 52%);
+$code-bgcolor:     lighten($grey-color, 46%);
+$visited-color:    $header-color;
 
 $on-palm:          600px;
 $on-laptop:        800px;

@@ -99,7 +99,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 20%);
+        color: $visited-color;
     }
     &:hover, &:focus {
         color: $text-color;
@@ -132,7 +132,7 @@ blockquote {
 
 pre, code {
     border-radius: 5px;
-    background-color: lighten($grey-color, 40%);
+    background-color: $code-bgcolor;
 }
 
 code {
