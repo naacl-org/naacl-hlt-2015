@@ -1,0 +1,286 @@
+/* Reset some basic elements */
+/* http://www.cssreset.com */
+
+@mixin font-and-margins($size, $weight, $line, $font) {
+    font-family: $font;
+    font-size:   $size;
+    font-weight: $weight;
+    line-height: $line;
+    margin:      ($line / 2) 0;
+    padding:     0;
+}
+
+body, p, blockquote, pre, ul, ol, dl, dd, figure {
+    @include font-and-margins($base-font-size, 300, $base-line-height, $base-font-family);
+}
+
+h1 {
+    @include font-and-margins($huge-font-size, normal, $huge-line-height, $header-font-family);
+    margin-top: $base-line-height;
+}
+
+h2 {
+    @include font-and-margins($large-font-size, normal, $base-line-height, $header-font-family);
+    margin-top: $base-line-height;
+}
+
+h3, h4, h5, h6 {
+    @include font-and-margins($base-font-size, bold, $base-line-height, $header-font-family);
+}
+
+pre, code {
+    @include font-and-margins($small-font-size, normal, $base-line-height, $code-font-family);
+}
+
+.page-content, .header-content, .footer-content {
+    margin: 0 $page-margin;
+}
+
+/* About footer at bottom of page: */
+/* http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/ */
+/* http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    min-height: 100%;
+    position: relative;
+}
+
+.page-content {
+    padding-bottom: $footer-height + $huge-line-height;
+}
+
+.site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+}
+
+.page-content {
+    max-width: 50em;
+}
+
+.content-divisor {
+    border: 0;
+    width: 100%;
+    margin: 0;
+    color: $brand-color;
+    background-color: $brand-color;
+    height: $divisor-thinkness;
+}
+
+/* Colors */
+
+body {
+    background-color: $header-bgcolor;
+    color: $text-color;
+}
+
+.page-container {
+    background-color: $background-color;
+} 
+
+.site-header, .site-footer {
+    background-color: $header-bgcolor;
+}
+
+h1, h2 {
+    color: $header-color;
+}
+
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: $visited-color;
+    }
+    &:hover, &:focus {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+/* Lists */
+
+ul, ol {
+    margin-left: $list-indent;
+}
+
+li > ul, li > ol {
+    margin-top: 0;
+}
+
+
+/* Blockquotes */
+
+blockquote {
+    color: $grey-color;
+    padding-left: $list-indent;
+    font-style: italic;
+}
+
+
+/* Code formatting */
+
+pre, code {
+    border-radius: 5px;
+    background-color: $code-bgcolor;
+}
+
+code {
+    padding: 3px 5px 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+/* Clearfix */
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+/* SVG icons */
+
+.icon {
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+
+/* Site banner */
+
+.site-banner {
+    width: 100%;
+    height: $banner-height; 
+    position: relative;
+    overflow: hidden;
+    img {
+        position: absolute;
+        height: $banner-height; 
+    }
+    .site-banner-logo {
+        padding-left: $page-margin;
+    }
+}
+
+/* This will resize the banner depending on the width of the window */
+
+/* TODO: doesn't look well on WP */
+
+@for $i from 1 through 10 {
+    @media only screen and (min-width: (100px * ($i - 1) + 1)) and (max-width: (100px * $i)) {
+        .site-banner, .site-banner img {
+            height: $banner-height * ($i + 2) / 12;
+        }
+    }
+}
+
+/* Navigation menu */
+
+.site-navigation {
+    ul, li { 
+        @include font-and-margins($base-font-size, 300, $huge-line-height, $header-font-family);
+        margin: 0;
+    }
+
+    .site-menu { 
+        display: inline;
+    }
+    .site-menu > li {
+        display: inline;
+        list-style: none;
+        padding-right: $menu-spacing;
+        position: relative;
+        top: 0; left: 0;
+        cursor: pointer;
+    }
+
+    .site-menu ul {
+        position: absolute;
+        top: $base-line-height;
+        left: 0;
+        margin: 0;
+        padding: 2px 5px;
+        border-radius: 5px;
+        border: solid 2px $brand-color;
+        background-color: $header-bgcolor;
+        z-index: 10;
+    }
+    .site-menu ul > li {
+        list-style: none;
+        white-space: nowrap;
+    }
+    
+    li, a, a:visited {
+        color: $header-color;
+        text-decoration: none;
+    }
+    a:hover, a:focus {
+        color: $text-color;
+        text-decoration: underline;
+    }
+
+}
+
+
+/* Site footer */
+
+.footer-content {
+    color: $grey-color;
+    div, p, ul, ol, li, h3, h4 {
+        font-size: $small-font-size;
+        margin: 0;
+    }
+}
+
+.horizontal-blocks-table {
+    display: table;
+    width: 100%;
+    .horizontal-blocks-list { 
+        display: table-row;
+        > li {
+            display: table-cell;
+        }
+    }
+}
+
+.social-media-block {
+    text-align: right;
+    li {
+        list-style: none;
+        white-space: nowrap;
+        img {
+            vertical-align: top;
+        }
+    }    
+}
