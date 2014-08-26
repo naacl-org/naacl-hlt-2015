@@ -6,6 +6,8 @@ title: People
 
 ## General chair
 
+> <{{ site.email.main }}>
+
 - Rada Mihalcea, University of Michigan, USA
 
 ## Program co-chairs

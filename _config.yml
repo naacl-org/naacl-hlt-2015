@@ -10,10 +10,8 @@ url: "http://naacl.org/2015"
 markdown: kramdown
 
 email:
-  main: naacl2015@naacl.org
-  webmaster: webmaster-naacl2015@naacl.org
-
-exclude: ["README.md"]
+  main: naacl2015@googlegroups.com
+  webmaster: naacl2015-webmaster@googlegroups.com
 
 defaults:
   - scope:
@@ -23,8 +21,8 @@ defaults:
 
 social_media:
   - title: E-mail
-    user: "naacl2015@naacl.org"
-    url: "mailto:naacl2015@naacl.org"
+    user: "naacl2015@googlegroups.com"
+    url: "mailto:naacl2015@googlegroups.com"
     icon: img/email-icon-16.gif
 
   - title: Twitter
