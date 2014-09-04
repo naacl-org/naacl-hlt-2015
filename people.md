@@ -12,17 +12,21 @@ title: People
 
 ## Program co-chairs
 
-> <naacl-2015-programchairs@googlegroups.com>
+> <{{ site.email.programchairs }}>
 
 - Joyce Chai, Michigan State University, USA
 - Anoop Sarkar, Simon Fraser University, Canada
 
 ## Workshop co-chairs
 
+> <{{ site.email.workshopchairs }}>
+
 - Cornelia Caragea, University of North Texas, USA
 - Bing Liu, University of Illinois at Chicago, USA
 
 ## Tutorial co-chairs
+
+> <{{ site.email.tutorialchairs }}>
 
 - Yang Liu, University of Texas at Dallas, USA
 - Thamar Solorio, University of Alabama at Birmingham, USA

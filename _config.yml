@@ -5,13 +5,16 @@ description: >
   This is the website for NAACL HLT 2015, 
   taking place May 31–June 5 in Denver, Colorado, USA.
 
-url: "http://naacl.org/2015"
+url: "http://naacl.org/naacl-hlt-2015"
 
 markdown: kramdown
 
 email:
   main: naacl2015@googlegroups.com
   webmaster: naacl2015-webmaster@googlegroups.com
+  programchairs: naacl-2015-programchairs@googlegroups.com
+  workshopchairs: naacl.acl.emnlp.w15@gmail.com
+  tutorialchairs: nlp-tutorials-2015@googlegroups.com
 
 defaults:
   - scope:

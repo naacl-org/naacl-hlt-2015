@@ -2,15 +2,15 @@
 title: Call for workshops
 ---
 
-# Joint Call for Workshops Proposals: NAACL 2015 & ACL 2015 & EMNLP 2015
+# Joint Call for Workshops Proposals: NAACL/ACL/EMNLP&nbsp;2015
 
 The North American Chapter of the Association for Computational Linguistics (NAACL), the Association for Computational Linguistics (ACL), and the Conference on Empirical Methods in Natural Language Processing (EMNLP) invite proposals for workshops to be held in conjunction with NAACL 2015, ACL 2015, or EMNLP 2015. We solicit proposals on any topic of interest to the ACL communities. Workshops will be held at one of the following conference venues:
 
-NAACL 2015 is the Annual Meeting of the North American Chapter of the Association for Computational Linguistics (NAACL). It will be held in Denver, Colorado May 31 - June 5. The NAACL workshops will be held on June 4-5. The webpage for NAACL 2015 is: <{{ site.url }}>.
+**NAACL 2015** is the Annual Meeting of the North American Chapter of the Association for Computational Linguistics (NAACL). It will be held in Denver, Colorado May 31 - June 5. The NAACL workshops will be held on June 4-5. The webpage for NAACL 2015 is: <{{ site.url }}>.
 
-ACL 2015 is the 53rd Annual Meeting of the Association for Computational Linguistics. It will be held in Beijing, China, August 15-20, 2015. The dates for the ACL workshops will be August 20-21: <http://acl2015.org/>.
+**ACL 2015** is the 53rd Annual Meeting of the Association for Computational Linguistics. It will be held in Beijing, China, August 15-20, 2015. The dates for the ACL workshops will be August 20-21: <http://acl2015.org/>.
 
-EMNLP 2015 is the SIGDAT conference on Empirical Methods for Natural Language Processing (EMNLP). It started in 1993 with the series of Workshops on Very Large Corpora and was renamed EMNLP in 1996. The main conference will be held in Lisbon, Portugal, September 17-21, 2015. The dates for the EMNLP workshops are still not definitive, most likely they will be September 17 and September 21.
+**EMNLP 2015** is the SIGDAT conference on Empirical Methods for Natural Language Processing (EMNLP). It started in 1993 with the series of Workshops on Very Large Corpora and was renamed EMNLP in 1996. The main conference will be held in Lisbon, Portugal, September 17-21, 2015. The dates for the EMNLP workshops are still not definitive, most likely they will be September 17 and September 21.
 
 Proposals will be reviewed jointly by the Workshop Co-Chairs of the three conferences.
 
@@ -43,12 +43,12 @@ Organizers of accepted proposals will be responsible for publicizing and running
 
 ## TIMELINES FOR 2015 WORKSHOPS
 
-### SHARED DATES
+**Shared dates:**
 
 - 18 October 2014: Proposal Submission Deadline
 - 2 November 2014: Notifications of Acceptance
 
-### NAACL  2015
+**NAACL:**
 
 - 20 November 2014: First Call for Workshop Papers
 - 20 December 2014: Second Call for Workshop Papers
@@ -57,7 +57,7 @@ Organizers of accepted proposals will be responsible for publicizing and running
 - 30 March 2015: Camera-ready papers due
 - 4-5 June 2015: Workshop Dates
 
-### ACL 2015
+**ACL:**
 
 - 18 January 2015: First Call for Workshop Papers
 - 21 May 2015: Workshop Paper Due Date (*suggested to ensure at least a 3-week review period)
@@ -65,7 +65,7 @@ Organizers of accepted proposals will be responsible for publicizing and running
 - 28 June 2015: Camera-ready papers due (tentative)
 - 20-21 August 2015: Workshop Dates
 
-### EMNLP 2015
+**EMNLP:**
 
 - April 2015: First Call for Workshop Papers
 - June 2015: Workshop Paper Due Date
@@ -82,4 +82,4 @@ Organizers of accepted proposals will be responsible for publicizing and running
 - Jörg Tiedemann, EMNLP; Uppsala University
 
 For inquiries, send email to the workshop organizers at:
-<naacl.acl.emnlp.w15@gmail.com>
+<{{ site.email.workshopchairs }}>.
