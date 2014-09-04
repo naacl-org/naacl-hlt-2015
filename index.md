@@ -12,6 +12,7 @@ These are just the most important dates, there is another page that lists [all t
 
 - Workshop proposal submissions: Oct 18, 2014
 - Long and short paper submissions: Dec 4, 2014
+- Tutorial proposal submissions: Jan 9, 2015
 
 ## [News](all-news.html)
 

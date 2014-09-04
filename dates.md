@@ -6,8 +6,9 @@ title: Important dates
 
 ## NAACL
 
-- NAACL main conference: May 31–June 3, 2015
-- NAACL workshops and tutorials: June 4–5, 2015
+- NAACL tutorials: May 31, 2015
+- NAACL main conference: June 1–3, 2015
+- NAACL workshops: June 4–5, 2015
 
 ## Long and short papers
 
@@ -32,6 +33,12 @@ title: Important dates
 - Camera-ready papers due: Mar 30, 2015
 
 ## Tutorials
+
+- Deadline for tutorial proposal submission: Jan 9, 2015
+- Notification of acceptance: Feb 6, 2015
+- Tutorial descriptions due: Mar 6, 2015
+- NAACL Tutorial course material due: Apr 10, 2015
+- NAACL Tutorial date: May 31, 2015
 
 ## Software demonstrations
 
