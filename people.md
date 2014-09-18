@@ -75,7 +75,7 @@ title: People
 
 ### Dialogue and Interactive Systems
 
-- Jason Williams, Microsoft Research
+- Jason D. Williams, Microsoft Research
 
 ### Discourse and Pragmatics
 
