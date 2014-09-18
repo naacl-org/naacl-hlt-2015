@@ -28,8 +28,8 @@
 # - title: Program
 #   url: program.html
 
-- title: Travelling
-  url: getting-here.html
+- title: Venue
+  url: venue.html
 
   # items:
   #   - title: Getting here
@@ -51,5 +51,4 @@
       url: people.html
     - title: Sponsors
       url: sponsors.html
-
 
