@@ -109,7 +109,7 @@ title: People
 
 ### Machine Learning for NLP
 
-- Tong Zhang, Rutgers University
+- Tong Zhang, Baidu Inc. and Rutgers University
 - Amarnag Subramanya, Google Research
 
 ### Machine Translation
@@ -129,12 +129,12 @@ title: People
 
 ### Phonology, Morphology, and Word Segmentation
 
-- Sami Virpioja, Aalto University
+- Sami Virpioja, Lingsoft and Aalto University
 
 ### Semantics
 
 - William Dolan, Microsoft Research
-- Dipanjan Das, Google Research
+- Dipanjan Das, Google
 - Luke Zettlemoyer, University of Washington
 
 ### Sentiment Analysis and Opinion Mining
