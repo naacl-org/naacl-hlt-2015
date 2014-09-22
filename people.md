@@ -56,7 +56,7 @@ title: People
 
 ## Publicity chair
 
-- Saif Mohammad, National Research Council, Canada
+- Saif M. Mohammad, National Research Council Canada
 
 ## Publication co-chairs
 
@@ -140,7 +140,7 @@ title: People
 ### Sentiment Analysis and Opinion Mining
 
 - Jerry Zhu, University of Wisconsin-Madison
-- Saif Mohammad, National Research Council of Canada
+- Saif M. Mohammad, National Research Council Canada
 
 ### Spoken Language Processing
 
