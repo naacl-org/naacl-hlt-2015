@@ -8,6 +8,8 @@
   items:
     - title: Call for papers
       url: call-for-papers.html
+    - title: Call for demonstrations
+      url: call-for-demos.html
     - title: Call for workshops
       url: call-for-workshops.html
     - title: Call for tutorials

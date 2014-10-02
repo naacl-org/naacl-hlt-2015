@@ -37,10 +37,14 @@ title: Important dates
 - Deadline for tutorial proposal submission: Jan 9, 2015
 - Notification of acceptance: Feb 6, 2015
 - Tutorial descriptions due: Mar 6, 2015
-- NAACL Tutorial course material due: Apr 10, 2015
-- NAACL Tutorial date: May 31, 2015
+- Tutorial course material due: Apr 10, 2015
+- Tutorial date: May 31, 2015
 
 ## Software demonstrations
+
+- Submission deadline: Feb 13, 2015
+- Notification of acceptance: Mar 15, 2015
+- Submission of camera ready copies: Mar 30, 2015
 
 ## Student research workshop
 
