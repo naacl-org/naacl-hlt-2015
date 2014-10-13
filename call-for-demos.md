@@ -60,9 +60,11 @@ Submissions will be evaluated on the basis of their relevance to computational l
 
 Please send any inquiries to the demonstration co-chairs:
 
-- Matthew Gerber, University of Virginia (<msg8u@virginia.edu>)
-- Catherine Havasi, Luminoso & MIT Media Lab (<havasi@media.mit.edu>)
-- Finley Lacatusu, Language Computer Corporation (<finley@languagecomputer.com>)
+> <{{ site.email.demochairs }}>
+
+- Matthew Gerber, University of Virginia
+- Catherine Havasi, Luminoso & MIT Media Lab
+- Finley Lacatusu, Language Computer Corporation
 
 ## Program Committee
 

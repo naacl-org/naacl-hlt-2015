@@ -15,6 +15,7 @@ email:
   programchairs: naacl2015-programchairs@googlegroups.com
   workshopchairs: naacl.acl.emnlp.w15@gmail.com
   tutorialchairs: nlp-tutorials-2015@googlegroups.com
+  demochairs: naacl2015-demochairs@googlegroups.com
 
 defaults:
   - scope:

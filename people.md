@@ -46,6 +46,8 @@ title: People
 
 ## Demo co-chairs
 
+> <{{ site.email.demochairs }}>
+
 - Matt Gerber, University of Virginia, USA
 - Catherine Havasi, Massachusetts Institute of Technology, USA
 - Finley Lacatusu, Language Computer Corporation, USA
