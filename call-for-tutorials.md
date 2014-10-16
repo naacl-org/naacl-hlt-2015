@@ -2,6 +2,9 @@
 title: Call for tutorials
 ---
 
+** Updated Oct 15, 2014: Note the change of dates for ACL 2015 **
+
+
 # Joint Call for Tutorial Proposals: NAACL/ACL/EMNLP&nbsp;2015
 
 The North American Chapter of the Association for Computational
@@ -21,12 +24,12 @@ Tutorials will be held at one of the following conference venues:
 
 **NAACL 2015** is the Annual Meeting of the North American Chapter of the
 Association for Computational Linguistics (NAACL). It will be held in
-Denver, Colorado May 31 - June 5, 2015. The NAACL tutorials will be held
+Denver, Colorado May 31-June 5, 2015. The NAACL tutorials will be held
 on May 31. The webpage for NAACL 2015 is: <{{ site.url }}>.
 
 **ACL 2015** is the 53rd Annual Meeting of the Association for Computational
-Linguistics. It will be held in Beijing, China, August 16-20, 2015. The
-ACL tutorials will be held on August 16. ACL webpage: <http://acl2015.org/>.
+Linguistics. It will be held in Beijing, China, July 26-31, 2015. The
+ACL tutorials will be held on July 26. ACL webpage: <http://acl2015.org/>.
 
 **EMNLP 2015** is the SIGDAT conference on Empirical Methods for Natural
 Language Processing (EMNLP). The main conference will be held in Lisbon,
@@ -86,8 +89,8 @@ specified for the three conferences.
 
 **ACL:**
 
-- ACL Tutorial course material due: June 28, 2015
-- ACL Tutorial date: August 16, 2015
+- ACL Tutorial course material due: June 26, 2015
+- ACL Tutorial date: July 26, 2015
 
 **EMNLP:**
 
