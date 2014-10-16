@@ -80,6 +80,7 @@ Organizers of accepted proposals will be responsible for publicizing and running
 - Hang Li, ACL; Huawei Technologies
 - Sebastian Riedel, ACL; University College London
 - Jörg Tiedemann, EMNLP; Uppsala University
+- Zornitsa Kozareva, EMNLP; Yahoo! Labs
 
 For inquiries, send email to the workshop organizers at:
 <{{ site.email.workshopchairs }}>.
