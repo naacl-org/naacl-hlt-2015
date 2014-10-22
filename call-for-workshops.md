@@ -63,9 +63,9 @@ Organizers of accepted proposals will be responsible for publicizing and running
 **ACL:**
 
 - 11 January 2015: First Call for Workshop Papers
-- 14 May 2015: Workshop Paper Due Date (*suggested* to ensure at least a 3-week review period)
+- 14 May 2015: Workshop Paper Due Date
 - 4 June 2015: Notification of Acceptance
-- 21 June 2015: Camera-ready papers due (tentative) 
+- 21 June 2015: Camera-ready papers due
 - 30-31 July 2015: Workshop Dates
 
 **EMNLP:**
