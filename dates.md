@@ -48,4 +48,6 @@ title: Important dates
 
 ## Student research workshop
 
+- Submission deadline: Feb 12, 2015
+
 ## Studentships

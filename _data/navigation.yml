@@ -10,6 +10,8 @@
       url: call-for-papers.html
     - title: Call for demonstrations
       url: call-for-demos.html
+    - title: Student research workshop
+      url: call-for-student-papers.html
     - title: Call for workshops
       url: call-for-workshops.html
     - title: Call for tutorials
@@ -22,7 +24,11 @@
 #   url: registration.html
 
 - title: Workshops
-  url: workshops.html
+  items:
+    - title: Student research workshop
+      url: call-for-student-papers.html
+    - title: All other workshops
+      url: workshops.html
 
 - title: Tutorials
   url: tutorials.html

@@ -31,7 +31,9 @@ title: People
 - Yang Liu, University of Texas at Dallas, USA
 - Thamar Solorio, University of Alabama at Birmingham, USA
 
-## Student workshop co-chairs
+## Student research workshop co-chairs
+
+> <{{ site.email.srwchairs }}>
 
 ### Student co-chairs
 

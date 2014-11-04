@@ -18,7 +18,11 @@
         <li><span>{{ link.title }}</span>
           <ul class="toggleable_menu">
             {% for sub in link.items %}
+            {% if sub.url %}
             <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
+            {% else %}
+            <li>{{ sub }}</li>
+            {% endif %}
             {% endfor %}
           </ul>
         </li>

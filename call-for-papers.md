@@ -112,7 +112,7 @@ Authors submitting more than one paper to NAACL HLT must ensure that submissions
 - Joyce Chai, Michigan State University
 - Anoop Sarkar, Simon Fraser University
 
-Email: <naacl2015-programchairs@googlegroups.com>
+Email: <{{ site.email.programchairs }}>
 
 ### General Chair
 
