@@ -10,9 +10,9 @@ Welcome to the 2015 Conference of the North American Chapter of the Association 
 
 These are just the most important dates, there is another page that lists [all the important dates](dates.html).
 
-- Workshop proposal submissions: Oct 18, 2014
 - Long and short paper submissions: Dec 4, 2014
 - Tutorial proposal submissions: Jan 9, 2015
+- Student paper submissions: Feb 12, 2015
 - Demo submissions: Feb 13, 2015
 
 ## [News](all-news.html)
