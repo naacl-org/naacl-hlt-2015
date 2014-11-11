@@ -4,7 +4,10 @@ title: Workshops
 
 # Workshops
 
-NAACL 2015 will host following 14 workshops, which will take place June 4–5, 2015:
+Co-located with NAACL 2015 is the [<tt>*</tt>SEM conference](https://sites.google.com/site/starsem2015),
+taking place June 4–5, 2015.
+
+Furthermore, NAACL 2015 will host the following 14 workshops, which also take place June 4–5, 2015:
 
 + **CLFL**: *Fourth Workshop on Computational Linguistics for Literature*. Anna Feldman, Anna Kazantseva, Stan Szpakowicz
 
