@@ -28,12 +28,12 @@ Denver, Colorado May 31-June 5, 2015. The NAACL tutorials will be held
 on May 31. The webpage for NAACL 2015 is: <{{ site.url }}>.
 
 **ACL 2015** is the 53rd Annual Meeting of the Association for Computational
-Linguistics. It will be held in Beijing, China, July 26-31, 2015. The
+Linguistics. It will be held in Beijing, China, July 26–31, 2015. The
 ACL tutorials will be held on July 26. ACL webpage: <http://acl2015.org/>.
 
 **EMNLP 2015** is the SIGDAT conference on Empirical Methods for Natural
 Language Processing (EMNLP). The main conference will be held in Lisbon,
-Portugal, September 17-21, 2015. The EMNLP tutorials will be held on
+Portugal, September 17–21, 2015. The EMNLP tutorials will be held on
 September 17.
 
 ## REMUNERATION

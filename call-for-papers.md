@@ -40,7 +40,7 @@ The conference invites the submission of long and short papers on substantial, o
 ## Important Dates
 
 - Deadline for BOTH Long and Short paper submission: Dec 4, 2014
-- Author response period: Jan 22-28, 2015
+- Author response period: Jan 22–28, 2015
 - Notification to authors: Feb 20, 2015
 - Camera ready papers due: Mar 20, 2015
 
