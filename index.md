@@ -14,6 +14,7 @@ These are just the most important dates, there is another page that lists [all t
 - Tutorial proposal submissions: Jan 9, 2015
 - Student paper submissions: Feb 12, 2015
 - Demo submissions: Feb 13, 2015
+- Workshop paper submissions: Feb 25, 2015
 
 ## [News](all-news.html)
 
