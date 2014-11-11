@@ -67,7 +67,7 @@ title: People
 > <naacl-pub-chairs@googlegroups.com>
 
 - Matt Post, John Hopkins University, USA
-- Adam Lopez, John Hopkins University, USA
+- Adam Lopez, University of Edinburgh, UK
 
 ## Website chair
 
