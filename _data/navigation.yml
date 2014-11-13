@@ -24,13 +24,7 @@
 #   url: registration.html
 
 - title: Workshops
-  items:
-    - title: Student research workshop
-      url: call-for-student-papers.html
-    - title: "Co-located conference: <tt>*</tt>SEM"
-      url: https://sites.google.com/site/starsem2015/
-    - title: All other workshops
-      url: workshops.html
+  url: workshops.html
 
 - title: Tutorials
   url: tutorials.html

@@ -4,35 +4,75 @@ title: Workshops
 
 # Workshops
 
-Co-located with NAACL 2015 is the [<tt>*</tt>SEM conference](https://sites.google.com/site/starsem2015),
-taking place June 4–5, 2015.
+The [*Student Research Workshop*]({{ site.links.srw }}) provides a venue for student researchers to present their work in computational linguistics and natural language processing. Students receive feedback from the general conference audience as well as from mentors specifically assigned according to the topic of their work.
 
-Furthermore, NAACL 2015 will host the following 14 workshops, which also take place June 4–5, 2015:
+Furthermore, NAACL HLT 2015 will host 14 workshops and one co-located conference:
 
-+ **CLFL**: *Fourth Workshop on Computational Linguistics for Literature*. Anna Feldman, Anna Kazantseva, Stan Szpakowicz
+## Co-located conference
 
-+ **CLPsych**: *Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality*. Margaret Mitchell, Glen Coppersmith
+<tt>*</tt>SEM
+: [*4th Joint Conference on Lexical and Computational Semantics*](https://sites.google.com/site/starsem2015),
+  June 4–5, 2015.
 
-+ **BEA**: *The 10th Workshop on Innovative Use of NLP for Building Educational Applications*. Joel Tetreault, Jill Burstein, Claudia Leacock
+## Two-day workshop, June 4–5
 
-+ **LAW**: *The 9th Linguistic Annotation Workshop*. Nancy Ide, Adam Meyers
+SemEval
+: *9th International Workshop on Semantic Evaluations*.
+  Preslav Nakov, Torsten Zesch
 
-+ **Event**: *The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation*. Eduard Hovy, Teruko Mitamura, Martha Palmer
+## One-day workshops, Thursday, June 4
 
-+ **MWE**: *The 11th Workshop on Multiword Expressions*. Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
+ArgMining
+: *2nd Workshop on Argumentation Mining*.
+  Claire Cardie, Nancy Green, Iryna Gurevych, Graeme Hirst, Diane Litman,
+  Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
 
-+ **CMCL**: *Cognitive Modeling and Computational Linguistics (CMCL)*. Timothy J. O’Donnell, Marten van Schijndel
+BEA
+: *The 10th Workshop on Innovative Use of NLP for Building Educational Applications*.
+  Joel Tetreault, Jill Burstein, Claudia Leacock
 
-+ **LatentVar**: *Latent-Variable Modeling and Representation Learning for NLP*. Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang
+CLFL
+: *Fourth Workshop on Computational Linguistics for Literature*.
+  Anna Feldman, Anna Kazantseva, Stan Szpakowicz
 
-+ **SSST**: *Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation*. Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
+CMCL
+: *Cognitive Modeling and Computational Linguistics (CMCL)*.
+  Timothy J. O’Donnell, Marten van Schijndel
 
-+ **Exprom**: *Extra-Propositional Aspects of Meaning in Computational Linguistics (ExProM)*. Eduardo Blanco, Roser Morante, Caroline Sporleder
+Event
+: *The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation*.
+  Eduard Hovy, Teruko Mitamura, Martha Palmer
 
-+ **SemEval**: *9th International Workshop on Semantic Evaluations*. Preslav Nakov, Torsten Zesch
+MWE
+: *The 11th Workshop on Multiword Expressions*.
+  Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
 
-+ **ArgMining**: *2nd Workshop on Argumentation Mining*. Claire Cardie, Nancy Green, Iryna Gurevych, Graeme Hirst, Diane Litman, Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
+SSST
+: *Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation*.
+  Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
 
-+ **Metaphor**: *The Third Workshop on Metaphor in NLP*. Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
+## One-day workshops, Friday, June 5
 
-+ **SocialNLP**: *Third International Workshop on Natural Language Processing for Social Media*. Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
+CLPsych
+: *Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality*.
+  Margaret Mitchell, Glen Coppersmith
+
+Exprom
+: *Extra-Propositional Aspects of Meaning in Computational Linguistics (ExProM)*.
+  Eduardo Blanco, Roser Morante, Caroline Sporleder
+
+LAW
+: *The 9th Linguistic Annotation Workshop*.
+  Nancy Ide, Adam Meyers
+
+Metaphor
+: *The Third Workshop on Metaphor in NLP*.
+  Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
+
+SocialNLP
+: *Third International Workshop on Natural Language Processing for Social Media*.
+  Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
+
+VSM–NLP
+: *Latent-Variable Modeling and Representation Learning for NLP*.
+  Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang

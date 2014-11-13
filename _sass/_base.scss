@@ -118,6 +118,14 @@ li > ul, li > ol {
     margin-top: 0;
 }
 
+dt { 
+    font-weight: bold;
+    float: left; 
+    margin-right: 1ex;
+}
+dt:after {
+    content: ":";
+}
 
 /* Blockquotes */
 
