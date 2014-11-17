@@ -74,5 +74,5 @@ SocialNLP
   Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
 
 VSM–NLP
-: *Latent-Variable Modeling and Representation Learning for NLP*.
+: *Vector Space Modeling for NLP*.
   Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang
