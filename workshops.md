@@ -11,7 +11,8 @@ Furthermore, NAACL HLT 2015 will host 14 workshops and one co-located conference
 ## Co-located conference
 
 <tt>*</tt>SEM
-: [*4th Joint Conference on Lexical and Computational Semantics*](https://sites.google.com/site/starsem2015),
+: [*4th Joint Conference on Lexical and Computational Semantics*](
+    https://sites.google.com/site/starsem2015),
   June 4–5, 2015.
 
 ## Two-day workshop, June 4–5
@@ -62,8 +63,9 @@ Exprom
   Eduardo Blanco, Roser Morante, Caroline Sporleder
 
 LAW
-: *The 9th Linguistic Annotation Workshop*.
-  Nancy Ide, Adam Meyers
+: [*The 9th Linguistic Annotation Workshop*](
+    http://www.sfb632.uni-potsdam.de/law2015/).
+  Adam Meyers, Ines Rehbein, Heike Zinsmeister
 
 Metaphor
 : *The Third Workshop on Metaphor in NLP*.
