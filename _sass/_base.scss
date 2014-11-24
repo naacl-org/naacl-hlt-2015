@@ -11,7 +11,7 @@
 }
 
 body, p, blockquote, pre, ul, ol, dl, dd, figure {
-    @include font-and-margins($base-font-size, 300, $base-line-height, $base-font-family);
+    @include font-and-margins($base-font-size, 200, $base-line-height, $base-font-family);
 }
 
 h1 {
@@ -26,6 +26,9 @@ h2 {
 
 h3, h4, h5, h6 {
     @include font-and-margins($base-font-size, bold, $base-line-height, $header-font-family);
+    a {
+        font-weight: bold;
+    }
 }
 
 pre, code {
@@ -97,6 +100,7 @@ h1, h2 {
 a {
     color: $brand-color;
     text-decoration: none;
+    font-weight: normal;
 
     &:visited {
         color: $visited-color;
@@ -217,7 +221,7 @@ pre {
 
 .site-navigation {
     ul, li { 
-        @include font-and-margins($base-font-size, 300, $huge-line-height, $header-font-family);
+        @include font-and-margins($base-font-size, normal, $huge-line-height, $header-font-family);
         margin: 0;
     }
 
