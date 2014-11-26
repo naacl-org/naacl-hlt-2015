@@ -18,7 +18,8 @@ Furthermore, NAACL HLT 2015 will host 14 workshops and one co-located conference
 ## Two-day workshop, June 4–5
 
 SemEval
-: *9th International Workshop on Semantic Evaluations*.
+: [*9th International Workshop on Semantic Evaluations*](
+    http://alt.qcri.org/semeval2015/).
   Preslav Nakov, Torsten Zesch
 
 ## One-day workshops, Thursday, June 4
@@ -29,7 +30,8 @@ ArgMining
   Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
 
 BEA
-: *The 10th Workshop on Innovative Use of NLP for Building Educational Applications*.
+: [*The 10th Workshop on Innovative Use of NLP for Building Educational Applications*](
+    http://www.cs.rochester.edu/~tetreaul/naacl-bea10.html).
   Joel Tetreault, Jill Burstein, Claudia Leacock
 
 CLFL
@@ -45,7 +47,8 @@ Event
   Eduard Hovy, Teruko Mitamura, Martha Palmer
 
 MWE
-: *The 11th Workshop on Multiword Expressions*.
+: [*The 11th Workshop on Multiword Expressions*](
+    http://multiword.sourceforge.net/mwe2015).
   Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
 
 SSST
@@ -58,7 +61,7 @@ CLPsych
 : *Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality*.
   Margaret Mitchell, Glen Coppersmith
 
-Exprom
+ExProM
 : *Extra-Propositional Aspects of Meaning in Computational Linguistics (ExProM)*.
   Eduardo Blanco, Roser Morante, Caroline Sporleder
 
@@ -68,7 +71,8 @@ LAW
   Adam Meyers, Ines Rehbein, Heike Zinsmeister
 
 Metaphor
-: *The Third Workshop on Metaphor in NLP*.
+: [*The Third Workshop on Metaphor in NLP*](
+    https://sites.google.com/site/metaphorinnlp2015/home).
   Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
 
 SocialNLP
@@ -76,5 +80,6 @@ SocialNLP
   Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
 
 VSM–NLP
-: *Vector Space Modeling for NLP*.
+: [*Vector Space Modeling for NLP*](
+    http://naacl15vs.github.io).
   Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang
