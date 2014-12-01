@@ -43,7 +43,8 @@ CMCL
   Timothy J. O’Donnell, Marten van Schijndel
 
 Event
-: *The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation*.
+: [*The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation*](
+    https://sites.google.com/site/wsevents2015/).
   Eduard Hovy, Teruko Mitamura, Martha Palmer
 
 MWE
@@ -62,7 +63,8 @@ CLPsych
   Margaret Mitchell, Glen Coppersmith
 
 ExProM
-: *Extra-Propositional Aspects of Meaning in Computational Linguistics (ExProM)*.
+: [*Extra-Propositional Aspects of Meaning in Computational Linguistics (ExProM)*](
+    http://www.cse.unt.edu/exprom2015/).
   Eduardo Blanco, Roser Morante, Caroline Sporleder
 
 LAW
