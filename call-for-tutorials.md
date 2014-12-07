@@ -53,10 +53,11 @@ Proposals for tutorials should contain:
 5. A description of special requirements for technical equipment (e.g., internet access).
 6. A note specifying which venue(s) (NAACL/ACL/EMNLP) would be acceptable and/or preferable.
 
-Tutorial proposals should be submitted online by January 9, 2015 through the
-START system. The URL for the START submission system will be posted on
-the conference websites. Proposals will be reviewed jointly by the
-Tutorial Co-Chairs of the three conferences.
+Tutorial proposals should be submitted online by January 9, 2015 through the START system:
+
+> <https://www.softconf.com/acl2015/tutorial/>
+
+Proposals will be reviewed jointly by the Tutorial Co-Chairs of the three conferences.
 
 ## TUTORIAL SPEAKER RESPONSIBILITIES
 
