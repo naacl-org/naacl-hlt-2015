@@ -4,7 +4,7 @@
 - title: News
   url: .
 
-- title: Calls
+- title: "Calls &#x25be;"
   items:
     - title: Call for papers
       url: call-for-papers.html
@@ -47,7 +47,7 @@
   #   - title: Other information
   #     url: other-information.html
 
-- title: About
+- title: "About &#x25be;"
   items:
     - title: Contact
       url: contact.html
