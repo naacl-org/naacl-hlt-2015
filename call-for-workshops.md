@@ -2,9 +2,6 @@
 title: Call for workshops
 ---
 
-*Updated Oct 22, 2014: Note the change of dates for ACL 2015*
-
-
 # Joint Call for Workshops Proposals: NAACL/ACL/EMNLP&nbsp;2015
 
 The North American Chapter of the Association for Computational Linguistics (NAACL), the Association for Computational Linguistics (ACL), and the Conference on Empirical Methods in Natural Language Processing (EMNLP) invite proposals for workshops to be held in conjunction with NAACL 2015, ACL 2015, or EMNLP 2015. We solicit proposals on any topic of interest to the ACL communities. Workshops will be held at one of the following conference venues:
@@ -38,7 +35,7 @@ You can find the ACL's general policies on workshops, the financial policy for w
 - <http://www.cis.udel.edu/~carberry/ACL/Workshops/workshop-conf-financial-policy.html>
 - <http://www.cis.udel.edu/~carberry/ACL/Workshops/workshops-Sig-financial-policy.html>
 
-Proposals may be submitted as Plain text, MS Word, or PDF documents (preferably PDF). Proposals should be attached and emailed to the workshop organizers (naacl.acl.emnlp.w15@gmail.com) no later than 18 October 2014, Samoa Standard Time (SST) (UTC/GMT-11). *You should receive a confirmation of proposal receipt within 24 hours. If you do not, please get in touch with Sebastian Riedel:s.riedel@ucl.ac.uk*
+Proposals may be submitted as Plain text, MS Word, or PDF documents (preferably PDF). Proposals should be attached and emailed to the workshop organizers (<{{site.email.workshopchairs}}>) no later than 18 October 2014, Samoa Standard Time (SST) (UTC/GMT-11). *You should receive a confirmation of proposal receipt within 24 hours. If you do not, please get in touch with Sebastian Riedel: s.riedel@ucl.ac.uk*
 
 Notification of acceptance of workshop proposals will occur no later than 2 November 2014.
 

@@ -2,9 +2,6 @@
 title: Call for tutorials
 ---
 
-*Updated Oct 15, 2014: Note the change of dates for ACL 2015*
-
-
 # Joint Call for Tutorial Proposals: NAACL/ACL/EMNLP&nbsp;2015
 
 The North American Chapter of the Association for Computational
