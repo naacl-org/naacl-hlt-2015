@@ -59,7 +59,8 @@ SSST
 ## One-day workshops, Friday, June 5
 
 CLPsych
-: *Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality*.
+: [*Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality*](
+    http://clpsych.org/).
   Margaret Mitchell, Glen Coppersmith
 
 ExProM
