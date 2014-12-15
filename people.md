@@ -89,6 +89,8 @@ title: People
 ### Generation and Summarization
 
 - Fei Liu, Carnegie Mellon University
+- Chris Callison-Burch, University of Pennsylvania
+
 
 ### Information Extraction and Question Answering
 
@@ -106,6 +108,8 @@ title: People
 ### Language Resources and Evaluation
 
 - Will Lewis, Microsoft Research
+- Sameer Pradhan, Harvard Children's Hospital Informatics Program
+
 
 ### Linguistic and Psycholinguistic Aspects of CL
 
@@ -123,9 +127,10 @@ title: People
 - Bill Byrne, Cambridge University
 - Haitao Mi, IBM Research
 
-### NLP for Social Media and Social Sciences
+### NLP for Web, Social Media and Social Sciences
 
 - Brendan O'Connor, University of Massachusetts
+- Philip Resnik, University of Maryland
 
 ### NLP-enabled Technology
 
@@ -158,3 +163,4 @@ title: People
 ### Text Categorization and Topic Models
 
 - Jordan Boyd-Graber, University of Colorado at Boulder
+- David Mimno, Cornell University
