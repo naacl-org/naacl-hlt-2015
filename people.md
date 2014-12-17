@@ -108,7 +108,7 @@ title: People
 ### Language Resources and Evaluation
 
 - Will Lewis, Microsoft Research
-- Sameer Pradhan, Harvard Children's Hospital Informatics Program
+- Sameer Pradhan, Harvard University
 
 
 ### Linguistic and Psycholinguistic Aspects of CL
