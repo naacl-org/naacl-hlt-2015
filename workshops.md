@@ -35,7 +35,8 @@ BEA
   Joel Tetreault, Jill Burstein, Claudia Leacock
 
 CLFL
-: *Fourth Workshop on Computational Linguistics for Literature*.
+: [*Fourth Workshop on Computational Linguistics for Literature*](
+    https://sites.google.com/site/clfl2015/).
   Anna Feldman, Anna Kazantseva, Stan Szpakowicz
 
 CMCL
@@ -53,7 +54,8 @@ MWE
   Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
 
 SSST
-: *Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation*.
+: [*Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation*](
+    http://www.cs.ust.hk/~dekai/ssst/).
   Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
 
 ## One-day workshops, Friday, June 5
@@ -79,7 +81,8 @@ Metaphor
   Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
 
 SocialNLP
-: *Third International Workshop on Natural Language Processing for Social Media*.
+: [*Third International Workshop on Natural Language Processing for Social Media*](
+    https://sites.google.com/site/socialnlp2015/).
   Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
 
 VSM–NLP
