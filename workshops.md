@@ -25,7 +25,8 @@ SemEval
 ## One-day workshops, Thursday, June 4
 
 ArgMining
-: *2nd Workshop on Argumentation Mining*.
+: [*2nd Workshop on Argumentation Mining*](
+    http://www.cs.cornell.edu/home/cardie/naacl-2nd-arg-mining/).
   Claire Cardie, Nancy Green, Iryna Gurevych, Graeme Hirst, Diane Litman,
   Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
 
