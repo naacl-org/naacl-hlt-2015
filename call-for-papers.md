@@ -105,6 +105,12 @@ Preprint servers such as arXiv.org and ACL-related workshops that do not have pu
 
 Authors submitting more than one paper to NAACL HLT must ensure that submissions do not overlap significantly (>25%) with each other in content or results. Authors should not submit short and long versions of papers with substantial overlap in their original contributions.
 
+## Review Form
+
+The instructions to reviews has been posted to the NAACL HLT 2015 web site at the URL below. Authors can refer to this in order to better understand the numeric scores in their reviews.
+
+<http://naacl.org/naacl-hlt-2015/review-form.html>
+
 ## Contact
 
 ### Program Co-Chairs
