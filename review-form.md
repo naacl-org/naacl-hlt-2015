@@ -4,8 +4,8 @@ title: NAACL HLT 2015 Review Form
 
 These are the instructions for the NAACL 2015 review form as used
 by the reviewers in NAACL HLT 2015. Authors who have submitted a
-paper to NAACL 2015 can use this as a guide to understand their
-reviews.
+paper to NAACL 2015 can use this as a guide to understand the
+numeric scores in the reviews they have received.
 
 # Review Form
 
