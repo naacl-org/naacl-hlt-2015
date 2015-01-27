@@ -35,18 +35,6 @@
 - title: Venue
   url: venue.html
 
-  # items:
-  #   - title: Getting here
-  #     url: getting-here.html
-  #   - title: About Denver
-  #     url: denver.html
-  #   - title: Accommodation
-  #     url: accommodation.html
-  #   - title: The conference venue
-  #     url: venue.html
-  #   - title: Other information
-  #     url: other-information.html
-
 - title: "About &#x25be;"
   items:
     - title: Contact
