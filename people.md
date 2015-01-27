@@ -10,6 +10,12 @@ title: People
 
 - Rada Mihalcea, University of Michigan, USA
 
+## Local arrangements chair
+
+> <{{ site.email.localchair }}>
+
+- Priscilla Rasmussen, ACL Business Manager
+
 ## Program co-chairs
 
 > <{{ site.email.programchairs }}>

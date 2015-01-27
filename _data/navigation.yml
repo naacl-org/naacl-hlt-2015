@@ -20,9 +20,6 @@
 - title: Dates
   url: dates.html
 
-# - title: Registration
-#   url: registration.html
-
 - title: Workshops
   url: workshops.html
 
@@ -31,6 +28,9 @@
 
 # - title: Program
 #   url: program.html
+
+- title: Registration
+  url: registration.html
 
 - title: Venue
   url: venue.html
@@ -41,6 +41,7 @@
       url: contact.html
     - title: People
       url: people.html
-    - title: Sponsors
-      url: sponsors.html
+
+    # - title: Sponsors
+    #   url: sponsors.html
 
