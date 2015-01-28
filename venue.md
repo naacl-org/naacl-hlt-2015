@@ -17,15 +17,19 @@ Just steps from the hotel is the 16th Street Mall, a mile-long promenade of bist
 > Denver, CO 80202 <br>
 > *Phone*: (303) 893–3333
 
-The link to make your NAACL-discounted reservations will come in due time. There's no hurry yet, the deadline for reserving rooms in the Room Block is Friday, May 8, 2015.
+## Conference hotel reservation
 
-NAACL participants get the following discounted rates:
+The conference hotel is the same as the venue (Sheraton Denver Downtown), where NAACL participants get the following discounted rates:
 
 - $189 single/double room
 - $209 triple room
 - $229 quad room
 
-# Things to do in Denver, Colorado
+All rooms include complimentary internet. Regular attendees can access the site to learn more about the event and to book, modify, or cancel a reservation until Friday, May 8, 2015 (5pm Denver time). To make your hotel reservations and take advantage of the Conference Group Rate, please use the following URL:
+
+> <https://www.starwoodmeeting.com/Book/naacl2015>
+
+# [Things to do](http://www.imdb.com/title/tt0114660/) in Denver, Colorado
 
 To help enjoy your stay while in Denver, check out the various attractions at:
 
