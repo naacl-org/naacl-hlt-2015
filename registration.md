@@ -6,7 +6,7 @@ title: Registration
 
 Since visa applications can take 1–4 months to be approved, we advise that you apply well in advance.
 
-If you require an invitation letter for your visa application, please email the ACL Business Manager, Priscilla Rasmussen, at <acl@aclweb.org>, with the following information:
+If you require an invitation letter for your visa application, please email the ACL Business Manager, Priscilla Rasmussen, at <{{ site.email.localchair }}>, with the following information:
 
 1. Your full name
 2. Your address
