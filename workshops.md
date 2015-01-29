@@ -41,7 +41,8 @@ CLFL
   Anna Feldman, Anna Kazantseva, Stan Szpakowicz
 
 CMCL
-: *Cognitive Modeling and Computational Linguistics (CMCL)*.
+: [*Cognitive Modeling and Computational Linguistics*](
+    http://cmcl.mit.edu/).
   Timothy J. O’Donnell, Marten van Schijndel
 
 Event
