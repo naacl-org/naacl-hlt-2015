@@ -20,3 +20,6 @@ If you require an invitation letter for your visa application, please email the 
 
 Hey, not so fast! The registration site isn't up quite yet.
 
+The registration page will be available online approximately two
+months before the conference date, around the time that the schedule
+for the conference will be available on this web site.
