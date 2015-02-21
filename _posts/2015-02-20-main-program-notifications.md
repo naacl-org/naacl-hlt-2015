@@ -15,6 +15,9 @@ for the paper using the following URL template:
 
     https://www.softconf.com/naacl2015/papers/user/scmd.cgi?scmd=aLogin&passcode=[YOUR-PASSCODE]
 
-Details about the program schedule and the details about your particular
-presentation mode (talk or poster) will be sent out later.
+The email sent to the contact author contains the decision about
+whether your paper was accepted as a talk or poster presentation.
+Details about the program schedule and the details about your
+particular presentation mode (talk or poster) will be sent out
+later.
 
