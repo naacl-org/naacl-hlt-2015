@@ -13,8 +13,8 @@ These are just the most important dates, there is another page that lists [all t
 - Long and short paper submissions: Dec 4, 2014
 - Tutorial proposal submissions: Jan 9, 2015
 - Demo submissions: Feb 13, 2015
-- Student paper submissions: Feb 25, 2015
-- Workshop paper submissions: Feb 25, 2015 (some workshops have a later deadline)
+- Student paper submissions: Mar 8, 2015 (extended from <del>Feb 25</del>)
+- Workshop paper submissions: Feb 25, 2015 (many workshops have extended the deadline)
 
 ## [News](all-news.html)
 
