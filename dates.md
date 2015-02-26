@@ -48,6 +48,6 @@ title: Important dates
 
 ## Student research workshop
 
-- Submission deadline: Feb 25, 2015
-
-## Studentships
+- Submission deadline: Mar 8, 2015 (extended from <del>Feb 25</del>)
+- Notification of acceptance: Mar 30, 2015 (extended from <del>Mar 20</del>)
+- Camera-ready papers due: April 6, 2015

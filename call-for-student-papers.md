@@ -43,8 +43,8 @@ Grants from the NSF and corporate sponsors will be available to offset some port
 
 All deadlines are calculated at 11:59 pm (PST/GMT -8 hours)
 
-- Papers must be submitted by February 25, 2015
-- Acceptance notification deadline: March 20, 2015
+- Papers must be submitted by March 8, 2015 (extended from <del>February 25</del>)
+- Acceptance notification deadline: March 30, 2015 (extended from <del>March 20</del>)
 - NAACL main conference dates: May 31-June 5, 2015
 
 Please check [the SRW site]({{ site.links.srw }}) for updated timelines as further information becomes available.
