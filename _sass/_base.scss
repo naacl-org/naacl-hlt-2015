@@ -296,3 +296,28 @@ pre {
         }
     }    
 }
+
+
+/* Table of contents */
+
+#markdown-toc {
+    background-color: $header-bgcolor;
+    border: 1px $brand-color solid;
+    border-radius: 5px;
+    margin: 0;
+    padding: 2px $menu-spacing;
+    
+    li {
+        display: inline;
+        list-style: none;
+    }
+
+    a {
+        padding: 0 ($menu-spacing / 2);
+    }
+
+    li ul {
+        display: none;
+    }
+}
+
