@@ -110,7 +110,7 @@ longposters:
     - title: "Inferring Missing Entity Type Instances for Knowledge Base Completion: New Dataset and Methods"
       authors: "Arvind Neelakantan and Ming-Wei Chang"
     - title: "Semi-Supervised Slot Tagging with Partially Labeled Sequences from Web Search Click Logs"
-      authors: "Young-Bum Kim, Minwoo Jeong and Ruhi Sarikaya"
+      authors: "Young-Bum Kim, Minwoo Jeong, Karl Stratos and Ruhi Sarikaya"
     - title: "Solving Hard Coreference Problems"
       authors: "Haoruo Peng, Daniel Khashabi and Dan Roth"
     - title: "Pragmatic Neural Language Modelling in Machine Translation"
