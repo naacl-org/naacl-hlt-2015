@@ -8,7 +8,7 @@ Time
 : Morning.
 
 Responsible
-: Svitlana Volkova, Benjamin van Durme, David Yarowsky and Yoram Bachrach.
+: Svitlana Volkova, Benjamin van Durme, David Yarowsky, and Yoram Bachrach.
 
 Prerequisites
 : This tutorial assumes basic knowledge of probability, machine learning (supervised
@@ -43,48 +43,48 @@ level, life satisfaction and emotions emanating from user communications on Twit
 
 ## Outline
 
-I
+Part I
 : Overview of the existing approaches for social media analytics (15 mins)
 
-II 
+Part II 
 : Static (Batch) Prediction (30 mins)
 
-    - Classifiers: user-based vs. tweet-based predictions
-    - Features: lexical, network structure, affect, behavior etc.
-    - Homophily and attribute assortativity
-    - Generalization of the classifiers
+  - Classifiers: user-based vs. tweet-based predictions
+  - Features: lexical, network structure, affect, behavior etc.
+  - Homophily and attribute assortativity
+  - Generalization of the classifiers
 
-III
+Part III
 : Streaming (Online) Inference (30 mins)
 
-    - Bayes' rule: iterative Bayesian updates
-    - Predictions from multiple data streams
-    - Batch vs. online performance
-    - Data collection/annotation biases and classification performance
-    - User attribute prediction task as a sequence labeling problem
+  - Bayes' rule: iterative Bayesian updates
+  - Predictions from multiple data streams
+  - Batch vs. online performance
+  - Data collection/annotation biases and classification performance
+  - User attribute prediction task as a sequence labeling problem
 
-IV
+Part IV
 : Dynamic (Iterative) Learning and Prediction (30 mins)
 
-    - Iterative batch retraining with and without rationale filtering
-    - Active learning with and without oracle annotations
-    - Active learning with interactive iterative rationale annotations
+  - Iterative batch retraining with and without rationale filtering
+  - Active learning with and without oracle annotations
+  - Active learning with interactive iterative rationale annotations
 
 Break
 : (15 mins)
 
-V
+Part V
 : Practice session: building analytics for inferring user demographics, personality,
 emotions and opinions (1 hour)
 
-    - Data and annotation schema description (data and models will be released)
-    - Walk-through python examples for static inference – extracting features,
-      training, testing for tweet-based e.g., emotions, opinions and user-based
-      e.g., demographic predictions.
-    - Walk-through python examples for streaming inference from multiple data
-      streams e.g., friends, followers, user-mentions, retweets etc.
+  - Data and annotation schema description (data and models will be released)
+  - Walk-through python examples for static inference – extracting features,
+    training, testing for tweet-based e.g., emotions, opinions and user-based
+    e.g., demographic predictions.
+  - Walk-through python examples for streaming inference from multiple data
+    streams e.g., friends, followers, user-mentions, retweets etc.
 
-## Organizers
+## Instructors
 
 Svitlana Volkova
 : Ph.D. Candidate, Center for Language and Speech Processing,

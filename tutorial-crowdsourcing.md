@@ -8,7 +8,7 @@ Time
 : Afternoon.
 
 Responsible
-: Chris Callison-Burch, Lyle Ungar and Ellie Pavlick.
+: Chris Callison-Burch, Lyle Ungar, and Ellie Pavlick.
 
 Prerequisites
 : No prior exposure to the area is required.
@@ -38,7 +38,7 @@ Topics:
 - Statistical analysis of MTurk results. Accounting for the block structure and non random sampling of the data
 - Case Studies in NLP. Word sense disambiguation, machine translation, information extraction, computational social science
 
-## Organizers
+## Instructors
 
 Dr. Chris Callison-Burch
 : is the Aravind K Joshi term assistant professor in the Computer and Information Science Department at the University of Pennsylvania. Before joining Penn, he was a research faculty member at the Center for Language and Speech Processing at Johns Hopkins University for 6 years. He was the Chair of the Executive Board of the North American chapter of the Association for Computational Linguistics (NAACL) from 2011-2013, and he has served on the editorial boards of the journals Transactions of the ACL (TACL) and Computational Linguistics. He is a Sloan Research Fellow, and he has received faculty research awards from Google, Microsoft and Facebook in addition to funding from DARPA and the NSF. Chris teaches a semester-long course on Crowdsourcing at Penn (<http://crowdsourcing-class.org/>).
