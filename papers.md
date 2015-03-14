@@ -1,6 +1,10 @@
 ---
 title: Accepted papers
 structure:
+  - heading: "TACL Talks"
+    key: tacltalks
+  - heading: "TACL Posters"
+    key: taclposters
   - heading: "Long Talks"
     key: longtalks
   - heading: "Long Posters"
