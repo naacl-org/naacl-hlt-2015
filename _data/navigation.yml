@@ -44,7 +44,6 @@
       url: contact.html
     - title: People
       url: people.html
-
-    # - title: Sponsors
-    #   url: sponsors.html
+    - title: Sponsors
+      url: sponsors.html
 

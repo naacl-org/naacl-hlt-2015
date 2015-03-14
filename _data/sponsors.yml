@@ -1,0 +1,24 @@
+
+types:
+  - Gold sponsors
+  - Silver sponsors
+  - Supporters
+
+Gold sponsors:
+  - name: Google
+    url: http://www.google.com
+    logo: google-logo.png
+    footer: google-footer.png
+
+Silver sponsors:
+  - name: Nuance Communications
+    url: http://www.nuance.com
+    logo: nuance-logo.jpg
+    footer: nuance-footer.png
+
+Supporters:
+  - name: University of Washington
+    url: http://www.compling.uw.edu
+    logo: uwashington-logo.png
+    footer: uwashington-footer.png
+

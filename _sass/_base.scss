@@ -69,13 +69,19 @@ html, body {
     max-width: 50em;
 }
 
-.content-divisor {
+hr {
     border: 0;
-    width: 100%;
-    margin: 0;
+    margin-top: 20px;
+    margin-left: -50px;
+    width: 400px;
     color: $brand-color;
     background-color: $brand-color;
     height: $divisor-thinkness;
+}
+
+hr.content-divisor {
+    width: 100%;
+    margin: 0;
 }
 
 /* Colors */
@@ -281,21 +287,28 @@ pre {
     .horizontal-blocks-list { 
         display: table-row;
         > li {
+            vertical-align: top;
             display: table-cell;
+        }
+        .sponsor-block {
+            text-align: right;
+            padding-top: 5px;
+            padding-left: 20px;
+        }
+        .social-media-block {
+            text-align: left;
+            width: 100%;
+            li {
+                list-style: none;
+                white-space: nowrap;
+                img {
+                    vertical-align: top;
+                }
+            }    
         }
     }
 }
 
-.social-media-block {
-    text-align: right;
-    li {
-        list-style: none;
-        white-space: nowrap;
-        img {
-            vertical-align: top;
-        }
-    }    
-}
 
 
 /* Table of contents */

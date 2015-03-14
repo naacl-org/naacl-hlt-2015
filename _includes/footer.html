@@ -5,19 +5,15 @@
 <div class="footer-content">
   <div class="horizontal-blocks-table">
     <ul class="horizontal-blocks-list">
-
-      <li>
-        <h3>{{ site.title }}</h3>
-        <p>{{ site.description }}</p>
-      </li>
-
       <li class="social-media-block">
+        <!-- <p><strong>{{ site.title }}</strong>, May 31–June 5, Denver, Colorado, USA</p> -->
         <ul>
           {% for media in site.social_media %}
           <li>
             <a href="{{ media.url }}">{{ media.user }}</a>
             {% if media.icon %}
-            <img class="icon" src="{{ media.icon }}" alt="{{ media.title }}" title="{{ media.title }}">
+            <img class="icon" src="{{ media.icon }}"
+                 alt="{{ media.title }}" title="{{ media.title }}">
             {% else %}
             <span class="icon">: {{ media.title }}</span>
             {% endif %}
@@ -26,6 +22,16 @@
         </ul>
       </li>
 
+      {% for type in site.data.sponsors.types %}
+      {% for sponsor in site.data.sponsors[type] %}
+      <li class="sponsor-block">
+        <a href="{{ sponsor.url }}">
+          <img class="logo" src="img/sponsors/{{ sponsor.footer }}"
+               alt="{{ sponsor.name }}" title="{{ sponsor.name }}">
+        </a>
+      </li>
+      {% endfor %}
+      {% endfor %}
     </ul>
   </div>
 </div>
