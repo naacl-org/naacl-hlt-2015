@@ -399,6 +399,8 @@ taclposters:
       authors: "Jonathan H. Clark, Chris Dyer and Alon Lavie"
     - title: "Learning Constraints for Information Structure Analysis of Scientific Documents"
       authors: "Yufan Guo, Roi Reichart and Anna Korhonen"
+    - title: "A Joint Model for Entity Analysis: Coreference, Typing, and Linking"
+      authors: "Greg Durrett and Dan Klein"
 tacltalks:
     - title: "A Bayesian Model of Grounded Color"
       authors: "Brian McMahan and Matthew Stone"
@@ -406,8 +408,6 @@ tacltalks:
       authors: "Siva Reddy, Mirella Lapata and Mark Steedman"
     - title: "Building a State-of-the-Art Grammatical Error Correction System"
       authors: "Alla Rozovskaya and Dan Roth"
-    - title: "A Joint Model for Entity Analysis: Coreference, Typing, and Linking"
-      authors: "Greg Durrett and Dan Klein"
     - title: "Predicting the Difficulty of Language Proficiency Tests"
       authors: "Lisa Beinborn, Torsten Zesch and Iryna Gurevych"
     - title: "Exploring Compositional Architectures and Word Vector Representations for Prepositional Phrase Attachment"
