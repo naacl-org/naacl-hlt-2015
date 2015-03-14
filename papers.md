@@ -21,6 +21,8 @@ structure:
 * Table of contents 
 {:toc}
 
+The decision between talk and poster for TACL papers was made using random selection (with the exception of one paper which requested a poster presentation). The decision between talk and poster for the NAACL 2015 long and short papers was made by consolidating the area chair recommendation (if any) and the reviewers choice on the review form and the final decision was made by the program co-chairs.
+
 {% for type in page.structure %}
 
 ## {{site.data.papers[type.key] | size}} {{type.heading}}
