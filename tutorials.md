@@ -16,8 +16,8 @@ T2
 by Svitlana Volkova, Benjamin van Durme, David Yarowsky, and Yoram Bachrach.
 
 T3
-: [*Getting the Roles Right: Using FrameNet in NLP*](tutorial-framenet.html),
-by Collin F. Baker, Nathan Schneider, Miriam R. L. Petruck, and Michael Ellsworth.
+: [*The Logic of AMR: Practical, Unified, Graph-Based Sentence Semantics for NLP*](tutorial-amr-semantics.html),
+by Nathan Schneider, Jeffrey Flanigan, and Tim O'Gorman.
 
 ## Afternoon tutorials
 
@@ -30,7 +30,6 @@ T5
 by Scott Wen-tau Yih, Xiaodong He, and Jianfeng Gao.
 
 T6
-: [*The Logic of AMR: Practical, Unified, Graph-Based 
-Sentence Semantics for NLP*](tutorial-amr-semantics.html),
-by Nathan Schneider, Jeffrey Flanigan, and Tim O'Gorman.
+: [*Getting the Roles Right: Using FrameNet in NLP*](tutorial-framenet.html),
+by Collin F. Baker, Nathan Schneider, Miriam R. L. Petruck, and Michael Ellsworth.
 

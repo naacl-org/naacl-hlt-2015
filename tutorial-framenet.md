@@ -5,7 +5,7 @@ title: Tutorial on Using FrameNet in NLP
 # Tutorial: Getting the Roles Right: Using FrameNet in NLP
 
 Time
-: Morning.
+: Afternoon.
 
 Responsible
 : Collin F. Baker, Nathan Schneider, Miriam R. L. Petruck, and Michael Ellsworth.
@@ -71,7 +71,25 @@ Michael Ellsworth
 : (International Computer Science Institute, <infinity@icsi.berkeley.edu>) has been involved with FrameNet for well over a decade. His chief focus is on semantic relations in FrameNet (Ruppenhofer et al. 2006), how they can be used for paraphrase (Ellsworth & Janin 2007), and mapping to other resources (Scheffczyk et al 2006, Ferrandez et al. 2010). Increasingly, he has examined the connection of FrameNet to syntax and the Constructicon (Torrent & Ellsworth 2013, Ziem & Ellsworth 2015), including in his pending dissertation on the constructions and frame semantics of emotion.
 
 ## References
-Ellsworth, Michael, & Adam Janin. 2007. Mutaphrase: Paraphrasing with framenet. In *Proceedings of the Workshop on Textual Entailment and Paraphrasing*, Prague. Association for Computational Linguistics.Fellbaum, Christiane, & Collin Baker. 2013. Comparing and harmonizing different verb classifications in light of a semantic annotation task. *Linguistics* 51. 707–728.Ferrández, Óscar, Michael Ellsworth, Rafael Muñoz, & Collin F. Baker. 2010a. Aligning FrameNet and WordNet based on semantic neighborhoods. In *Proceedings of the Seventh conference on International Language Resources and Evaluation (LREC’10)*, ed. by Nicoletta Calzolari (Conference Chair), Khalid Choukri, Bente Maegaard, Joseph Mariani, Jan Odjik, Stelios Piperidis, Mike Rosner, & Daniel Tapias, 310–314, Valletta, Malta. European Language Resources Association (ELRA).Ferrández, Oscar, Michael Ellsworth, Rafael Muñoz, & Collin F. Baker. 2010b. A graph-based measure of FrameNet-WordNet alignment. In *Proceedings of ICGL 2010, Second International Conference on Global Interoperability for Language Resources*, Hong Kong.Fillmore, Charles J., & Collin F. Baker. 2010. A frames approach to semantic analysis. In *Oxford Handbook of Linguistic Analysis*, ed. by Bernd Heine & Heiko Narrog, 313–341. OUP.
+
+Ellsworth, Michael, & Adam Janin. 2007. Mutaphrase: Paraphrasing with framenet. In *Proceedings of the Workshop on Textual Entailment and Paraphrasing*, Prague. Association for Computational Linguistics.
+
+Fellbaum, Christiane, & Collin Baker. 2013. Comparing and harmonizing different verb classifications in light of a semantic annotation task. *Linguistics* 51. 707–728.
+
+Ferrández, Óscar, Michael Ellsworth, Rafael Muñoz, & Collin F. Baker. 2010a. Aligning FrameNet and WordNet based on semantic neighborhoods. In *Proceedings of the Seventh conference on International Language Resources and Evaluation (LREC’10)*, ed. by Nicoletta Calzolari (Conference Chair), Khalid Choukri, Bente Maegaard, Joseph Mariani, Jan Odjik, Stelios Piperidis, Mike Rosner, & Daniel Tapias, 310–314, Valletta, Malta. European Language Resources Association (ELRA).
+
+Ferrández, Oscar, Michael Ellsworth, Rafael Muñoz, & Collin F. Baker. 2010b. A graph-based measure of FrameNet-WordNet alignment. In *Proceedings of ICGL 2010, Second International Conference on Global Interoperability for Language Resources*, Hong Kong.
+
+Fillmore, Charles J., & Collin F. Baker. 2010. A frames approach to semantic analysis. In *Oxford Handbook of Linguistic Analysis*, ed. by Bernd Heine & Heiko Narrog, 313–341. OUP.
 
 Lönneker-Rodman, Birte, & Collin F. Baker. 2009. The FrameNet model and its applications. *Natural Language Engineering* 15. 415–453.
-Ruppenhofer, Josef, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, & Jan Scheffczyk. 2006. *FrameNet II: Extended Theory and Practice*. Berkeley, California: International Computer Science Institute. Distributed with the FrameNet data.Scheffczyk, Jan, Collin F. Baker, & Srini Narayanan. 2010. Reasoning over natural language text by means of FrameNet and ontologies. In *Ontology and the Lexicon: A Natural Language Processing Perspective*, ed. by Chu-Ren Huang, Nicoletta Calzolari, Aldo Gangemi, Alessandro Lenci, Alessandro Oltramari, & Laurent Prévot, Studies in Natural Language Processing, chapter 4, 53–71. Cambridge, UK: Cambridge University Press. Expanded version of paper at OntoLex, 2006. (ISBN-13: 9780521886598).Scheffczyk, Jan, & Michael Ellsworth. 2006. Improving the quality of framenet. In *Proceedings of the Workshop on Quality assurance and quality measurement for language and speech resources*, ed. by Steven Krauwer & Uwe Quasthoff, 8–13, Genoa, Italy. LREC.Torrent, Tiago, & Michael Ellsworth. 2013. Behind the labels: Criteria for defining analytical categories in FrameNet Brasil. *Veredas* 17. 44–65.Ziem, Alexander, & Michael Ellsworth. to appear. Exklamativsätze im framenet-konstruktikon am beispiel des englischen. In *Satztypen und Constructionen im Deutschen*, ed. by Rita Finkbeiner & Jörg Meibauer.
+
+Ruppenhofer, Josef, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, & Jan Scheffczyk. 2006. *FrameNet II: Extended Theory and Practice*. Berkeley, California: International Computer Science Institute. Distributed with the FrameNet data.
+
+Scheffczyk, Jan, Collin F. Baker, & Srini Narayanan. 2010. Reasoning over natural language text by means of FrameNet and ontologies. In *Ontology and the Lexicon: A Natural Language Processing Perspective*, ed. by Chu-Ren Huang, Nicoletta Calzolari, Aldo Gangemi, Alessandro Lenci, Alessandro Oltramari, & Laurent Prévot, Studies in Natural Language Processing, chapter 4, 53–71. Cambridge, UK: Cambridge University Press. Expanded version of paper at OntoLex, 2006. (ISBN-13: 9780521886598).
+
+Scheffczyk, Jan, & Michael Ellsworth. 2006. Improving the quality of framenet. In *Proceedings of the Workshop on Quality assurance and quality measurement for language and speech resources*, ed. by Steven Krauwer & Uwe Quasthoff, 8–13, Genoa, Italy. LREC.
+
+Torrent, Tiago, & Michael Ellsworth. 2013. Behind the labels: Criteria for defining analytical categories in FrameNet Brasil. *Veredas* 17. 44–65.
+
+Ziem, Alexander, & Michael Ellsworth. to appear. Exklamativsätze im framenet-konstruktikon am beispiel des englischen. In *Satztypen und Constructionen im Deutschen*, ed. by Rita Finkbeiner & Jörg Meibauer.

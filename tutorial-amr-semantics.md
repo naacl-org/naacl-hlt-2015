@@ -5,7 +5,7 @@ title: Tutorial on The Logic of AMR
 # Tutorial: The Logic of AMR: Practical, Unified, Graph-Based Sentence Semantics for NLP
 
 Time
-: Afternoon.
+: Morning.
 
 Responsible
 : Nathan Schneider, Jeffrey Flanigan, and Tim O'Gorman.
