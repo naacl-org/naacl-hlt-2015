@@ -60,6 +60,11 @@ title: People
 - Catherine Havasi, Massachusetts Institute of Technology, USA
 - Finley Lacatusu, Language Computer Corporation, USA
 
+
+## Student volunteer coordinator
+
+- Annie Louis, University of Edinburgh, UK
+
 ## Local sponsorship chair
 
 - Kevin B. Cohen, University of Colorado, USA
