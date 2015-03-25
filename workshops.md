@@ -55,7 +55,7 @@ Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
 
 W9, CLPsych
 : [*Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality*](http://clpsych.org/).
-Margaret Mitchell, Glen Coppersmith
+Margaret Mitchell, Glen Coppersmith, Kristy Hollingshead
 
 W10, ExProM
 : [*Extra-Propositional Aspects of Meaning in Computational Linguistics*](http://www.cse.unt.edu/exprom2015/).
