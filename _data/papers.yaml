@@ -376,8 +376,6 @@ shorttalks:
       authors: "Adrian Benton and Mark Dredze"
     - title: "The Impact of Prosodic Duration on Disfluency Detection"
       authors: "James Ferguson, Greg Durrett and Dan Klein"
-    - title: "Model Selection for Type-Supervised Learning with Application to POS Tagging"
-      authors: "Kristina Toutanova, Waleed Ammar, Pallavi Choudhury and Hoifung Poon"
 taclposters:
     - title: "A sense-topic model for WSI with unsupervised data enrichment"
       authors: "Jing Wang, Mohit Bansal, Kevin Gimpel, Brian D. Ziebart and Clement T. Yu"
