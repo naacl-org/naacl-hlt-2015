@@ -9,7 +9,8 @@ There will be six half-day tutorials on Sunday, May 31 – three in the morning 
 ## Morning tutorials
 
 T1
-: Hands-on Learning to Search for Structured Prediction.
+: [*Hands-on Learning to Search for Structured Prediction*](tutorial-hands-on-learning.html),
+by Hal Daumé III, John Lanford, Kai-Wei Chang, He He, and Sudha Rao.
 
 T2
 : [*Crowdsourcing for NLP*](tutorial-crowdsourcing.html),
