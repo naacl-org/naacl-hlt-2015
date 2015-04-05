@@ -207,7 +207,7 @@ longtalks:
     - title: "Removing the Training Wheels: A Coreference Dataset that Entertains Humans and Challenges Computers"
       authors: "Anupam Guha, Mohit Iyyer, Danny Bouman and Jordan Boyd-Graber"
     - title: "Translating Videos to Natural Language Using Deep Recurrent Neural Networks"
-      authors: "Subhashini Venugopalan, Raymond Mooney and Kate Saenko"
+      authors: "Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, Kate Saenko"
     - title: "Because Syntax Does Matter: Improving Predicate-Argument Structures Parsing with Syntactic Features"
       authors: "Corentin Ribeyre, Eric de la Clergerie and Djamé Seddah"
     - title: "Predicate Argument Alignment using a Global Coherence Model"
