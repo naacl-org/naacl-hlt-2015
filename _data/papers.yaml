@@ -128,8 +128,6 @@ longtalks:
       authors: "Joern Wuebker, Sebastian Muehr, Patrick Lehnen, Stephan Peitz and Hermann Ney"
     - title: "Unsupervised Entity Linking with Abstract Meaning Representation"
       authors: "Xiaoman Pan, Taylor Cassidy, Ulf Hermjakob, Heng Ji and Kevin Knight"
-    - title: "Multi-Sense Embeddings Improve Natural Language Understanding"
-      authors: "Jiwei Li and Dan Jurafsky"
     - title: "Transition-Based Syntactic Linearization"
       authors: "Yijia Liu, Yue Zhang, Wanxiang Che and Ting Liu"
     - title: "Bag-of-Words Forced Decoding for Cross-Lingual Information Retrieval"
