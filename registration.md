@@ -19,74 +19,29 @@ If you require an invitation letter for your visa application, please email the 
 # Registration
 
 We expect registration to go live by early next week.  Meanwhile,
-to help with your travel plans, the registration fees will be:
+to help with your travel plans, the registration fees will be...
 
 ## Main Conference
 
-| Regular-Early | $550.00 
-| Regular-Late | $625.00 
-| Regular-Onsite | $700.00 
-| Student-Early | $295.00 
-| Student-Late | $345.00 
-| Student-Onsite | $400.00 
-| SRW Students | $0.00 
-| Staff/Volunteers | $-
-| Invited Speakers | $-
-| Guests/Organizers/Sponsors | $- 
+|              |  Early  |  Late   | Onsite
+|:-------------|:-------:|:-------:|:-------:|
+| Regular      | $550.00 | $625.00 | $700.00
+| Student      | $295.00 | $345.00 | $400.00
+| SRW Students | $0.00
+| Staff/Volunteers | —
+| Invited Speakers | —
+| Guests/Organizers/Sponsors | —
 
-## Tutorial Registration (with main)
+## Tutorials, workshops and affiliated events
 
-| Regular-Early | $185.00 
-| Regular-Late/Onsite | $210.00 
-| Student-Early | $125.00 
-| Student-Late/Onsite | $145.00 
- 
-## Tutorial Registration (without main)
-
-| Regular-Early | $220.00 
-| Regular-Late/Onsite | $245.00 
-| Student-Early | $145.00 
-| Student-Late/Onsite | $165.00 
- 
-## \*SEM (with main)
-
-| Regular-Early | $250.00 
-| Regular-Late/Onsite | $300.00 
-| Student-Early | $190.00 
-| Student-Late/Onsite | $230.00 
- 
-## \*SEM (without main)
-
-| Regular-Early | $390.00 
-| Regular-Late/Onsite | $430.00 
-| Student-Early | $240.00 
-| Student-Late/Onsite | $300.00 
- 
-## 2-Day Workshop SemEval (with main)
-
-| Regular-Early | $250.00 
-| Regular-Late/Onsite | $300.00 
-| Student-Early | $190.00 
-| Student-Late/Onsite | $230.00 
- 
-## 2-Day Workshop SemEval (without main)
-
-| Regular-Early | $390.00 
-| Regular-Late/Onsite | $430.00 
-| Student-Early | $240.00 
-| Student-Late/Onsite | $300.00 
- 
-## 1-Day Workshop (with main)
-
-| Regular-Early | $135.00 
-| Regular-Late/Onsite | $185.00 
-| Student-Early | $110.00 
-| Student-Late/Onsite | $145.00 
- 
-## 1-Day Workshop (without main)
-
-| Regular-Early | $230.00 
-| Regular-Late/Onsite | $255.00 
-| Student-Early | $160.00 
-| Student-Late/Onsite | $185.00 
-
+|                           | Regular |   Regular   | Student |   Student
+|                           |  Early  | Late/Onsite |  Early  | Late/Onsite
+|:------------------------------|:-------:|:-------:|:-------:|:-------:|
+| Tutorial                      | $185.00 | $210.00 | $125.00 | $145.00
+| ... (without main conference) | $220.00 | $245.00 | $145.00 | $165.00
+| \*SEM                         | $250.00 | $300.00 | $190.00 | $230.00
+| ... (without main conference) | $390.00 | $430.00 | $240.00 | $300.00
+| 2-Day Workshop (SemEval)      | $250.00 | $300.00 | $190.00 | $230.00
+| ... (without main conference) | $390.00 | $430.00 | $240.00 | $300.00
+| 1-Day Workshop                | $135.00 | $185.00 | $110.00 | $145.00
+| ... (without main conference) | $230.00 | $255.00 | $160.00 | $185.00

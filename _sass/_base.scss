@@ -84,6 +84,7 @@ hr.content-divisor {
     margin: 0;
 }
 
+
 /* Colors */
 
 body {
@@ -93,7 +94,7 @@ body {
 
 .page-container {
     background-color: $background-color;
-} 
+}
 
 .site-header, .site-footer {
     background-color: $header-bgcolor;
@@ -128,14 +129,35 @@ li > ul, li > ol {
     margin-top: 0;
 }
 
-dt { 
+dt {
     font-weight: bold;
-    float: left; 
+    float: left;
     margin-right: 1ex;
 }
 dt:after {
     content: ":";
 }
+
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+    // border: 2px solid $code-bgcolor;
+    th {
+        padding: 0px 16px;
+    }
+    td {
+        padding: 4px;
+    }
+    td, th {
+        border: 2px solid $code-bgcolor;
+    }
+    th, tr:nth-child(even) {
+        background-color: $code-bgcolor;
+    }
+}
+
 
 /* Blockquotes */
 
@@ -199,12 +221,12 @@ pre {
 
 .site-banner {
     width: 100%;
-    height: $banner-height; 
+    height: $banner-height;
     position: relative;
     overflow: hidden;
     img {
         position: absolute;
-        height: $banner-height; 
+        height: $banner-height;
     }
     .site-banner-logo {
         padding-left: $page-margin;
@@ -226,12 +248,12 @@ pre {
 /* Navigation menu */
 
 .site-navigation {
-    ul, li { 
+    ul, li {
         @include font-and-margins($base-font-size, normal, $huge-line-height, $header-font-family);
         margin: 0;
     }
 
-    .site-menu { 
+    .site-menu {
         display: inline;
     }
     .site-menu > li {
@@ -258,7 +280,7 @@ pre {
         list-style: none;
         white-space: nowrap;
     }
-    
+
     li, a, a:visited {
         color: $header-color;
         text-decoration: none;
@@ -284,7 +306,7 @@ pre {
 .horizontal-blocks-table {
     display: table;
     width: 100%;
-    .horizontal-blocks-list { 
+    .horizontal-blocks-list {
         display: table-row;
         > li {
             vertical-align: top;
@@ -304,7 +326,7 @@ pre {
                 img {
                     vertical-align: top;
                 }
-            }    
+            }
         }
     }
 }
@@ -319,7 +341,7 @@ pre {
     border-radius: 5px;
     margin: 0;
     padding: 2px $menu-spacing;
-    
+
     li {
         display: inline;
         list-style: none;
@@ -333,4 +355,3 @@ pre {
         display: none;
     }
 }
-
