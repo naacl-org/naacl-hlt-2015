@@ -18,8 +18,75 @@ If you require an invitation letter for your visa application, please email the 
 
 # Registration
 
-Hey, not so fast! The registration site isn't up quite yet.
+We expect registration to go live by early next week.  Meanwhile,
+to help with your travel plans, the registration fees will be:
 
-The registration page will be available online approximately two
-months before the conference date, around the time that the schedule
-for the conference will be available on this web site.
+## Main Conference
+
+| Regular-Early | $550.00 
+| Regular-Late | $625.00 
+| Regular-Onsite | $700.00 
+| Student-Early | $295.00 
+| Student-Late | $345.00 
+| Student-Onsite | $400.00 
+| SRW Students | $0.00 
+| Staff/Volunteers | $-
+| Invited Speakers | $-
+| Guests/Organizers/Sponsors | $- 
+
+## Tutorial Registration (with main)
+
+| Regular-Early | $185.00 
+| Regular-Late/Onsite | $210.00 
+| Student-Early | $125.00 
+| Student-Late/Onsite | $145.00 
+ 
+## Tutorial Registration (without main)
+
+| Regular-Early | $220.00 
+| Regular-Late/Onsite | $245.00 
+| Student-Early | $145.00 
+| Student-Late/Onsite | $165.00 
+ 
+## \*SEM (with main)
+
+| Regular-Early | $250.00 
+| Regular-Late/Onsite | $300.00 
+| Student-Early | $190.00 
+| Student-Late/Onsite | $230.00 
+ 
+## \*SEM (without main)
+
+| Regular-Early | $390.00 
+| Regular-Late/Onsite | $430.00 
+| Student-Early | $240.00 
+| Student-Late/Onsite | $300.00 
+ 
+## 2-Day Workshop SemEval (with main)
+
+| Regular-Early | $250.00 
+| Regular-Late/Onsite | $300.00 
+| Student-Early | $190.00 
+| Student-Late/Onsite | $230.00 
+ 
+## 2-Day Workshop SemEval (without main)
+
+| Regular-Early | $390.00 
+| Regular-Late/Onsite | $430.00 
+| Student-Early | $240.00 
+| Student-Late/Onsite | $300.00 
+ 
+## 1-Day Workshop (with main)
+
+| Regular-Early | $135.00 
+| Regular-Late/Onsite | $185.00 
+| Student-Early | $110.00 
+| Student-Late/Onsite | $145.00 
+ 
+## 1-Day Workshop (without main)
+
+| Regular-Early | $230.00 
+| Regular-Late/Onsite | $255.00 
+| Student-Early | $160.00 
+| Student-Late/Onsite | $185.00 
+
