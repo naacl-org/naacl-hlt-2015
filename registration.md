@@ -2,6 +2,12 @@
 title: Registration
 ---
 
+# Registration
+
+Please join us for an exciting conference in Denver. Just [click here to register][] for the conference. If you have any questions about the registration form, pricing, or general conference questions, please contact Priscilla Rasmussen at <{{ site.email.localchair }}>. *See you there!*
+
+[click here to register]: https://aclweb.org/conference/naacl-2015-conference-registration/
+
 # Information for attendees needing U.S. Visas
 
 Since visa applications can take 1–4 months to be approved, we advise that you apply well in advance.
@@ -16,10 +22,8 @@ If you require an invitation letter for your visa application, please email the 
    + a Workshop (give name of workshop), or
    + a Tutorial (give name of tutorial)
 
-# Registration
 
-We expect registration to go live by early next week.  Meanwhile,
-to help with your travel plans, the registration fees will be...
+# Registration fees
 
 ## Main Conference
 
@@ -28,9 +32,9 @@ to help with your travel plans, the registration fees will be...
 | Regular      | $550.00 | $625.00 | $700.00
 | Student      | $295.00 | $345.00 | $400.00
 | SRW Students | $0.00
-| Staff/Volunteers | —
-| Invited Speakers | —
-| Guests/Organizers/Sponsors | —
+| Staff/Volunteers | $0.00
+| Invited Speakers | $0.00
+| Guests/Organizers/Sponsors | $0.00
 
 ## Tutorials, workshops and affiliated events
 
