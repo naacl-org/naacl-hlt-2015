@@ -10,6 +10,12 @@ title: Important dates
 - NAACL main conference: June 1–3, 2015
 - NAACL workshops: June 4–5, 2015
 
+## Registration
+
+- Early registration: Through 11:59PM EDT May 10, 2015
+- Late registration: From May 10, 2015 to 11:59PM EDT May 24, 2015
+- Onsite registration: Begins May 31, 2015
+
 ## Long and short papers
 
 - Deadline for paper submission: Dec 4, 2014

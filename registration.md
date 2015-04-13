@@ -28,6 +28,7 @@ If you require an invitation letter for your visa application, please email the 
 ## Main Conference
 
 |              |  Early  |  Late   | Onsite
+|              | Apr 10--May 10 | May 10--May 24 | May 31--June 5
 |:-------------|:-------:|:-------:|:-------:|
 | Regular      | $550.00 | $625.00 | $700.00
 | Student      | $295.00 | $345.00 | $400.00
