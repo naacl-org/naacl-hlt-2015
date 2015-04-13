@@ -21,6 +21,7 @@ Preference will be given to students who have papers accepted at the main confer
 In return for volunteering work, the students receive free registration to the main conference. Workshops and tutorials are not included, and must be paid for by the student.
 
 Application deadline: April 29, 2015
+
 Notification of acceptance: May 4, 2015
 
 ## Submission procedure
@@ -36,5 +37,6 @@ All Student Volunteer Award recipients must register for the conference, selecti
 ### Student Volunteers Chair
 
 Annie Louis, University of Edinburgh
-Email: <{{ alouis@inf.ed.ac.uk }}>
+
+Email: <alouis@inf.ed.ac.uk>
 
