@@ -63,6 +63,8 @@ title: People
 
 ## Student volunteer coordinator
 
+> <alouis@inf.ed.ac.uk>
+
 - Annie Louis, University of Edinburgh, UK
 
 ## Local sponsorship chair
