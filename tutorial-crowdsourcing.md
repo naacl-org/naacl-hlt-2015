@@ -5,7 +5,7 @@ title: Tutorial on Crowdsourcing for NLP
 # Tutorial: Crowdsourcing for NLP
 
 Time
-: Afternoon.
+: Morning.
 
 Responsible
 : Chris Callison-Burch, Lyle Ungar, and Ellie Pavlick.

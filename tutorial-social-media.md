@@ -5,7 +5,7 @@ title: Tutorial on Social Media Predictive Analytics
 # Tutorial: Social Media Predictive Analytics
 
 Time
-: Morning.
+: Afternoon.
 
 Responsible
 : Svitlana Volkova, Benjamin van Durme, David Yarowsky, and Yoram Bachrach.
@@ -46,7 +46,7 @@ level, life satisfaction and emotions emanating from user communications on Twit
 Part I
 : Overview of the existing approaches for social media analytics (15 mins)
 
-Part II 
+Part II
 : Static (Batch) Prediction (30 mins)
 
   - Classifiers: user-based vs. tweet-based predictions
