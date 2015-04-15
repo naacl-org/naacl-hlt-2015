@@ -35,7 +35,7 @@ If you require an invitation letter for your visa application, please email the 
 | SRW Students | $0.00
 | Staff/Volunteers | $0.00
 | Invited Speakers | $0.00
-| Guests/Organizers/Sponsors | $0.00
+| Guests/Sponsors  | $0.00
 
 ## Tutorials, workshops and affiliated events
 
