@@ -4,9 +4,9 @@ title: NAACL HLT 2015 Program Schedule
 
 # NAACL HLT 2015 Program Schedule
 
-<iframe src="accepted/accepted.html" width="80vw"></iframe>
+<object type="text/html" data="accepted/accepted.html" width="1200px" height="5000px"></object>
 
 # Author Index
 
-<iframe src="accepted/authorindex.html" width="80vw"></iframe>
+<object type="text/html" data="accepted/authorindex.html" width="1200px" height="5000px"></object>
 
