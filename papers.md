@@ -31,6 +31,11 @@ short papers was made by consolidating the area chair recommendation
 (if any) and the reviewers choice on the review form and the final
 decision was made by the program co-chairs.
 
+We have posted detailed [instructions for oral and poster
+presentations](presentation-instructions.html). Please read this
+important information to make sure you are adequately prepared for
+your presentation at NAACL HLT 2015.
+
 {% for type in page.structure %}
 
 ## {{site.data.papers[type.key] | size}} {{type.heading}}
