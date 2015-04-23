@@ -28,14 +28,14 @@
 - title: Tutorials
   url: tutorials.html
 
-- title: Schedule
-  url: schedule.html
-
-- title: Papers
-  url: papers.html
-
-# - title: Program
-#   url: program.html
+- title: "Program&nbsp;&#x25be;"
+  items:
+    - title: Schedule
+      url: schedule.html
+    - title: Author index
+      url: authorindex.html
+    - title: Accepted papers
+      url: papers.html
 
 - title: Registration
   url: registration.html
@@ -51,4 +51,3 @@
       url: people.html
     - title: Sponsors
       url: sponsors.html
-

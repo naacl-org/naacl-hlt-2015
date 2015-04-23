@@ -333,6 +333,17 @@ pre {
 }
 
 
+/* Softconf-generated schedule, cleaned by the script cleanup-schedule.py */
+
+table.schedule {
+    td {
+        border: 0;
+    }
+    table td:first-child {
+        white-space: nowrap;
+    }
+}
+
 
 /* Table of contents */
 

@@ -5,6 +5,9 @@ Unzip it into this directory: `accepted`.
 
 Delete all the PDF files if any were part of the zip file.
 
-The schedule needs to be integrated into the main website possibly
-by generating an `index.md` file which will pick up the header and
-footer HTML as well as the right CSS hopefully.
+## Important
+
+The schedule needs to be integrated into the main website
+by generating the files `schedule.md` and `authorindex.md`.
+
+This is done by calling `python generate-schedule.py`.
