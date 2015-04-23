@@ -1,0 +1,126 @@
+BODY {
+  color: #000000;
+  background: white;
+  margin: 2px;
+  font-style: normal; 
+  font-size: 11pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: left;
+}
+
+P, DIV, UL, OL, TD  {
+  font-style: normal; 
+  font-size: 11pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: left;
+}
+
+H1, H2, H3 { 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif;
+  text-align: center; 
+  font-style: normal;
+}
+
+H1 { font-size: 16pt; font-weight: bold; }
+H2 { font-size: 14pt; font-weight: bold; }
+H3 { font-size: 14pt; font-weight: normal; }
+
+H4, H5, H6 { 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif;
+  text-align: left; 
+  font-style: italic;
+}
+
+H4 { font-size: 14pt; font-weight: bold; }
+H5 { font-size: 12pt; font-weight: bold; }
+H6 { font-size: 12pt; font-weight: normal; }
+
+.standard  {
+  font-style: normal; 
+  font-size: 11pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: left;
+}
+
+.textheader  {
+  font-style: normal; 
+  font-weight: bold; 
+  font-size: 11pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: left;
+}
+
+.textlist  {
+  font-style: italic; 
+  font-size: 11pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: left;
+}
+
+.disclosure  {
+  font-style: italic; 
+  font-size: 8pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: center;
+}
+
+.deactivated {
+  color: #646464;		/* rgb(100,100,100); */
+}
+
+.centralized {
+  text-align: center;
+}
+
+TD.navcol, TD.nonavcol, TD.topnavcol, TD.top, TD.header {
+	background: #cccccc;
+	color: #000000;
+	border: none;
+}
+
+TD.navcol {
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.nonavcol {
+  text-align: center;
+  vertical-align: middle;
+}
+
+TD.topnavcol {
+	text-align: left;
+	vertical-align: top;
+	height: 80px;
+	width: 120px;
+}
+
+TD.top, TD.header, TD.bottom {
+  text-align: center;
+  vertical-align: middle;
+}
+
+TD.content {
+  vertical-align: top;
+}
+
+A:link { color: #3333dd; }
+A:visited { color: #3333dd; }
+A:active { color: #ff2222; }
+A:hover { color:#2222ff; }
+
+A.nav { text-decoration: none; }
+A.nav:link { color: #2222ee; }
+A.nav:visited { color: #22ee22; }
+A.nav:active { color: #ee2222; }
+A.nav:hover { font-style: italic; }
+
+A.navbutton { text-decoration: none; }
+
+A.top {
+  font-style: normal;
+  font-size: 10pt; 
+  font-family: Verdana, Myriad, Helvetica, Arial, sans-serif; 
+  text-align: center;
+  color: #000000;
+}

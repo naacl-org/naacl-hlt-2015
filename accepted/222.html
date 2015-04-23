@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Preliminary Program</TITLE>
+
+<style>
+
+BODY {
+   MARGIN-TOP: 15pt;
+   MARGIN-LEFT: 15pt;
+   MARGIN-RIGHT: 15pt;
+   MARGIN-BOTTOM: 15pt;
+   FONT-SIZE: 10pt;
+   FONT-FAMILY: "Times New Roman";
+   BACKGROUND-COLOR: #ffffff;
+   COLOR: #000000;
+}
+
+P {
+   FONT-SIZE: 10pt;
+}
+
+TD {
+   FONT-SIZE: 10pt;
+}
+
+TH {
+   FONT-SIZE: 10pt;
+}
+
+
+A {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+A:visited {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+A:active {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   TEXT-DECORATION: none
+}
+A:hover {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   TEXT-DECORATION: underline
+}
+H4 {
+   FONT-SIZE: 10pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H3 {
+   FONT-SIZE: 11pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H2 {
+   FONT-SIZE: 12pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H1 {
+   FONT-SIZE: 14pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+</style>
+
+<p>
+
+<h4>Model Invertibility Regularization: Sequence Alignment With or Without Parallel Data</h4>
+
+<em>Tomer Levinboim<sup>1</sup>,&nbsp;Ashish Vaswani<sup>2</sup>,&nbsp;David Chiang<sup>1</sup></em><br>
+<sup>1</sup>University of Notre Dame, <sup>2</sup>University of Southern California Information Sciences Institute
+
+<p>
+
+<hr>
+
+
+<h4>Abstract</h4>
+
+<blockquote>
+    <p>We present Model Invertibility Regularization MIR, a method that jointly trains two directional sequence alignment models, one in each direction, and takes into account the invertibility of the alignment task.
+<p>
+By coupling the two models through their parameters &#40;as opposed to through their inferences, as in Liang et al.'s Alignment by Agreement &#40;\method{ABA}&#41;, and Ganchev et al.'s Posterior Regularization &#40;\method{PostCAT}&#41;&#41;, our method seamlessly extends to all IBM-style word alignment models as well as to alignment without parallel data.
+<p>
+Our proposed algorithm is mathematically sound and inherits convergence guarantees from EM. We evaluate MIR on two tasks: &#40;1&#41; On word alignment, applying MIR on fertility based models we attain higher F-scores than ABA and PostCAT. &#40;2&#41; On Japanese-to-English back-transliteration without parallel data, applied to the decipherment model of Ravi and Knight, MIR learns sparser models that close the gap in whole-name error rate by 33% relative to a model trained on parallel data, and further, beats a previous approach by Mylonakis et al. </p>
+</blockquote>
+
+
+
+
+<hr>
+
+<p>
+</body>
+</html>
