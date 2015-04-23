@@ -3,6 +3,8 @@ title: NAACL-HLT 2015 Author Index
 ---
 # NAACL HLT 2015 Author Index
 
+Unfortunately, the TACL papers that are to be presented at NAACL 2015 are not included in this author index.
+
 <table class="schedule">
 <tbody><tr bgcolor="#d0d0d0">
 <td>
