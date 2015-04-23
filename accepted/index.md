@@ -2,19 +2,6 @@
 title: NAACL-HLT 2015 Main Program Schedule
 ---
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<TITLE>NAACL-HLT 2015:  Program</TITLE>
-<LINK rel="STYLESHEET" type="text/css" href="schedule.css">
-<style type="text/css"> TD { font-size:11pt; line-height:17pt; }
-.disclosure {line-height:9pt}
-</style>
-</head>
-<body>
-<p>
-
 <p>
 <center>
 <h2>NAACL-HLT 2015: Program</h2>
@@ -7672,6 +7659,3 @@ Best paper awards and Closing Remarks
 </table>
 <p>
 <hr>
-</body>
-</html>
-
