@@ -5,6 +5,7 @@ types:
   - Silver sponsors
   - Bronze sponsors
   - Supporters
+  - Overseas student fellowship sponsors
 
 Platinum sponsors:
   - name: Bloomberg
@@ -47,3 +48,9 @@ Supporters:
     url: http://www.digitalroots.com
     logo: digital-roots-logo.png
     footer: digital-roots-footer.png
+
+Overseas student fellowship sponsors:
+  - name: Baobab
+    url: http://baobab-trees.com/en
+    logo: baobab-logo.gif
+    footer: baobab-footer.gif
