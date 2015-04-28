@@ -4,6 +4,8 @@ title: Accepted demonstrations
 
 # List of accepted system demonstrations
 
+The demonstrations will be presented as posters on Tuesday, June 2nd, from 17:00 to 20:00.
+
 > This schedule is interactive, you can click on a demonstration to view its abstract.
 
 {% for demo in site.data.schedule.demos %}
