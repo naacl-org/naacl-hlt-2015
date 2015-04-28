@@ -36,6 +36,8 @@
       url: authorindex.html
     - title: Accepted papers
       url: papers.html
+    - title: Accepted demonstrations
+      url: demonstrations.html
     - title: Best paper awards
       url: best-paper-awards.html
 
