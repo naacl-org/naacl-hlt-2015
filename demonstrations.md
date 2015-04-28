@@ -8,7 +8,11 @@ The demonstrations will be presented as posters on Tuesday, June 2nd, from 17:00
 
 > This schedule is interactive, you can click on a demonstration to view its abstract.
 
-{% for demo in site.data.schedule.demos %}
+{% assign demos = site.data.schedule.demos %}
+
+## {{ demos | size }} System Demonstrations
+
+{% for demo in demos %}
 
 <div class="talkinfo">
 <p>
@@ -19,4 +23,3 @@ The demonstrations will be presented as posters on Tuesday, June 2nd, from 17:00
 </div>
 
 {% endfor %}
-
