@@ -1,13 +1,23 @@
 
+## Pre-processing
+
 Generate the schedule in the `Schedule Maker` tab and then download
 the `accepted.zip` file using the `Download an archive` option.
-Unzip it into this directory: `accepted`.  
+Unzip it into this directory: `softconf/accepted-papers`.
 
-Delete all the PDF files if any were part of the zip file.
+Do the same for the demonstrations and unzip it into
+the directory: `softconf/accepted-demos`.
 
-## Important
+Delete all the PDF files if any were part of the zip files.
 
-The schedule needs to be integrated into the main website
-by generating the files `schedule.md` and `authorindex.md`.
+Put the `order` file that was created by the Softconf schedule
+maker into the `softconf` directory.
 
-This is done by calling `python generate-schedule.py`.
+## Generating the YAML data
+
+The Python 3 script `generate_schedule_data.py` reads the `softconf`
+directory and generates a database in YAML format. This database
+should be put in the file `_data/schedule.yaml`, like this:
+
+    python3 generate_schedule_data.py > _data/schedule.yaml
+
