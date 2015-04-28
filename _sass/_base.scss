@@ -159,6 +159,49 @@ table {
 }
 
 
+/* Schedule */
+
+table.schedule {
+    border-collapse: collapse;
+    td {
+        border: 1px solid black;
+    }
+    .time {
+        white-space: nowrap;
+    }
+    tr {
+        vertical-align: top;
+    }
+    .extra {
+        background-color: $header-bgcolor;
+    }
+    .session {
+        background-color: mix($header-bgcolor, lighten(yellow, 30%), 60%);
+    }
+    .talk, .sessiontalk {
+        background-color: lighten(yellow, 40%);
+    }
+    p {
+        margin: 4px;
+    }
+}
+
+.session, .talkinfo {
+    cursor: pointer;
+}
+.sessiontitle, .sessionprefix, .talkprefix, .sessiontalkprefix {
+    font-weight: bold;
+}
+.talktitle, .sessiontalktitle {
+    font-style: italic;
+}
+.talkauthors, .sessiontalkauthors, .extratitle, .extraprefix {
+}
+.sessiontalkabstract {
+    @include font-and-margins($small-font-size, 200, $small-line-height, $base-font-family);
+    margin: 4px $small-line-height;
+}
+
 /* Blockquotes */
 
 blockquote {
@@ -329,18 +372,6 @@ pre {
                 }
             }
         }
-    }
-}
-
-
-/* Softconf-generated schedule, cleaned by the script cleanup-schedule.py */
-
-table.schedule {
-    td {
-        border: 0;
-    }
-    table td:first-child {
-        white-space: nowrap;
     }
 }
 
