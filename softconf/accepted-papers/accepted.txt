@@ -1,6 +1,5 @@
-
-<!-- saved from url=(0067)https://www.softconf.com/naacl2015/papers/pub/accepted/accepted.txt -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./accepted.txt_files/MathJax.js"></script></head><body><pre>NAACL-HLT 2015 Preliminary Program
+<pre>
+NAACL-HLT 2015 Preliminary Program
 -----------------------------------------------------------------------
 
 
@@ -1434,7 +1433,7 @@ University of Gothenburg
 P2-33
 Two/Too Simple Adaptations of Word2Vec for Syntax Problems
 Wang Ling [1], Chris Dyer [2], Alan W Black [2], Isabel Trancoso [3]
-[1] CMU-LTI &amp; INESC-ID
+[1] CMU-LTI & INESC-ID
 [2] Carnegie Mellon University
 [3] INESC-ID
 
@@ -1763,4 +1762,4 @@ Radu Soricut [1] and Franz Och [2]
 
 Best paper awards and Closing Remarks
 
-</pre></body></html>
+</pre>
