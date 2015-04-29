@@ -24,7 +24,6 @@ def read_paper_info(folder):
         with open(filename) as F:
             htstr = html.unescape(F.read())
 
-        print(id, file=sys.stderr)
         match = re.search(r'''
             <h4> (?P<title> .+?) </h4> \s*
             <em> (?P<authors> .+?) </em> \s* (<br>)? \s*
@@ -82,7 +81,7 @@ ordertypes = {'*': DATE,
               '+': EXTRA,
               '!': TALK}
 
-def read_order_file():
+def read_order_file(papers):
     schedule = []
     with open('{}/order'.format(SOFTCONF)) as F:
         for line in F:
@@ -132,7 +131,7 @@ def read_order_file():
                     overview[time]['row'].append([thistalk])
                     sessiontime = None
 
-                if ref:
+                if ref in papers:
                     thistalk['ref'] = ref
 
                 else:
@@ -146,9 +145,13 @@ def read_order_file():
                         if prefix.lower().startswith('invited talk by'):
                             authors = None
 
-                    if prefix and prefix.startswith('TACL-'):
+                    if prefix in papers:
                         thistalk['ref'] = prefix
                     else:
+                        if cls == TALK:
+                            print('Talk not in papers database: {} "{}". {}'.format(
+                                prefix or "", title, authors or ""
+                                ), file=sys.stderr)
                         thistalk['title'] = title
                         if prefix:
                             thistalk['prefix'] = prefix
@@ -198,7 +201,7 @@ def main():
     authorindex = read_authorindex('accepted-papers')
     printyaml({'authorindex':authorindex})
 
-    schedule = read_order_file()
+    schedule = read_order_file(papers)
     printyaml({'schedule':schedule})
     
 
