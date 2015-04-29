@@ -19,16 +19,17 @@ SOFTCONF = 'softconf'
 
 def read_paper_info(folder):
     papers = {}
-    for filename in glob.glob('{}/{}/[0-9]*.html'.format(SOFTCONF, folder)):
+    for filename in glob.glob('{}/{}/*[0-9].html'.format(SOFTCONF, folder)):
         id = filename[len(SOFTCONF) + len(folder) + 2 : -len('.html')]
         with open(filename) as F:
             htstr = html.unescape(F.read())
 
+        print(id, file=sys.stderr)
         match = re.search(r'''
             <h4> (?P<title> .+?) </h4> \s*
-            <em> (?P<authors> .+?) </em> \s* (?:<br>)? \s*
-            (?P<affiliation> .+?) \s* <p> .*
-            <blockquote> \s* <p> \s* (?P<abstract> .+?) \s* </p> \s* </blockquote>
+            <em> (?P<authors> .+?) </em> \s* (<br>)? \s*
+            (?P<affiliation> .*?) \s* <p> .*
+            <blockquote> \s* (<p>)? \s* (?P<abstract> .+?) \s* (</p>)? \s* </blockquote>
         ''', htstr, flags=re.DOTALL | re.VERBOSE)
         if not match:
             match = re.search(r'''
@@ -133,6 +134,7 @@ def read_order_file():
 
                 if ref:
                     thistalk['ref'] = ref
+
                 else:
                     prefix = authors = None
                     match = re.search(r'^ *(?:Session .*?[-:] +)?(.+?) *%by *(.+?) *$', 
@@ -143,11 +145,15 @@ def read_order_file():
                         prefix, title = map(str.strip, title.split(':', 1))
                         if prefix.lower().startswith('invited talk by'):
                             authors = None
-                    thistalk['title'] = title
-                    if prefix:
-                        thistalk['prefix'] = prefix
-                    if authors:
-                        thistalk['authors'] = authors
+
+                    if prefix and prefix.startswith('TACL-'):
+                        thistalk['ref'] = prefix
+                    else:
+                        thistalk['title'] = title
+                        if prefix:
+                            thistalk['prefix'] = prefix
+                        if authors:
+                            thistalk['authors'] = authors
 
     new_schedule = []
     for date, overview, talks in schedule:
