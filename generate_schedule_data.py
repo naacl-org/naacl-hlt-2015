@@ -23,19 +23,20 @@ def read_paper_info(folder):
         id = filename[len(SOFTCONF) + len(folder) + 2 : -len('.html')]
         with open(filename) as F:
             htstr = html.unescape(F.read())
+            htstr = re.sub(r'\s+', ' ', htstr)
 
         match = re.search(r'''
-            <h4> (?P<title> .+?) </h4> \s*
-            <em> (?P<authors> .+?) </em> \s* (<br>)? \s*
-            (?P<affiliation> .*?) \s* <p> .*
+            <h4> \s* (?P<title> .+?) \s* </h4> \s*
+            <em> \s* (?P<authors> .+?) \s* </em> \s* (<br>)?
+            \s* (?P<affiliation> .*?) \s* <p> .*
             <blockquote> \s* (<p>)? \s* (?P<abstract> .+?) \s* (</p>)? \s* </blockquote>
         ''', htstr, flags=re.DOTALL | re.VERBOSE)
         if not match:
             match = re.search(r'''
-                <h2> (?P<title> .+?) </h2> \s*
-                <h3> (?P<authors> .+?) </h3> (?P<affiliation>) .*
-                <h2> .* Abstract </h2> \s*
-                (?P<abstract> .+?) \s* <p> \s* <hr>
+                <h2> \s* (?P<title> .+?) \s* </h2> \s*
+                <h3> \s* (?P<authors> .+?) \s* </h3> (?P<affiliation>) .*
+                <h2> .* Abstract \s* </h2> 
+                \s* (?P<abstract> .+?) \s* <p> \s* <hr>
             ''', htstr, flags=re.DOTALL | re.VERBOSE)
 
         papers[id] = match.groupdict()
@@ -75,7 +76,7 @@ def read_authorindex(folder):
     return index
 
 
-DATE, SESSION, EXTRA, TALK = "date session extra talk".split()
+DATE, SESSION, EXTRA, TALK, SESSIONTALK = "date session extra talk sessiontalk".split()
 ordertypes = {'*': DATE,
               '=': SESSION,
               '+': EXTRA,
@@ -139,7 +140,7 @@ def read_order_file(papers):
                     match = re.search(r'^ *(?:Session .*?[-:] +)?(.+?) *%by *(.+?) *$', 
                                       title, flags=re.IGNORECASE)
                     if match:
-                        title, authors = match.groups()
+                        title, authors = map(str.strip, match.groups())
                     if title.lower().startswith('invited talk by') or title.startswith('TACL-'):
                         prefix, title = map(str.strip, title.split(':', 1))
                         if prefix.lower().startswith('invited talk by'):
@@ -168,7 +169,7 @@ def read_order_file(papers):
             session['time'] = sessiontime
             today.append(session)
             for time, talkrow in sorted(talks.get(sessiontime, {}).items()):
-                cls = 'sessiontalk'
+                cls = SESSIONTALK
                 parent = 'session-{}'.format(sessiontime.replace(':',''))
                 today.append({'time':time, 'class':cls, 'parent':parent, 'row':talkrow})
         new_schedule.append({'date':date, 'schedule':today})
@@ -203,7 +204,7 @@ def main():
 
     schedule = read_order_file(papers)
     printyaml({'schedule':schedule})
-    
+
 
 if __name__ == '__main__':
     main()
