@@ -6,6 +6,8 @@
 
 - title: "Calls&nbsp;&#x25be;"
   items:
+    - title: Important dates
+      url: dates.html
     - title: Call for papers
       url: call-for-papers.html
     - title: Call for demonstrations
@@ -19,19 +21,17 @@
     - title: Call for student volunteers
       url: call-for-student-volunteers.html
 
-- title: Dates
-  url: dates.html
-
 - title: Workshops
   url: workshops.html
 
 - title: Tutorials
   url: tutorials.html
 
-- title: "Program&nbsp;&#x25be;"
+- title: Schedule
+  url: schedule.html
+
+- title: "Presentations&nbsp;&#x25be;"
   items:
-    - title: Schedule
-      url: schedule.html
     - title: Author index
       url: authorindex.html
     - title: Accepted papers
