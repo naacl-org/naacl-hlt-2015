@@ -785,6 +785,10 @@ Session 4A
 Time                 : 09:00 - 10:40
 Title                : 4A: Dialogue and Spoken Language Processing (Long Papers)
 
+
+Chair                : Marilyn Walker         
+Chair Affiliation    : University of California, Santa Cruz
+
 09:00AM - 09:25AM 
 4A-1
 Semantic Grounding in Dialogue for Complex Problem Solving
@@ -893,6 +897,10 @@ Session 5A
 -----------------------------------------------------------------------
 Time                 : 11:15 - 12:30
 Title                : 5A: Semantics (Short Papers)
+
+
+Chair                : Daniel Gildea         
+Chair Affiliation    : University of Rochester
 
 11:15AM - 11:30AM 
 5A-1
