@@ -14,7 +14,7 @@ title: NAACL-HLT 2015 Main Program Schedule
 * Table of contents
 {:toc}
 
-> This schedule is interactive, you can click on a session to view the talks in that session, and you can click on a talk to see its abstract. (Unfortunately we don't have the abstracts for the TACL papers or the invited talks).
+> This schedule is interactive, you can click on a session to view the talks in that session, and you can click on a talk to see its abstract.
 
 {% assign ncols = 3 %}
 {% assign colwidth = 90 | divided_by:ncols %}
