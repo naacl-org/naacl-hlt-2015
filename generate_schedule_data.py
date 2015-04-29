@@ -19,16 +19,16 @@ SOFTCONF = 'softconf'
 
 def read_paper_info(folder):
     papers = {}
-    for filename in glob.glob('{}/{}/[0-9]*.html'.format(SOFTCONF, folder)):
+    for filename in glob.glob('{}/{}/*[0-9].html'.format(SOFTCONF, folder)):
         id = filename[len(SOFTCONF) + len(folder) + 2 : -len('.html')]
         with open(filename) as F:
             htstr = html.unescape(F.read())
 
         match = re.search(r'''
             <h4> (?P<title> .+?) </h4> \s*
-            <em> (?P<authors> .+?) </em> \s* (?:<br>)? \s*
-            (?P<affiliation> .+?) \s* <p> .*
-            <blockquote> \s* <p> \s* (?P<abstract> .+?) \s* </p> \s* </blockquote>
+            <em> (?P<authors> .+?) </em> \s* (<br>)? \s*
+            (?P<affiliation> .*?) \s* <p> .*
+            <blockquote> \s* (<p>)? \s* (?P<abstract> .+?) \s* (</p>)? \s* </blockquote>
         ''', htstr, flags=re.DOTALL | re.VERBOSE)
         if not match:
             match = re.search(r'''
@@ -81,7 +81,7 @@ ordertypes = {'*': DATE,
               '+': EXTRA,
               '!': TALK}
 
-def read_order_file():
+def read_order_file(papers):
     schedule = []
     with open('{}/order'.format(SOFTCONF)) as F:
         for line in F:
@@ -131,8 +131,9 @@ def read_order_file():
                     overview[time]['row'].append([thistalk])
                     sessiontime = None
 
-                if ref:
+                if ref in papers:
                     thistalk['ref'] = ref
+
                 else:
                     prefix = authors = None
                     match = re.search(r'^ *(?:Session .*?[-:] +)?(.+?) *%by *(.+?) *$', 
@@ -143,11 +144,19 @@ def read_order_file():
                         prefix, title = map(str.strip, title.split(':', 1))
                         if prefix.lower().startswith('invited talk by'):
                             authors = None
-                    thistalk['title'] = title
-                    if prefix:
-                        thistalk['prefix'] = prefix
-                    if authors:
-                        thistalk['authors'] = authors
+
+                    if prefix in papers:
+                        thistalk['ref'] = prefix
+                    else:
+                        if cls == TALK:
+                            print('Talk not in papers database: {} "{}". {}'.format(
+                                prefix or "", title, authors or ""
+                                ), file=sys.stderr)
+                        thistalk['title'] = title
+                        if prefix:
+                            thistalk['prefix'] = prefix
+                        if authors:
+                            thistalk['authors'] = authors
 
     new_schedule = []
     for date, overview, talks in schedule:
@@ -192,7 +201,7 @@ def main():
     authorindex = read_authorindex('accepted-papers')
     printyaml({'authorindex':authorindex})
 
-    schedule = read_order_file()
+    schedule = read_order_file(papers)
     printyaml({'schedule':schedule})
     
 
