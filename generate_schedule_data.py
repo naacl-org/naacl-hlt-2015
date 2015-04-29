@@ -177,6 +177,27 @@ def read_order_file(papers):
     return new_schedule
 
 
+def infer_talktypes(schedule, papers):
+    talktypes = {}
+    for today in schedule:
+        for session in today['schedule']:
+            if session['class'] != SESSIONTALK:
+                parent_session = session
+            else:
+                for n, col in enumerate(session['row']):
+                    sessiontitle = parent_session['row'][n][0]['title']
+                    for item in col:
+                        if item['ref'] in papers:
+                            istacl = 'TACL-' in item['ref']
+                            isposter = 'Poster' in sessiontitle
+                            isshort = 'Short' in sessiontitle
+                            paper = papers[item['ref']]
+                            typ = 'tacl' if istacl else 'short' if isshort else 'long'
+                            typ += 'posters' if isposter else 'talks'
+                            talktypes.setdefault(typ, []).append(item['ref'])
+    return talktypes
+
+
 def get_timespan(time):
     return tuple(map(int, time.replace(':','').split('-')))
 
@@ -204,6 +225,9 @@ def main():
 
     schedule = read_order_file(papers)
     printyaml({'schedule':schedule})
+
+    talktypes = infer_talktypes(schedule, papers)
+    printyaml({'talktypes':talktypes})
 
 
 if __name__ == '__main__':

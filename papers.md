@@ -36,13 +36,23 @@ presentations](presentation-instructions.html). Please read this
 important information to make sure you are adequately prepared for
 your presentation at NAACL HLT 2015.
 
+> This schedule is interactive, you can click on a paper title to view its abstract.
+
+{% assign papers = site.data.schedule.papers %}
 {% for type in page.structure %}
+{% assign thepapers = site.data.schedule.talktypes[type.key] %}
 
-## {{site.data.papers[type.key] | size}} {{type.heading}}
+## {{ thepapers | size }} {{ type.heading }}
 
-{% for paper in site.data.papers[type.key] %}
+{% for id in thepapers %}
 
-{{paper.authors}}. "*{{paper.title}}*"
+<div class="talkinfo">
+<p>
+<span class="talkauthors">{{ papers[id].authors }}</span>.
+"<span class="talktitle">{{ papers[id].title }}</span>"
+</p>
+<blockquote class="sessiontalkabstract">{{ papers[id].abstract }}</blockquote>
+</div>
 
 {% endfor %}
 {% endfor %}
