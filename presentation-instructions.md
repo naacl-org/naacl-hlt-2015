@@ -24,10 +24,6 @@ Please remember to bring your own AC adapter. If your laptop is not compatible w
 
 Yes. Like at NAACL 2013 and ACL 2014, we will record all of the oral presentations at NAACL 2015. We have hired a professional videographer to record the presentations. We will make the videos available online after the conference. Our goal is to improve the dissemination of the scientific materials that are generated for the conference.  The copyright agreement for the final submission of your paper granted ACL permissions to record your talk and distribute it under a Creative Commons Attribution License.  However, if you want to opt out, you can email naacl2015-programchairs@googlegroups.com after the conference to have your talk removed from the archive.
 
-## Should I build my presentation in 16:9 or 4:3?
-
-The local AV staff have indicated that presentations can be built in 16:9 for the projectors at the venue. The projector specification is `3200 LUMEN 1-CHIP WXGA DLP`.
-
 # Guidelines for Poster Presentations
 
 ## When to set up the poster? 
