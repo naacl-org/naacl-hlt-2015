@@ -1,18 +1,18 @@
 ---
 title: Accepted papers
 structure:
-  - heading: "TACL Talks"
-    key: tacltalks
   - heading: "TACL Posters"
     key: taclposters
-  - heading: "Long Talks"
-    key: longtalks
+  - heading: "TACL Talks"
+    key: tacltalks
   - heading: "Long Posters"
     key: longposters
-  - heading: "Short Talks"
-    key: shorttalks
+  - heading: "Long Talks"
+    key: longtalks
   - heading: "Short Posters"
     key: shortposters
+  - heading: "Short Talks"
+    key: shorttalks
 ---
 
 # List of accepted papers
