@@ -28,7 +28,7 @@ Yes. Like at NAACL 2013 and ACL 2014, we will record all of the oral presentatio
 
 The [program schedule](schedule.html) the session chairs for each session and the room information at the venue. All presenters should know who their session chair is and introduce themselves to the session chair before the session starts.
 
-Note that sessions 2A and 3A do not have a break in between and so a single session chair will be responsible for these two sessions (the same caveat applies to session 2B, 2B and session 2C, 3C).
+Note that sessions 2A and 3A do not have a break in between and so a single session chair will be responsible for these two sessions (the same caveat applies to session 2B, 3B and session 2C, 3C).
 
 # Guidelines for Poster Presentations
 
