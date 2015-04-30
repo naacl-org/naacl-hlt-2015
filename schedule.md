@@ -36,6 +36,9 @@ title: NAACL-HLT 2015 Main Program Schedule
 
 {% for col in session['row'] %}
 <td {% if session['row'].size == 1 %} colspan="{{ ncols }}" {% else %} width="{{ colwidth }}%" {% endif %}>
+{% assign sessionindex = forloop.index0 %}
+{% assign room = sessioninfo[sessionindex].room %}
+{% assign chair = sessioninfo[sessionindex].chair %}
 
 {% for item in col %}
 {% if papers[item.ref] %}{% assign it = papers[item.ref] %}
@@ -48,11 +51,11 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% if prefix %}<span class="{{class}}prefix">{{ prefix }}</span>:{% endif %}
 <span class="{{class}}title">{{ it["title"] }}</span>{% if it['authors'] %}, by
 <span class="{{class}}authors">{{ it['authors'] }}</span>{% endif %}
-{% assign room = sessioninfo[forloop.index0].room %}
+{% assign room = sessioninfo[sessionindex].room %}
 {% if room %} &mdash; {{ room }}{% endif %}
 </p>
 
-{% assign chair = sessioninfo[forloop.index0].chair %}
+{% assign chair = sessioninfo[sessionindex].chair %}
 {% if chair %}<p><em>Chair:</em> {{ chair }}</p>{% endif %}
 
 {% if it.abstract %}
