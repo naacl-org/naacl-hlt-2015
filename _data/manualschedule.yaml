@@ -1,0 +1,89 @@
+'schedule':
+  '2015-06-01':
+    '09:00-10:10':
+      - chair: Joyce Chai, Michigan State University
+        room: Plaza Ballroom A, B & C
+    '10:40-12:20':
+      - chair: Hoifung Poon, Microsoft Research
+        room: Plaza Ballroom A & B
+      - chair: Noah Smith, Carnegie Mellon University
+        room: Plaza Ballroom D & E
+      - chair: Jordan Boyd-Graber, University of Colorado
+        room: Plaza Ballroom F
+    '14:00-15:15':
+      - chair: Fei Liu, Carnegie Mellon University
+        room: Plaza Ballroom A & B
+      - chair: Yejin Choi, University of Washington
+        room: Plaza Ballroom D & E
+      - chair: Tong Zhang, Rutgers University
+        room: Plaza Ballroom F
+    '15:15-16:00':
+      - chair: Fei Liu, Carnegie Mellon University
+        room: Plaza Ballroom A & B
+      - chair: Yejin Choi, University of Washington
+        room: Plaza Ballroom D & E
+      - chair: Tong Zhang, Rutgers University
+        room: Plaza Ballroom F
+    '16:30-18:00':
+      - chair: Joel Tetrault, Yahoo Labs
+        room: Plaza Ballroom A, B & C
+    '18:00-21:00':
+      - room: Plaza Exhibits All
+
+  '2015-06-02':
+    '09:00-10:40':
+      - chair: Marilyn Walker, University of California, Santa Cruz
+        room: Plaza Ballroom A & B
+      - chair: Amarnag Subramanya, Google Research
+        room: Plaza Ballroom D & E
+      - chair: Hal Daume III, University of Maryland
+        room: Plaza Ballroom F
+    '11:15-12:30':
+      - chair: Daniel Gildea, University of Rochester
+        room: Plaza Ballroom A & B
+      - chair: David Chiang, University of Notre Dame
+        room: Plaza Ballroom D & E
+      - chair: William Lewis, Microsoft Research
+        room: Plaza Ballroom F
+    '14:00-15:15':
+      - chair: Mirella Lapata, University of Edinburgh
+        room: Plaza Ballroom A & B
+      - chair: Ani Nenkova, University of Pennsylvania
+        room: Plaza Ballroom D & E
+      - chair: Wei Xu, University of Pennsylvania
+        room: Plaza Ballroom F
+    '15:45-17:00':
+      - chair: Xiaodong He, Microsoft Research
+        room: Plaza Ballroom A & B
+      - chair: Vincent Ng, University of Texas at Dallas
+        room: Plaza Ballroom D & E
+      - chair: Hany Hassan, Microsoft Research
+        room: Plaza Ballroom F
+    '17:00-20:00':
+        room: Plaza Exhibits All
+
+  '2015-06-03':
+    '09:00-10:10':
+      - chair: Anoop Sarkar, Simon Fraser University
+        room: Plaza Ballroom A, B & C
+    '10:40-11:55':
+      - chair: Philip Resnik, University of Maryland
+        room: Plaza Ballroom A & B
+      - chair: Luke Zettlemoyer, University of Washington
+        room: Plaza Ballroom D & E
+      - chair: Haitao Mi, IBM Research
+        room: Plaza Ballroom F
+    '13:00-14:00':
+      - chair: Hal Daume III, University of Maryland
+        room: Plaza Ballroom A, B & C
+    '14:00-15:15':
+      - chair: Saif Mohammed, National Research Council Canada
+        room: Plaza Ballroom A & B
+      - chair: "Brendan O'Connor, Univ. of Massachusetts, Amherst"
+        room: Plaza Ballroom D & E
+      - chair: William Schuler, The Ohio State University
+        room: Plaza Ballroom F
+    '15:45-17:15':
+      - chair: Claire Cardie, Cornell University
+        room: Plaza Ballroom A, B & C
+

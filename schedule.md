@@ -20,6 +20,7 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% assign colwidth = 90 | divided_by:ncols %}
 {% assign papers = site.data.schedule.papers %}
 {% assign schedule = site.data.schedule.schedule %}
+{% assign manualschedule = site.data.manualschedule.schedule %}
 
 {% for today in schedule %}
 
@@ -30,6 +31,8 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% assign class = session.class %}
 <tr class="{{ class }} {{ session.parent }}">
 <td class="time"><p>{{ session.time }}</p></td>
+
+{% assign sessioninfo = manualschedule[today.date][session.time] %}
 
 {% for col in session['row'] %}
 <td {% if session['row'].size == 1 %} colspan="{{ ncols }}" {% else %} width="{{ colwidth }}%" {% endif %}>
@@ -45,7 +48,12 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% if prefix %}<span class="{{class}}prefix">{{ prefix }}</span>:{% endif %}
 <span class="{{class}}title">{{ it["title"] }}</span>{% if it['authors'] %}, by
 <span class="{{class}}authors">{{ it['authors'] }}</span>{% endif %}
+{% assign room = sessioninfo[forloop.index0].room %}
+{% if room %} &mdash; {{ room }}{% endif %}
 </p>
+
+{% assign chair = sessioninfo[forloop.index0].chair %}
+{% if chair %}<p><em>Chair:</em> {{ chair }}</p>{% endif %}
 
 {% if it.abstract %}
 <blockquote class="{{ class }}abstract">{{ it.abstract }}</blockquote>
