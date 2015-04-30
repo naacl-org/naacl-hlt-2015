@@ -59,7 +59,7 @@ def read_authorindex(folder):
         if match:
             letter = match.group(1)
             if letter.isupper():
-            index.append({'letter':letter, 'authors':[]})
+                index.append({'letter':letter, 'authors':[]})
             else:
                 letter = None
             continue
@@ -74,7 +74,7 @@ def read_authorindex(folder):
         entry = match.groupdict()
         entry['refs'] = re.findall(r'<a href="(\d+).html"', tablerow)
         if letter:
-        index[-1]['authors'].append(entry)
+            index[-1]['authors'].append(entry)
         else:
             # The authorindex file errs for some surnames, such as "de Marneffe" and "van Schijndel"
             lastname = entry['author'].split()[-1]
@@ -175,7 +175,7 @@ def read_order_file(papers):
     new_schedule = []
     for date, overview, talks in schedule:
         year, month, day = map(int, date.split('/'))
-        date = datetime.date(year, month, day).strftime('%A, %B %-d')
+        date = '{}-{:02d}-{:02d}'.format(year, month, day)
 
         today = []
         for sessiontime, session in sorted(overview.items()):

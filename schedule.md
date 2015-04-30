@@ -23,7 +23,7 @@ title: NAACL-HLT 2015 Main Program Schedule
 
 {% for today in schedule %}
 
-## {{ today.date }}
+## {{ today.date | date: "%A, %B %-d" }}
 
 <table class="schedule">
 {% for session in today.schedule %}
