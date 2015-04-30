@@ -1926,6 +1926,10 @@
     'author': 'Sonal Gupta'
     'refs':
     - '83'
+  - 'affiliation': 'SDL Research'
+    'author': "Adri\xE0 de Gispert"
+    'refs':
+    - '255'
   'letter': 'G'
 - 'authors':
   - 'affiliation': 'Arizona State University'
@@ -2532,6 +2536,10 @@
     'author': "Thomas M\xFCller"
     'refs':
     - '69'
+  - 'affiliation': 'The Ohio State University'
+    'author': 'Marie-Catherine de Marneffe'
+    'refs':
+    - '586'
   'letter': 'M'
 - 'authors':
   - 'affiliation': '+81-774-93-5235'
@@ -3103,6 +3111,10 @@
     - '126'
     - '228'
     - '237'
+  - 'affiliation': 'The Ohio State University'
+    'author': 'Marten van Schijndel'
+    'refs':
+    - '454'
   'letter': 'S'
 - 'authors':
   - 'affiliation': 'National University of Singapore'
@@ -3470,22 +3482,6 @@
     'refs':
     - '298'
   'letter': 'Z'
-- 'authors':
-  - 'affiliation': 'SDL Research'
-    'author': "Adri\xE0 de Gispert"
-    'refs':
-    - '255'
-  - 'affiliation': 'The Ohio State University'
-    'author': 'Marie-Catherine de Marneffe'
-    'refs':
-    - '586'
-  'letter': 'd'
-- 'authors':
-  - 'affiliation': 'The Ohio State University'
-    'author': 'Marten van Schijndel'
-    'refs':
-    - '454'
-  'letter': 'v'
 - 'authors':
   - 'affiliation': 'FBK-irst'
     'author': "G\xF6zde \xD6zbal"

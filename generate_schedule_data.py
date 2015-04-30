@@ -58,7 +58,10 @@ def read_authorindex(folder):
         match = re.search(r'<big><big><big>(.+?)</big>', tablerow)
         if match:
             letter = match.group(1)
+            if letter.isupper():
             index.append({'letter':letter, 'authors':[]})
+            else:
+                letter = None
             continue
 
         match = re.search(r'''
@@ -66,12 +69,22 @@ def read_authorindex(folder):
             <br> \s* (?P<affiliation> .*?) \s* </td>
             ''', tablerow, flags=re.VERBOSE|re.DOTALL)
         if not match:
-            # print(tablerow, file=sys.stderr)
             continue
 
         entry = match.groupdict()
         entry['refs'] = re.findall(r'<a href="(\d+).html"', tablerow)
+        if letter:
         index[-1]['authors'].append(entry)
+        else:
+            # The authorindex file errs for some surnames, such as "de Marneffe" and "van Schijndel"
+            lastname = entry['author'].split()[-1]
+            assert lastname[0].isupper(), entry
+            for i in index:
+                if lastname.startswith(i['letter']):
+                    i['authors'].append(entry)
+                    break
+            else:
+                print("Could not create author index for", entry, file=sys.stderr)
 
     return index
 
