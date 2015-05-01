@@ -1,7 +1,7 @@
 * 2015/06/01
 + 07:30--08:45 Registration and Breakfast
 + 08:45--09:00 Welcome to NAACL HLT 2015
-! 09:00--10:10 Invited Talk by Lillian Lee: "Big data pragmatics!",   or, "Putting the ACL in computational social science",   or, if you think these title alternatives could turn people on, turn people off, or otherwise have an effect, this talk might be for you. %by Lillian Lee
+= 09:00--10:10 Invited Talk by Lillian Lee: "Big data pragmatics!",   or, "Putting the ACL in computational social science",   or, if you think these title alternatives could turn people on, turn people off, or otherwise have an effect, this talk might be for you.
 + 10:10--10:40 Break
 = Session 1A: 10:40--12:20 Session 1A: Semantics (Long Papers)
 455 10:40--11:05  # Unsupervised Induction of Semantic Roles within a Reconstruction-Error Minimization Framework
@@ -31,14 +31,14 @@
 39 14:00--14:25  # TopicCheck: Interactive Alignment for Assessing Topic Model Stability
 524 14:25--14:50  # Inferring latent attributes of Twitter users with label regularization
 575 14:50--15:15  # A Neural Network Approach to Context-Sensitive Generation of Conversational Responses
-= Session 3A: 15:15--16:00 3A: Information Extraction and Question Answering (Short Papers)
-664 15:15--15:30  # Entity Linking for Spoken Language
-446 15:30--15:45  # Spinning Straw into Gold: Using Free Text to Train Monolingual Alignment Models for Non-factoid Question Answering
-674 15:45--16:00  # Personalized Page Rank for Named Entity Disambiguation
-= 15:15--16:00 3B: Generation and Summarization (Short Papers)
+= Session 3A: 15:15--16:00 3A: Generation and Summarization (Short Papers)
 32 15:15--15:30  # How to Make a Frenemy: Multitape FSTs for Portmanteau Generation
 477 15:30--15:45  # Aligning Sentences from Standard Wikipedia to Simple Wikipedia
 570 15:45--16:00  # Inducing Lexical Style Properties for Paraphrase and Genre Differentiation
+= Session 3B: 15:15--16:00 3B: Information Extraction and Question Answering (Short Papers)
+664 15:15--15:30  # Entity Linking for Spoken Language
+446 15:30--15:45  # Spinning Straw into Gold: Using Free Text to Train Monolingual Alignment Models for Non-factoid Question Answering
+674 15:45--16:00  # Personalized Page Rank for Named Entity Disambiguation
 = 15:15--16:00 3C: Machine Learning for NLP (Short Papers)
 227 15:15--15:30  # When and why are log-linear models self-normalizing?
 631 15:30--15:45  # Deep Multilingual Correlation for Improved Word Embeddings
@@ -220,7 +220,7 @@
 706 17:00--20:00  # GPU-Friendly Local Regression for Voice Conversion
 * 2015/06/03
 + 07:30--09:00 Registration and Breakfast
-! 09:00--10:10 Invited Talk by Fei-fei Li: A Quest for Visual Intelligence in Computers %by Fei-fei Li
+= 09:00--10:10 Invited Talk by Fei-fei Li: A Quest for Visual Intelligence in Computers
 + 10:10--10:40 Break
 = Session 8A: 10:40--11:55 8A: NLP for Web, Social Media and Social Sciences (Long + TACL Papers)
 351 10:40--11:05  # Testing and Comparing Computational Approaches for Identifying the Language of Framing in Political News

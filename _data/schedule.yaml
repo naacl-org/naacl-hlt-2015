@@ -3500,10 +3500,9 @@
     'row':
     - - 'title': 'Welcome to NAACL HLT 2015'
     'time': '08:45-09:00'
-  - 'class': 'talk'
+  - 'class': 'session'
     'row':
-    - - 'prefix': 'Invited Talk by Lillian Lee'
-        'title': '"Big data pragmatics!",   or, "Putting the ACL in computational social science",   or, if you think these title alternatives could turn people on, turn people off, or otherwise have an effect, this talk might be for you.'
+    - - 'title': 'Invited Talk by Lillian Lee: "Big data pragmatics!",   or, "Putting the ACL in computational social science",   or, if you think these title alternatives could turn people on, turn people off, or otherwise have an effect, this talk might be for you.'
     'time': '09:00-10:10'
   - 'class': 'extra'
     'row':
@@ -3576,29 +3575,29 @@
     'time': '14:50-15:15'
   - 'class': 'session'
     'row':
-    - - 'title': '3A: Information Extraction and Question Answering (Short Papers)'
-    - - 'title': '3B: Generation and Summarization (Short Papers)'
+    - - 'title': '3A: Generation and Summarization (Short Papers)'
+    - - 'title': '3B: Information Extraction and Question Answering (Short Papers)'
     - - 'title': '3C: Machine Learning for NLP (Short Papers)'
     'time': '15:15-16:00'
   - 'class': 'sessiontalk'
     'parent': 'session-1515-1600'
     'row':
-    - - 'ref': '664'
     - - 'ref': '32'
+    - - 'ref': '664'
     - - 'ref': '227'
     'time': '15:15-15:30'
   - 'class': 'sessiontalk'
     'parent': 'session-1515-1600'
     'row':
-    - - 'ref': '446'
     - - 'ref': '477'
+    - - 'ref': '446'
     - - 'ref': '631'
     'time': '15:30-15:45'
   - 'class': 'sessiontalk'
     'parent': 'session-1515-1600'
     'row':
-    - - 'ref': '674'
     - - 'ref': '570'
+    - - 'ref': '674'
     - - 'ref': '689'
     'time': '15:45-16:00'
   - 'class': 'extra'
@@ -3887,10 +3886,9 @@
     'row':
     - - 'title': 'Registration and Breakfast'
     'time': '07:30-09:00'
-  - 'class': 'talk'
+  - 'class': 'session'
     'row':
-    - - 'prefix': 'Invited Talk by Fei-fei Li'
-        'title': 'A Quest for Visual Intelligence in Computers'
+    - - 'title': 'Invited Talk by Fei-fei Li: A Quest for Visual Intelligence in Computers'
     'time': '09:00-10:10'
   - 'class': 'extra'
     'row':
@@ -4153,14 +4151,14 @@
   - '675'
   - '706'
   'shorttalks':
-  - '664'
   - '32'
+  - '664'
   - '227'
-  - '446'
   - '477'
+  - '446'
   - '631'
-  - '674'
   - '570'
+  - '674'
   - '689'
   - '281'
   - '207'
