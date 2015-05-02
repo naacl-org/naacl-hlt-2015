@@ -1,7 +1,7 @@
 'schedule':
   '2015-06-01':
     '09:00-10:10':
-      - chair: Joyce Chai, Michigan State University
+      - chair: TBA
         room: Plaza Ballroom A, B & C
     '10:40-12:20':
       - chair: Hoifung Poon, Microsoft Research
@@ -46,7 +46,7 @@
       - chair: William Lewis, Microsoft Research
         room: Plaza Ballroom F
     '14:00-15:15':
-      - chair: Mirella Lapata, University of Edinburgh
+      - chair: TBA
         room: Plaza Ballroom A & B
       - chair: Ani Nenkova, University of Pennsylvania
         room: Plaza Ballroom D & E
@@ -64,7 +64,7 @@
 
   '2015-06-03':
     '09:00-10:10':
-      - chair: Anoop Sarkar, Simon Fraser University
+      - chair: TBA
         room: Plaza Ballroom A, B & C
     '10:40-11:55':
       - chair: Philip Resnik, University of Maryland
