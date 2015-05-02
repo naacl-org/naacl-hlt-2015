@@ -4,9 +4,9 @@ title: Tutorials, May 31
 
 # Tutorials: May 31
 
-There will be six half-day tutorials on Sunday, May 31 – three in the morning and three in the afternoon.
+There will be six half-day tutorials on Sunday, May 31 – three in the morning session (9am-12pm) and three in the afternoon session (2pm-5pm).
 
-## Morning tutorials
+## Morning tutorials (9am-12pm)
 
 T1
 : [*Hands-on Learning to Search for Structured Prediction*](tutorial-hands-on-learning.html),
@@ -20,7 +20,7 @@ T3
 : [*The Logic of AMR: Practical, Unified, Graph-Based Sentence Semantics for NLP*](tutorial-amr-semantics.html),
 by Nathan Schneider, Jeffrey Flanigan, and Tim O'Gorman.
 
-## Afternoon tutorials
+## Afternoon tutorials (2pm-5pm)
 
 T4
 : [*Social Media Predictive Analytics*](tutorial-social-media.html),
