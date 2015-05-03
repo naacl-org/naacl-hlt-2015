@@ -1,7 +1,7 @@
 'schedule':
   '2015-06-01':
     '09:00-10:10':
-      - chair: TBA
+      - chair: Rada Mihalcea, University of Michigan
         room: Plaza Ballroom A, B & C
     '10:40-12:20':
       - chair: Hoifung Poon, Microsoft Research
@@ -46,11 +46,11 @@
       - chair: William Lewis, Microsoft Research
         room: Plaza Ballroom F
     '14:00-15:15':
-      - chair: TBA
+      - chair: Wei Xu, University of Pennsylvania
         room: Plaza Ballroom A & B
       - chair: Ani Nenkova, University of Pennsylvania
         room: Plaza Ballroom D & E
-      - chair: Wei Xu, University of Pennsylvania
+      - chair: Lucy Vanderwende, Microsoft Research
         room: Plaza Ballroom F
     '15:45-17:00':
       - chair: Xiaodong He, Microsoft Research
@@ -64,7 +64,7 @@
 
   '2015-06-03':
     '09:00-10:10':
-      - chair: TBA
+      - chair: Mirella Lapata, University of Edinburgh
         room: Plaza Ballroom A, B & C
     '10:40-11:55':
       - chair: Philip Resnik, University of Maryland
