@@ -4,7 +4,7 @@ title: Tutorials, May 31
 
 # Tutorials: May 31
 
-There will be six half-day tutorials on Sunday, May 31 – three in the morning session (9am-12pm) and three in the afternoon session (2pm-5pm).
+There will be six half-day tutorials on Sunday, May 31 – three in the morning session (9am-12:30pm) and three in the afternoon session (2pm-5:30pm).
 
 ## Morning tutorials (9am-12pm)
 
