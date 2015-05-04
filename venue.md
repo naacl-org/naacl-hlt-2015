@@ -77,6 +77,8 @@ To help enjoy your stay while in Denver, check out the various attractions at:
 > <http://www.sheratondenverdowntown.com/things-to-do-in-denver-colorado>
 > <http://www.sheratondenverdowntown.com/downtown-denver-attractions>
 
+Also [Kevin Cohen](http://compbio.ucdenver.edu/Hunter_lab/Cohen/index.shtml)'s blog [Zipf's Law](http://bretonnel.com/) has [a special post about Denver for NAACL attendees](http://bretonnel.com/2015/04/29/visiting-denver-for-naacl2015/).
+
 # Travel information
 
 *Important note*: If you are a non-US citizen, you might need a Visa.
