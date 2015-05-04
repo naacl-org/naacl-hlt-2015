@@ -72,10 +72,13 @@ entertaining and enjoyable!
 
 # [Things to do](http://www.imdb.com/title/tt0114660/) in Denver, Colorado
 
-To help enjoy your stay while in Denver, check out the various attractions at:
+[Kevin Cohen](http://compbio.ucdenver.edu/Hunter_lab/Cohen/index.shtml)'s blog [Zipf's Law](http://bretonnel.com/) has [a special post about Denver for NAACL attendees](http://bretonnel.com/2015/04/29/visiting-denver-for-naacl2015/).
+
+The venue hotel lists some of the usual local attractions:
 
 > <http://www.sheratondenverdowntown.com/things-to-do-in-denver-colorado>
 > <http://www.sheratondenverdowntown.com/downtown-denver-attractions>
+
 
 # Travel information
 
