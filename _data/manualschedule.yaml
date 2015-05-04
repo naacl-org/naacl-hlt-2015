@@ -1,7 +1,5 @@
 'papers':
   'Invited Talk by Lillian Lee':
-    'authors': Lillian Lee
-    'affiliation': Cornell University
     'title': >
         "Big data pragmatics!", or, "Putting the ACL in computational social science",
         or, if you think these title alternatives could turn people on, turn people off,
@@ -53,8 +51,6 @@
         viewed over 1.8 million times.
 
   'Invited Talk by Fei-fei Li':
-    'authors': Fei-fei Li
-    'affiliation': Stanford University
     'title': A Quest for Visual Intelligence in Computers
     'abstract': >
         <p>More than half of the human brain is involved in visual processing.
