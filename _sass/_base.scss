@@ -69,19 +69,13 @@ html, body {
     max-width: 50em;
 }
 
-hr {
-    border: 0;
-    margin-top: 20px;
-    margin-left: -50px;
-    width: 400px;
-    color: $brand-color;
-    background-color: $brand-color;
-    height: $divisor-thinkness;
-}
-
 hr.content-divisor {
     width: 100%;
     margin: 0;
+    border: 0;
+    color: $brand-color;
+    background-color: $brand-color;
+    height: $divisor-thinkness;
 }
 
 
@@ -244,6 +238,13 @@ pre {
 }
 
 
+/* Sponsor logos */
+
+.sponsorlogo {
+    margin: $base-line-height (2 * $base-line-height) $base-line-height;
+}
+
+
 /* SVG icons */
 
 .icon {
@@ -347,30 +348,32 @@ pre {
 }
 
 .horizontal-blocks-table {
-    display: table;
     width: 100%;
     .horizontal-blocks-list {
-        display: table-row;
-        > li {
+        td {
+            border: 0;
             vertical-align: top;
-            display: table-cell;
-        }
-        .sponsor-block {
-            text-align: right;
             padding-top: 5px;
-            padding-left: 20px;
-        }
-        .social-media-block {
-            text-align: left;
-            padding-right: 20px;
-            width: 100%;
             li {
+                display: inline-block;
                 list-style: none;
                 white-space: nowrap;
                 img {
                     vertical-align: top;
                 }
             }
+        }
+        .sponsor-block {
+            text-align: right;
+            width: 100%;
+            li {
+                padding-left: 20px;
+                padding-bottom: 20px;
+            }
+        }
+        .social-media-block {
+            text-align: left;
+            padding-right: 40px;
         }
     }
 }

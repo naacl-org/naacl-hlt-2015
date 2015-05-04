@@ -2,17 +2,12 @@
 title: Sponsors
 ---
 
-# Sponsors
-
 {% for type in site.data.sponsors.types %}
 
-----------
+# {{ type }}
 
-## {{ type }}
+{% for sponsor in site.data.sponsors[type] %}<a href="{{ sponsor.url }}">
+<img class="sponsorlogo" src="img/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}">
+</a>{% endfor %}
 
-{% for sponsor in site.data.sponsors[type] %}
-
-[![{{ sponsor.name }}](img/sponsors/{{ sponsor.logo }})]({{ sponsor.url }})
-
-{% endfor %}
 {% endfor %}

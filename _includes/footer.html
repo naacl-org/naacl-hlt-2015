@@ -3,9 +3,9 @@
 <hr class="content-divisor">
 
 <div class="footer-content">
-  <div class="horizontal-blocks-table">
-    <ul class="horizontal-blocks-list">
-      <li class="social-media-block">
+  <table class="horizontal-blocks-table">
+    <tr class="horizontal-blocks-list">
+      <td class="social-media-block">
         <!-- <p><strong>{{ site.title }}</strong>, May 31–June 5, Denver, Colorado, USA</p> -->
         <ul>
           {% for media in site.social_media %}
@@ -20,20 +20,22 @@
           </li>
           {% endfor %}
         </ul>
-      </li>
+      </td>
 
-      {% for type in site.data.sponsors.types %}
-      {% for sponsor in site.data.sponsors[type] %}
-      <li class="sponsor-block">
-        <a href="{{ sponsor.url }}">
-          <img class="logo" src="img/sponsors/{{ sponsor.footer }}"
-               alt="{{ sponsor.name }}" title="{{ sponsor.name }}">
-        </a>
-      </li>
-      {% endfor %}
-      {% endfor %}
-    </ul>
-  </div>
+      <td class="sponsor-block">
+        <ul>
+          {% for type in site.data.sponsors.types %}
+          {% for sponsor in site.data.sponsors[type] %}
+          <li><a href="{{ sponsor.url }}">
+            <img class="logo" src="img/sponsors/{{ sponsor.footer }}"
+                 alt="{{ sponsor.name }}" title="{{ sponsor.name }}">
+          </a></li>
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+  </table>
 </div>
 
 </footer>
