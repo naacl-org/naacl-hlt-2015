@@ -5,6 +5,10 @@ title: The conference venue
 <!-- Here will be some more information, such as time zones, visa information, emergency number, etc. -->
 
 # The conference venue
+{:.no_toc}
+
+* Table of contents
+{:toc}
 
 NAACL HLT 2015 will take place at *Sheraton Denver Downtown Hotel*:
 
@@ -18,6 +22,7 @@ Just steps from the hotel is the 16th Street Mall, a mile-long promenade of bist
 > *Phone*: (303) 893–3333
 
 ## Conference hotel reservation
+{:.no_toc}
 
 The conference hotel is the same as the venue (Sheraton Denver Downtown), where NAACL participants get the following discounted rates:
 
@@ -70,7 +75,7 @@ social event combination in place of the usual Banquet).  We hope
 to make your conference experience not only enlightening but also
 entertaining and enjoyable!
 
-# [Things to do](http://www.imdb.com/title/tt0114660/) in Denver, Colorado
+# Things to do [&nbsp;](http://www.imdb.com/title/tt0114660)
 
 [Kevin Cohen](http://compbio.ucdenver.edu/Hunter_lab/Cohen/index.shtml)'s blog [Zipf's Law](http://bretonnel.com/) has [a special post about Denver for NAACL attendees](http://bretonnel.com/2015/04/29/visiting-denver-for-naacl2015/).
 
@@ -98,7 +103,7 @@ They have a very nice trip planner:
 
 > <http://www.rtd-denver.com/>
 
-## To and from the airport 
+## To and from the airport
 
 Denver airport has a list of possible transportation options:
 
@@ -108,10 +113,10 @@ RTD buses depart at least once an hour and some as frequently as every 15 minute
 
 > <http://www.rtd-denver.com/skyride.shtml>
 
-The following transportation options can provide airport transportation to and from the Sheraton Denver Downtown: 
+The following transportation options can provide airport transportation to and from the Sheraton Denver Downtown:
 
-- Super Shuttle: 1-800 258-3826 
-- Fox Limo Service: 303-882-0525 
-- Denver Yellow Cab: 303-777-7777 
-- Metro Taxi: 303-333-3333 
-- Freedom Cab: 303-444-4444 
+- Super Shuttle: 1-800 258-3826
+- Fox Limo Service: 303-882-0525
+- Denver Yellow Cab: 303-777-7777
+- Metro Taxi: 303-333-3333
+- Freedom Cab: 303-444-4444
