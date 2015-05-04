@@ -19,6 +19,7 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% assign ncols = 3 %}
 {% assign colwidth = 90 | divided_by:ncols %}
 {% assign papers = site.data.schedule.papers %}
+{% assign manualpapers = site.data.manualschedule.papers %}
 {% assign schedule = site.data.schedule.schedule %}
 {% assign manualschedule = site.data.manualschedule.schedule %}
 
@@ -41,7 +42,8 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% assign chair = sessioninfo[sessionindex].chair %}
 
 {% for item in col %}
-{% if papers[item.ref] %}{% assign it = papers[item.ref] %}
+{% if manualpapers[item.ref] %}{% assign it = manualpapers[item.ref] %}
+{% elsif papers[item.ref] %}{% assign it = papers[item.ref] %}
 {% else %}{% assign it = item %}{% endif %}
 
 {% if it.abstract %}<div class="talkinfo">{% endif %}
@@ -51,15 +53,13 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% if prefix %}<span class="{{class}}prefix">{{ prefix }}</span>:{% endif %}
 <span class="{{class}}title">{{ it["title"] }}</span>{% if it['authors'] %}, by
 <span class="{{class}}authors">{{ it['authors'] }}</span>{% endif %}
-{% assign room = sessioninfo[sessionindex].room %}
 {% if room %} &mdash; {{ room }}{% endif %}
 </p>
 
-{% assign chair = sessioninfo[sessionindex].chair %}
 {% if chair %}<p><em>Chair:</em> {{ chair }}</p>{% endif %}
 
 {% if it.abstract %}
-<blockquote class="{{ class }}abstract">{{ it.abstract }}</blockquote>
+<blockquote class="talkabstract">{{ it.abstract }}</blockquote>
 </div>
 {% endif %}
 {% endfor %}
@@ -71,4 +71,3 @@ title: NAACL-HLT 2015 Main Program Schedule
 </table>
 
 {% endfor %}
-

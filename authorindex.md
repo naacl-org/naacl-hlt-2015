@@ -26,7 +26,7 @@ title: NAACL-HLT 2015 Author Index
 </p>
 
 {% for ref in authorinfo.refs %}
-<p class="sessiontalkabstract">
+<p class="talkabstract">
 <span class="talkprefix">{{ ref }}</span>:
 <span class="talktitle">{{ papers[ref].title }}</span>{% if papers[ref].authors %}, by
 <span class="talkauthors">{{ papers[ref].authors }}</span>{% endif %}
@@ -36,4 +36,3 @@ title: NAACL-HLT 2015 Author Index
 
 {% endfor %}
 {% endfor %}
-

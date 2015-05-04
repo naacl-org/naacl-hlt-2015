@@ -3,7 +3,7 @@
 """
 Usage: python3 generate_schedule_data.py > _data/schedule.yaml
 
-A script that reads the Softconf-generated directories 'accepted' 
+A script that reads the Softconf-generated directories 'accepted'
 and 'accepted-demos', and generates a YAML file with information
 about papers, demos, authors and the schedule.
 """
@@ -35,12 +35,14 @@ def read_paper_info(folder):
             match = re.search(r'''
                 <h2> \s* (?P<title> .+?) \s* </h2> \s*
                 <h3> \s* (?P<authors> .+?) \s* </h3> (?P<affiliation>) .*
-                <h2> .* Abstract \s* </h2> 
+                <h2> .* Abstract \s* </h2>
                 \s* (?P<abstract> .+?) \s* <p> \s* <hr>
             ''', htstr, flags=re.DOTALL | re.VERBOSE)
 
         papers[id] = match.groupdict()
-        papers[id]['abstract'] = re.sub(r'\s*<p>\s*', '<br>', papers[id]['abstract'])
+        abstract = papers[id]['abstract']
+        abstract = '<p>' + re.sub(r'\s*<p>\s*', '</p><p>', abstract) + '</p>'
+        papers[id]['abstract'] = abstract
         authors = re.sub(r'<sup>.*?</sup>', '', papers[id]['authors'])
         if authors != papers[id]['authors']:
             papers[id]['authors_with_affiliation'] = papers[id]['authors']
@@ -65,7 +67,7 @@ def read_authorindex(folder):
             continue
 
         match = re.search(r'''
-            <td> \s* <em> \s* (?P<author> .*?) \s* </em> \s* 
+            <td> \s* <em> \s* (?P<author> .*?) \s* </em> \s*
             <br> \s* (?P<affiliation> .*?) \s* </td>
             ''', tablerow, flags=re.VERBOSE|re.DOTALL)
         if not match:
@@ -99,7 +101,7 @@ def read_order_file(papers):
     schedule = []
     with open('{}/order'.format(SOFTCONF)) as F:
         for line in F:
-            line = line.strip()
+            line = re.sub(r'\s+', ' ', line.strip())
             ref, line = line.split(None, 1)
             cls = ordertypes.get(ref, TALK)
             if ref in ordertypes:
@@ -112,7 +114,7 @@ def read_order_file(papers):
                 sessiontime = None
                 continue
 
-            match = re.search(r'^.*?(\d\d:\d\d)--(\d\d:\d\d) +(.+?) *$', line)
+            match = re.search(r'(\d\d:\d\d)--(\d\d:\d\d) (.+)$', line)
             if not match:
                 print(line, file=sys.stderr)
                 continue
@@ -126,8 +128,14 @@ def read_order_file(papers):
                     overview[sessiontime] = {'class':cls, 'row':[]}
                 else:
                     assert sessiontime in overview, line
-                title = re.sub(r'^ *Session +', '', title, flags=re.IGNORECASE)
+                title = re.sub(r'^Session +', '', title, flags=re.IGNORECASE)
                 overview[sessiontime]['row'].append([{'title':title}])
+
+                match = re.search(r'^(Invited talk by .+?):', title, flags=re.IGNORECASE)
+                if match:
+                    # assert sessiontime not in talks, line
+                    # overview[sessiontime]['class'] = SESSIONTALK
+                    overview[sessiontime]['row'][-1][-1]['ref'] = match.group(1)
 
             else:
                 thistalk = {}
@@ -150,7 +158,7 @@ def read_order_file(papers):
 
                 else:
                     prefix = authors = None
-                    match = re.search(r'^ *(?:Session .*?[-:] +)?(.+?) *%by *(.+?) *$', 
+                    match = re.search(r'^(?:Session .*?[-:] )?(.+?) %by (.+)$',
                                       title, flags=re.IGNORECASE)
                     if match:
                         title, authors = map(str.strip, match.groups())

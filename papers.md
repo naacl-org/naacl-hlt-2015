@@ -18,7 +18,7 @@ structure:
 # List of accepted papers
 {:.no_toc}
 
-* Table of contents 
+* Table of contents
 {:toc}
 
 At the suggestion of the TACL co-editors-in-chief, the decision
@@ -51,10 +51,8 @@ your presentation at NAACL HLT 2015.
 <span class="talkauthors">{{ papers[id].authors }}</span>.
 "<span class="talktitle">{{ papers[id].title }}</span>"
 </p>
-<blockquote class="sessiontalkabstract">{{ papers[id].abstract }}</blockquote>
+<blockquote class="talkabstract">{{ papers[id].abstract }}</blockquote>
 </div>
 
 {% endfor %}
 {% endfor %}
-
-

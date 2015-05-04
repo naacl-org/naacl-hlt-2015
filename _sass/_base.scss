@@ -191,7 +191,7 @@ table.schedule {
 }
 .talkauthors, .sessiontalkauthors, .extratitle, .extraprefix {
 }
-.sessiontalkabstract {
+.talkabstract p {
     @include font-and-margins($small-font-size, 200, $small-line-height, $base-font-family);
     margin: 4px $small-line-height;
 }

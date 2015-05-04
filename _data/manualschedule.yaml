@@ -1,3 +1,110 @@
+'papers':
+  'Invited Talk by Lillian Lee':
+    'authors': Lillian Lee
+    'affiliation': Cornell University
+    'title': >
+        "Big data pragmatics!", or, "Putting the ACL in computational social science",
+        or, if you think these title alternatives could turn people on, turn people off,
+        or otherwise have an effect, this talk might be for you.
+
+    'abstract': >
+        <p>What effect does language have on people?
+        </p><p>
+        You might say in response, "Who are you to discuss this problem?"
+        and you would be right to do so; this is a Major Question that
+        science has been tackling for many years. But as a field, I think
+        natural language processing and computational linguistics have much
+        to contribute to the conversation, and I hope to encourage the
+        community to further address these issues.
+        </p><p>
+        This talk will focus on the effect of phrasing, emphasizing aspects
+        that go beyond just the selection of one particular word over
+        another.  The issues we'll consider include: Does the way in which
+        something is worded in and of itself have an effect on whether it
+        is remembered or attracts attention, beyond its content or context?
+        Can we characterize how different sides in a debate frame their
+        arguments, in a way that goes beyond specific lexical choice (e.g.,
+        "pro-choice" vs. "pro-life")?  The settings we'll explore range
+        from movie quotes that achieve cultural prominence; to posts on
+        Facebook, Wikipedia, Twitter, and the arXiv; to framing in public
+        discourse on the inclusion of genetically-modified organisms in
+        food.
+        </p><p>
+        Joint work with Lars Backstrom, Justin Cheng, Eunsol Choi, Cristian
+        Danescu-Niculescu-Mizil, Jon Kleinberg, Bo Pang, Jennifer Spindel,
+        and Chenhao Tan.
+        </p>
+
+    'biography': >
+        Lillian Lee is a professor of computer science and of information
+        science at Cornell University, and the co-Editor-in-Chief, together
+        with Michael Collins, of Transactions of the ACL.  Her research
+        interests include natural language processing and computational
+        social science. She is the recipient of the inaugural Best Paper
+        Award at HLT-NAACL 2004 (joint with Regina Barzilay), a citation
+        in "Top Picks: Technology Research Advances of 2004" by Technology
+        Research News (also joint with Regina Barzilay), and an Alfred P.
+        Sloan Research Fellowship; and in 2013, she was named a Fellow of
+        the Association for the Advancement of Artificial Intelligence
+        (AAAI). Her group's work has received several mentions in the popular
+        press, including The New York Times, NPR's All Things Considered,
+        and NBC's The Today Show, and one of her co-authored papers was
+        publicly called "boring" by Youtubers Rhett and Link,  in a video
+        viewed over 1.8 million times.
+
+  'Invited Talk by Fei-fei Li':
+    'authors': Fei-fei Li
+    'affiliation': Stanford University
+    'title': A Quest for Visual Intelligence in Computers
+    'abstract': >
+        <p>More than half of the human brain is involved in visual processing.
+        While it took mother nature billions of years to evolve and deliver
+        us a remarkable human visual system, computer vision is one of the
+        youngest disciplines of AI, born with the goal of achieving one of
+        the loftiest dreams of AI. The central problem of computer vision
+        is to turn millions of pixels of a single image into interpretable
+        and actionable concepts so that computers can understand pictures
+        just as well as humans do, from objects, to scenes, activities,
+        events and beyond. Such technology will have a fundamental impact
+        in almost every aspect of our daily life and the society as a whole,
+        ranging from e-commerce, image search and indexing, assistive
+        technology, autonomous driving, digital health and medicine,
+        surveillance, national security, robotics and beyond. In this talk,
+        I will give an overview of what computer vision technology is about
+        and its brief history. I will then discuss some of the recent work
+        from my lab towards large scale object recognition and visual scene
+        story telling. I will particularly emphasize on what we call the
+        "three pillars" of AI in our quest for visual intelligence: data,
+        learning and knowledge. Each of them is critical towards the final
+        solution, yet dependent on the other. This talk draws upon a number
+        of projects ongoing at the Stanford Vision Lab.
+        </p>
+
+    'biography': >
+        Dr. Fei-Fei Li is an Associate Professor in the Computer Science
+        Department at Stanford, and  the Director of the Stanford Artificial
+        Intelligence Lab and the Stanford Vision Lab. Her research areas
+        are in machine learning, computer vision and cognitive and computational
+        neuroscience, with an emphasis on Big Data analysis. Dr. Fei-Fei
+        Li has published more than 100 scientific articles in top-tier
+        journals and conferences, including Nature, PNAS, Journal of
+        Neuroscience, CVPR, ICCV, NIPS, ECCV, IJCV, IEEE-PAMI, etc. Dr.
+        Fei-Fei Li obtained her B.A. degree in physics from Princeton in
+        1999 with High Honors, and her PhD degree in electrical engineering
+        from California Institute of Technology (Caltech) in 2005.  She
+        joined Stanford in 2009 as an assistant professor, and was promoted
+        to associate professor with tenure in 2012. Prior to that, she was
+        on faculty at Princeton University (2007-2009) and University of
+        Illinois Urbana-Champaign (2005-2006). Dr. Fei-Fei Li is a speaker
+        at TED2015 main conference, a recipient of the 2014 IBM Faculty
+        Fellow Award, 2011 Alfred Sloan Faculty Award, 2012 Yahoo Labs FREP
+        award, 2009 NSF CAREER award, the 2006 Microsoft Research New Faculty
+        Fellowship and a number of Google Research awards. Work from Fei-Fei's
+        lab have been featured in a number of popular press magazines and
+        newspapers including New York Times, Wired Magazine, and New
+        Scientists.
+
+
 'schedule':
   '2015-06-01':
     '09:00-10:10':
@@ -86,4 +193,3 @@
     '15:45-17:15':
       - chair: Claire Cardie, Cornell University
         room: Plaza Ballroom A, B & C
-

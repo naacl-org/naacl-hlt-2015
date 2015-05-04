@@ -19,7 +19,7 @@ The demonstrations will be presented as posters on Tuesday, June 2nd, from 17:00
 <span class="talkauthors">{{ demo[1].authors }}</span>.
 "<span class="talktitle">{{ demo[1].title }}</span>"
 </p>
-<blockquote class="sessiontalkabstract">{{ demo[1].abstract }}</blockquote>
+<blockquote class="talkabstract">{{ demo[1].abstract }}</blockquote>
 </div>
 
 {% endfor %}
