@@ -26,6 +26,10 @@ Gold sponsors:
     url: http://www.a9.com
     logo: a9-logo.png
     footer: a9-footer.png
+  - name: IBM Watson
+    url: http://www.ibm.com/watson
+    logo: ibm-watson-logo.png
+    footer: ibm-watson-footer.png
 
 Silver sponsors:
   - name: Nuance Communications
