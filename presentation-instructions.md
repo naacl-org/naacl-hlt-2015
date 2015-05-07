@@ -47,3 +47,6 @@ Tables and posterboards will be set up by lunchtime each day.  You should be abl
 
 Due to the large number of posters this year, we are only able to accommodate long paper posters and TACL paper posters in an OMM session. Joel Tetreault is the OMM session chair this year. He will be in touch with detailed instructions about the OMM session.
 
+## How long is the poster presentation?
+
+We have scheduled two sessions (A and B) for poster presentations on each day. Please check the schedule for your designated session.  The posters will be up the whole time during the A/B sessions on that day. You are expected to be present at your poster during your session. However, if you wish, you can also stand by your poster during the session not designated to you.
