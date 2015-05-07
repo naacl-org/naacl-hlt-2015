@@ -108,8 +108,8 @@ def read_order_file(papers):
                 ref = None
 
             if cls == DATE:
-                #date = line.split()[0]
-                date = line.strip()
+                date = line.split()[0]
+                #date = line.strip()
                 overview, talks = {}, {}
                 schedule.append((date, overview, talks))
                 sessiontime = None
@@ -183,8 +183,8 @@ def read_order_file(papers):
 
     new_schedule = []
     for date, overview, talks in schedule:
-        #year, month, day = map(int, date.split('/'))
-        #date = '{}-{:02d}-{:02d}'.format(year, month, day)
+        year, month, day = map(int, date.split('/'))
+        date = '{}-{:02d}-{:02d}'.format(year, month, day)
 
         today = []
         for sessiontime, session in sorted(overview.items()):
