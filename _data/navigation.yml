@@ -28,7 +28,11 @@
   url: tutorials.html
 
 - title: Schedule
-  url: schedule.html
+  items:
+      - title: Main Program 
+        url: main-program-schedule.html
+      - title: Demonstrations 
+        url: demonstrations.html
 
 - title: "Presentations&nbsp;&#x25be;"
   items:
