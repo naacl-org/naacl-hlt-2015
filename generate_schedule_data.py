@@ -17,10 +17,10 @@ import yaml
 
 SOFTCONF = 'softconf'
 
-def read_paper_info(folder):
+def read_paper_info(folder, prefix=''):
     papers = {}
     for filename in glob.glob('{}/{}/*[0-9].html'.format(SOFTCONF, folder)):
-        id = filename[len(SOFTCONF) + len(folder) + 2 : -len('.html')]
+        id = prefix + filename[len(SOFTCONF) + len(folder) + 2 : -len('.html')]
         with open(filename) as F:
             htstr = html.unescape(F.read())
             htstr = re.sub(r'\s+', ' ', htstr)
@@ -97,7 +97,7 @@ ordertypes = {'*': DATE,
               '+': EXTRA,
               '!': TALK}
 
-def read_order_file(papers):
+def read_order_file(papers, demos):
     schedule = []
     with open('{}/order'.format(SOFTCONF)) as F:
         for line in F:
@@ -137,6 +137,15 @@ def read_order_file(papers):
                     # assert sessiontime not in talks, line
                     # overview[sessiontime]['class'] = SESSIONTALK
                     overview[sessiontime]['row'][-1][-1]['ref'] = match.group(1)
+
+                match = re.search(r'^System demo', title, flags=re.IGNORECASE)
+                if match:
+                    # Add in all demonstration papers
+                    assert sessiontime not in talks, line
+                    demotalks = []
+                    talks[sessiontime] = {sessiontime: [demotalks]}
+                    for ref in demos:
+                        demotalks.append({'ref': ref})
 
             else:
                 thistalk = {}
@@ -236,7 +245,7 @@ def printyaml(obj):
 
 
 def main():
-    demos = read_paper_info('accepted-demos')
+    demos = read_paper_info('accepted-demos', 'D')
     printyaml({'demos':demos})
 
     papers = read_paper_info('accepted-papers')
@@ -245,7 +254,7 @@ def main():
     authorindex = read_authorindex('accepted-papers')
     printyaml({'authorindex':authorindex})
 
-    schedule = read_order_file(papers)
+    schedule = read_order_file(papers, demos)
     printyaml({'schedule':schedule})
 
     talktypes = infer_talktypes(schedule, papers)

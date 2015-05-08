@@ -18,6 +18,7 @@ title: NAACL-HLT 2015 Main Program Schedule
 
 {% assign ncols = 3 %}
 {% assign colwidth = 90 | divided_by:ncols %}
+{% assign demos = site.data.schedule.demos %}
 {% assign papers = site.data.schedule.papers %}
 {% assign manualpapers = site.data.manualschedule.papers %}
 {% assign schedule = site.data.schedule.schedule %}
@@ -44,6 +45,7 @@ title: NAACL-HLT 2015 Main Program Schedule
 {% for item in col %}
 {% if manualpapers[item.ref] %}{% assign it = manualpapers[item.ref] %}
 {% elsif papers[item.ref] %}{% assign it = papers[item.ref] %}
+{% elsif demos[item.ref] %}{% assign it = demos[item.ref] %}
 {% else %}{% assign it = item %}{% endif %}
 
 {% if it.abstract %}<div class="talkinfo">{% endif %}
