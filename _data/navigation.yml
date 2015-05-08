@@ -28,11 +28,7 @@
   url: tutorials.html
 
 - title: Schedule
-  items:
-      - title: Main Program 
-        url: schedule.html
-      - title: Demonstrations 
-        url: demonstrations.html
+  url: schedule.html
 
 - title: "Presentations&nbsp;&#x25be;"
   items:
