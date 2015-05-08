@@ -38,9 +38,15 @@ title: NAACL-HLT 2015 Main Program Schedule
 
 {% for col in session['row'] %}
 <td {% if session['row'].size == 1 %} colspan="{{ ncols }}" {% else %} width="{{ colwidth }}%" {% endif %}>
+
+{% if class == "session" %}
 {% assign sessionindex = forloop.index0 %}
 {% assign room = sessioninfo[sessionindex].room %}
 {% assign chair = sessioninfo[sessionindex].chair %}
+{% else %}
+{% assign room = null %}
+{% assign chair = null %}
+{% endif %}
 
 {% for item in col %}
 {% if manualpapers[item.ref] %}{% assign it = manualpapers[item.ref] %}
