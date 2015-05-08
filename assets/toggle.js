@@ -6,7 +6,13 @@ $(function() {
 function init_toggleable_schedule() {
     $('.session').on('click', toggle_session);
     $('.talkinfo').on('click', toggle_abstract);
+    $('#expandschedule').on('click', show_sessions);
     hide_sessions();
+}
+
+function show_sessions() {
+    $('.sessiontalk').show();
+    hide_abstracts();
 }
 
 function hide_sessions() {

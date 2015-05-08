@@ -14,7 +14,10 @@ title: NAACL-HLT 2015 Main Program Schedule
 * Table of contents
 {:toc}
 
-> This schedule is interactive, you can click on a session to view the talks in that session, and you can click on a talk to see its abstract.
+> This schedule is interactive, you can click on a session to view the talks in that session,
+> and you can click on a talk to see its abstract.
+> However, if you want to search for a specific talk in the schedule, you should
+> [**expand all sessions**](#){:#expandschedule} first.
 
 {% assign ncols = 3 %}
 {% assign colwidth = 90 | divided_by:ncols %}
