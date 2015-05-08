@@ -130,7 +130,9 @@
     '16:30-18:00':
       - chair: Joel Tetreault, Yahoo Labs
         room: Plaza Ballroom A, B & C
-    '18:00-21:00':
+    '18:00-19:30':
+      - room: Plaza Exhibits All
+    '19:30-21:00':
       - room: Plaza Exhibits All
 
   '2015-06-02':
@@ -162,8 +164,12 @@
         room: Plaza Ballroom D & E
       - chair: Hany Hassan, Microsoft Research
         room: Plaza Ballroom F
+    '17:00-18:30':
+      - room: Plaza Exhibits All
+    '18:30-20:00':
+      - room: Plaza Exhibits All
     '17:00-20:00':
-        room: Plaza Exhibits All
+      - room: Plaza Exhibits All
 
   '2015-06-03':
     '09:00-10:10':
