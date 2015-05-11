@@ -1,0 +1,8 @@
+Design and layout (c) 2015, Peter Ljunglöf.
+
+This web site is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License,
+unless otherwise noticed.
+
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/4.0/

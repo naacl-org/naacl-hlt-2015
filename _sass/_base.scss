@@ -343,6 +343,7 @@ pre {
     color: $grey-color;
     div, p, ul, ol, li, h3, h4 {
         font-size: $small-font-size;
+        line-height: $small-font-size;
         margin: 0;
     }
 }
@@ -374,6 +375,10 @@ pre {
         .social-media-block {
             text-align: left;
             padding-right: 40px;
+        }
+        .license-block {
+            padding-top: $base-line-height;
+            white-space: normal;
         }
     }
 }
