@@ -5,6 +5,7 @@ types:
   - Silver sponsors
   - Bronze sponsors
   - Supporters
+  - Wireless internet sponsors
   - Overseas student fellowship sponsors
 
 Platinum sponsors:
@@ -32,6 +33,10 @@ Gold sponsors:
     footer: ibm-watson-footer.png
 
 Silver sponsors:
+  - name: Information Sciences Institute
+    url: http://www.isi.edu/home
+    logo: isi-logo.png
+    footer: isi-footer.png
   - name: Nuance Communications
     url: http://www.nuance.com
     logo: nuance-logo.png
@@ -56,6 +61,12 @@ Supporters:
     url: http://www.digitalroots.com
     logo: digital-roots-logo.png
     footer: digital-roots-footer.png
+
+Wireless internet sponsors:
+  - name: Machine Zone
+    url: http://machinezone.com
+    logo: machinezone-logo.png
+    footer: machinezone-footer.png
 
 Overseas student fellowship sponsors:
   - name: Baobab
