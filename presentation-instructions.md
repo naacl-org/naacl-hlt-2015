@@ -49,5 +49,6 @@ We have scheduled two sessions (A and B) for poster presentations on each day. P
 
 ## Am I expected to participate in the one-minute madness (OMM) session for posters? 
 
-Due to the large number of posters this year, we are only able to accommodate long paper posters and TACL paper posters in an OMM session. Joel Tetreault is the OMM session chair this year. He will be in touch with detailed instructions about the OMM session.  As the dinner will be served during the poster sessions, presenters in poster session 1A are encouraged to start proceeding to the food line right after their OMM presentations.
+Due to the large number of posters this year, we are only able to accommodate long paper posters and TACL paper posters in an OMM session. Joel Tetreault is the OMM session chair this year. He will be in touch with detailed instructions about the OMM session.  As dinner will be served during the poster sessions, presenters in poster session 1A have an option to proceed to the food line at 5:35pm after their OMM presentations
+
 
