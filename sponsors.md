@@ -2,6 +2,12 @@
 title: Sponsors
 ---
 
+<style type="text/css">
+.page-content {
+    max-width: 100em !important;
+}
+</style>
+
 {% for type in site.data.sponsors.types %}
 
 # {{ type }}
