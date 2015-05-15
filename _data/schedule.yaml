@@ -97,7 +97,7 @@
   'D55':
     'abstract': '<p>This paper presents a multi-strategy and multi-source question answering (QA) system that can use multiple strategies to both answer natural language (NL) questions and respond to keywords. We use multiple information sources including curated knowledge base, raw text, auto-generated triples, and NL processing results. We develop open semantic answer type detector for answer merging and improve previous developed single QA modules such as knowledge base based QA, information retrieval based QA.</p>'
     'affiliation': ''
-    'authors': 'Seonyeong Park, Soonchoul Kwon, Byungsoo Kim, Sangdo Han, Hyosup Shim, Gary Geunbae Lee and Gary Geunbae Lee'
+    'authors': 'Seonyeong Park, Soonchoul Kwon, Byungsoo Kim, Sangdo Han, Hyosup Shim and Gary Geunbae Lee'
     'title': 'Question Answering System using Multiple Information Source and Open Type Answer Merge'
   'D57':
     'abstract': '<p>We introduce an interactive interface that aims to help English as a Second Language (ESL) students overcome language related hindrances while reading a text. The interface allows the user to find supplementary information on selected difficult words. The interface is empowered by our lexical substitution engine that provides context-based synonyms for difficult words. We also provide a practical solution for a real-world usage scenario. We demonstrate using the lexical substitution engine -- as a browser extension that can annotate and disambiguate difficult words on any webpage.</p>'
