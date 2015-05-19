@@ -31,6 +31,10 @@ Gold sponsors:
     url: http://www.ibm.com/watson
     logo: ibm-watson-logo.png
     footer: ibm-watson-footer.png
+  - name: Microsoft
+    url: http://www.microsoft.com
+    logo: microsoft-logo.png
+    footer: microsoft-footer.png
 
 Silver sponsors:
   - name: Information Sciences Institute
