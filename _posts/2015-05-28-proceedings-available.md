@@ -11,7 +11,7 @@ ACL Anthology to access individual NAACL HLT 2015 papers.
 
 The proceedings are available in two bundled formats. Click on the link below and click the `Download` link in the top navigation bar.
 
-1. [zip file](https://goo.gl/lsqgJo) that can be uncompresses using `unzip`
-1. [tar.gz file](https://goo.gl/wEnqsK) that can be uncompresses using `tar -zxvf naacl2015cd.tar.gz`
+1. [zip file](https://goo.gl/lsqgJo) that can be uncompressed using `unzip`
+1. [tar.gz file](https://goo.gl/wEnqsK) that can be uncompressed using `tar -zxvf naacl2015cd.tar.gz`
 
 Once you have uncompressed the file open the file `naacl_hlt_starsem_2015/index.html` in any web browser.
