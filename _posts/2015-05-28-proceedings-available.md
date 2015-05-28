@@ -14,4 +14,4 @@ The proceedings are available in two bundled formats. Click on the link below an
 1. [zip file](https://goo.gl/lsqgJo) that can be uncompressed using `unzip`
 1. [tar.gz file](https://goo.gl/wEnqsK) that can be uncompressed using `tar -zxvf naacl2015cd.tar.gz`
 
-Once you have uncompressed the file open the file `naacl_hlt_starsem_2015/index.html` in any web browser.
+Once you have uncompressed the contents open the file `naacl_hlt_starsem_2015/index.html` in any web browser.
