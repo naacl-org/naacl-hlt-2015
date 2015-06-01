@@ -546,7 +546,7 @@
     'title': 'Unediting: Detecting Disfluencies Without Careful Transcripts'
   '39':
     'abstract': '<p>Content analysis, a widely-applied social science research method, is increasingly being supplemented by topic modeling. However, while the discourse on content analysis centers heavily on reproducibility, computer scientists often focus more on scalability and less on coding reliability, leading to growing skepticism on the usefulness of topic models for automated content analysis. In response, we introduce TopicCheck, an interactive tool for assessing topic model stability. Our contributions are threefold. First, from established guidelines on reproducible content analysis, we distill a set of design requirements on how to computationally assess the stability of an automated coding process. Second, we devise an interactive alignment algorithm for matching latent topics from multiple models, and enable sensitivity evaluation across a large number of models. Finally, we demonstrate that our tool enables social scientists to gain novel insights into three active research questions.</p>'
-    'affiliation': '<sup>1</sup>IBM, <sup>2</sup>University of California, San Diego, <sup>3</sup>Harvard University, <sup>4</sup>Stanford University, <sup>5</sup>University of Washington'
+    'affiliation': '<sup>1</sup>-, <sup>2</sup>University of California, San Diego, <sup>3</sup>Harvard University, <sup>4</sup>Stanford University, <sup>5</sup>University of Washington'
     'authors': 'Jason Chuang, Margaret E. Roberts, Brandon M. Stewart, Rebecca Weiss, Dustin Tingley, Justin Grimmer, Jeffrey Heer'
     'authors_with_affiliation': 'Jason Chuang<sup>1</sup>, Margaret E. Roberts<sup>2</sup>, Brandon M. Stewart<sup>3</sup>, Rebecca Weiss<sup>4</sup>, Dustin Tingley<sup>3</sup>, Justin Grimmer<sup>4</sup>, Jeffrey Heer<sup>5</sup>'
     'title': 'TopicCheck: Interactive Alignment for Assessing Topic Model Stability'
@@ -1547,7 +1547,7 @@
     'author': 'Kam-Pui Chow'
     'refs':
     - '90'
-  - 'affiliation': 'IBM'
+  - 'affiliation': '-'
     'author': 'Jason Chuang'
     'refs':
     - '39'
