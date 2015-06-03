@@ -18,7 +18,7 @@ June 4–5, 2015.
 
 W1, SemEval
 : [*9th International Workshop on Semantic Evaluations*](http://alt.qcri.org/semeval2015/).
-Preslav Nakov, Torsten Zesch
+Preslav Nakov, Torsten Zesch, Daniel Cer, David Jurgens
 
 ## One-day workshops, Thursday, June 4
 
