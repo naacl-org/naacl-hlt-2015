@@ -60,7 +60,6 @@ title: People
 - Catherine Havasi, Massachusetts Institute of Technology, USA
 - Finley Lacatusu, Language Computer Corporation, USA
 
-
 ## Student volunteer coordinator
 
 > <alouis@inf.ed.ac.uk>
@@ -87,6 +86,18 @@ title: People
 > <{{ site.email.webmaster }}>
 
 - Peter Ljunglöf, University of Gothenburg and Chalmers University of Technology, Sweden
+
+## Reviewing Coordinators
+
+- Mark Dredze, Johns Hopkins University
+- Jiang Guo, Harbin Institute of Technology
+
+## Best Paper Award Committee
+
+- Clare Cardie
+- Daniel Gildea
+- Daniel Marcu
+- Fernando Pereira
 
 ## Area chairs
 
@@ -177,3 +188,6 @@ title: People
 
 - Jordan Boyd-Graber, University of Colorado at Boulder
 - David Mimno, Cornell University
+
+## [All the Reviewers](reviewers.pdf)
+
