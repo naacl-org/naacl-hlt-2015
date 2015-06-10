@@ -15,6 +15,11 @@ title: Invited talks
 Title
 : *{{ talk[1].title | strip_newlines }}*
 
+{% if talk[1].slides  %}
+Slides
+: [PDF]({{ talk[1].slides }})
+{% endif %}
+
 Abstract
 : {{ talk[1].abstract }}
 
