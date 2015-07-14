@@ -5,6 +5,8 @@
         or, if you think these title alternatives could turn people on, turn people off,
         or otherwise have an effect, this talk might be for you.
 
+    'slides': llee-talk-slides.pdf
+
     'abstract': >
         <p>What effect does language have on people?
         </p><p>
@@ -178,7 +180,7 @@
     '10:40-11:55':
       - chair: Philip Resnik, University of Maryland
         room: Plaza Ballroom A & B
-      - chair: Luke Zettlemoyer, University of Washington
+      - chair: Yoav Artzi, University of Washington
         room: Plaza Ballroom D & E
       - chair: Haitao Mi, IBM Research
         room: Plaza Ballroom F

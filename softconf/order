@@ -9,10 +9,10 @@
 670 11:30--11:55  # Improving unsupervised vector-space thematic fit evaluation via role-filler prototype clustering
 411 11:55--12:20  # A Compositional and Interpretable Semantic Space
 = 10:40--12:20 Session 1B: Tagging, Chunking, Syntax and Parsing (Long + TACL Papers)
-560 10:40--11:05  # Randomized Greedy Inference for Joint Segmentation, POS Tagging and Dependency Parsing
+! 10:40--11:05 TACL-488: Exploring Compositional Architectures and Word Vector Representations for Prepositional Phrase Attachment %by Yonatan Belinkov, Tao Lei, Regina Barzilay, Amir Globerson
 136 11:05--11:30  # An Incremental Algorithm for Transition-based CCG Parsing
 540 11:30--11:55  # Because Syntax Does Matter: Improving Predicate-Argument Structures Parsing with Syntactic Features
-! 11:55--12:20 TACL-488: Exploring Compositional Architectures and Word Vector Representations for Prepositional Phrase Attachment %by Yonatan Belinkov, Tao Lei, Regina Barzilay, Amir Globerson
+560 11:55--12:20  # Randomized Greedy Inference for Joint Segmentation, POS Tagging and Dependency Parsing
 = 10:40--12:20 Session 1C: Information Retrieval, Text Categorization, Topic Modeling (Long Papers)
 533 10:40--11:05  # A Hybrid Generative/Discriminative Approach To Citation Prediction
 634 11:05--11:30  # Weakly Supervised Slot Tagging with Partially Labeled Sequences from Web Search Click Logs
