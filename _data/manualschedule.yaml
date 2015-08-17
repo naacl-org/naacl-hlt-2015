@@ -134,8 +134,10 @@
         room: Plaza Ballroom A, B & C
     '18:00-19:30':
       - room: Plaza Exhibits All
+        slides: one-minute-slides-A.pdf
     '19:30-21:00':
       - room: Plaza Exhibits All
+        slides: one-minute-slides-B.pdf
 
   '2015-06-02':
     '09:00-10:40':
