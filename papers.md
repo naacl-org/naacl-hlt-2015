@@ -36,6 +36,9 @@ presentations](presentation-instructions.html). Please read this
 important information to make sure you are adequately prepared for
 your presentation at NAACL HLT 2015.
 
+The one-minute-madness slides for the poster sessions are now available:
+[PDF set 1](slides/one-minute-slides-A.pdf) and [PDF set 2](slides/one-minute-slides-B.pdf).
+
 > This schedule is interactive, you can click on a paper title to view its abstract.
 
 {% assign papers = site.data.schedule.papers %}
