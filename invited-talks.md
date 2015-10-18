@@ -17,7 +17,7 @@ Title
 
 {% if talk[1].slides  %}
 Slides
-: [PDF]({{ talk[1].slides }})
+: [PDF](slides/{{ talk[1].slides }})
 {% endif %}
 
 Abstract

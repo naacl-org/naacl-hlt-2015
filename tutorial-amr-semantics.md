@@ -13,6 +13,9 @@ Responsible
 Prerequisites
 : Participants with laptops are encouraged to bring them to the tutorial.
 
+Course material
+: <https://github.com/nschneid/amr-tutorial/tree/master/slides>
+
 ## Abstract
 
 The [Abstract Meaning Representation](http://amr.isi.edu) formalism is rapidly emerging as an important practical form of structured sentence semantics which, thanks to the availability of large-scale annotated corpora, has potential as a convergence point for NLP research. This tutorial unmasks the design philosophy, data creation process, and existing algorithms for AMR semantics. It is intended for anyone interested in working with AMR data, including parsing text into AMRs, generating text from AMRs, and applying AMRs to tasks such as machine translation and summarization.
